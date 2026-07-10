@@ -1,0 +1,870 @@
+{
+ "pair_corrections": {
+  "ensenar::to-teach": [
+   "Enseñar",
+   "to teach / to show"
+  ],
+  "algre-contento-a-muy-bien::i-m-doing-great": [
+   "Alegre / contento(a) / muy bien",
+   "I’m doing great"
+  ],
+  "solomente::only": [
+   "Solamente",
+   "only"
+  ],
+  "soltaro::single": [
+   "Soltero",
+   "single"
+  ],
+  "cuanto-pesa::how-many-pounds": [
+   "¿Cuánto pesa?",
+   "how much does he/she/it weigh?"
+  ],
+  "jabon::soap": [
+   "El jabón",
+   "soap"
+  ],
+  "igaul::equals": [
+   "Igual",
+   "equals"
+  ],
+  "contar::to-count": [
+   "Contar",
+   "to count / to tell (a story)"
+  ],
+  "cuadernos::notebook": [
+   "El cuaderno",
+   "notebook"
+  ],
+  "el-lapiz::los-lapices-pencil-pencils": [
+   "El lápiz / los lápices",
+   "pencil / pencils"
+  ],
+  "la-actriz::las-actrices-actress-actresses": [
+   "La actriz / las actrices",
+   "actress / actresses"
+  ],
+  "el-leccion-lecciones::lecture-l": [
+   "La lección / las lecciones",
+   "lesson / lessons"
+  ],
+  "olividar::to-forget": [
+   "Olvidar",
+   "to forget"
+  ],
+  "tema::title-theme": [
+   "Tema",
+   "theme / title / subject"
+  ],
+  "tengo-miedo::fear-scared": [
+   "Tengo miedo",
+   "I'm scared"
+  ],
+  "me-encanta-el-domingo::i-also-love-sundays": [
+   "Me encanta el domingo",
+   "I love Sundays"
+  ],
+  "cuando-es-tu-practica-de-musica::when-do-you-practice-music": [
+   "¿Cuándo es tu práctica de música?",
+   "when is your music practice?"
+  ],
+  "alguna-veces::sometimes": [
+   "Algunas veces",
+   "sometimes"
+  ],
+  "que-fecha-es-hoy::what-is-the-day-today-date": [
+   "¿Qué fecha es hoy?",
+   "what is the date today?"
+  ],
+  "deciembre::december": [
+   "Diciembre",
+   "december"
+  ],
+  "que-fecha-es::whats-todays-day": [
+   "¿Qué fecha es?",
+   "what's today's date?"
+  ],
+  "hoy-es-el-ciecinueva-de-marzo::article-for-date": [
+   "Hoy es el diecinueve de marzo",
+   "today is the 19th of March (article for dates)"
+  ],
+  "segundo-segunda::second": [
+   "Segundo/a",
+   "second"
+  ],
+  "la-estaciones-del-ano::the-seasons-of-the-year": [
+   "Las estaciones del año",
+   "the seasons of the year"
+  ],
+  "intentar::to-try": [
+   "Intentar",
+   "to try / to attempt"
+  ],
+  "marta-es-seria::marta-is-series": [
+   "Marta es seria",
+   "Marta is serious"
+  ],
+  "eeuu::estados-unidos": [
+   "EE. UU.",
+   "Estados Unidos (USA)"
+  ],
+  "hay-16-hombres-en-la-clase::there-are-16-people-in-the-class": [
+   "Hay 16 hombres en la clase",
+   "there are 16 men in the class"
+  ],
+  "claro-verde-oscuro-verde::light-green-dark-green": [
+   "Verde claro, verde oscuro",
+   "light green dark green"
+  ],
+  "ve-a-la-pizarra::this-is-ir-not-veer": [
+   "Ve a la pizarra",
+   "go to the board (this is ir, not ver)"
+  ],
+  "como-es-maria::how-is-maria-description-about-her-physical-or-character-des": [
+   "¿Cómo es María?",
+   "what is María like? (physical or character description)"
+  ],
+  "como-es-paris::how-is-france-describe-the-city": [
+   "¿Cómo es París?",
+   "what is Paris like? (describe the city)"
+  ],
+  "adonde::only-used-for-ir-where-to": [
+   "Adónde",
+   "where to (only used with ir)"
+  ],
+  "que::what-but-only-when-there-is-no-ser-after-then-you-use-cual": [
+   "Qué",
+   "what (but if ser follows, use cuál)"
+  ],
+  "el-cuaderno-es-de-jose::its-joses-notebook": [
+   "El cuaderno es de José",
+   "it's José's notebook"
+  ],
+  "pasar-por::pass-by-swing-by": [
+   "Pasar por",
+   "to pass by / swing by / wander around"
+  ],
+  "valer::value": [
+   "Valer",
+   "to be worth"
+  ],
+  "casar::to-get-married": [
+   "Casarse",
+   "to get married"
+  ],
+  "llamar-por-telefono::quien-llamas-por-telefeno-who-are-you-calling-on-the-phone": [
+   "Llamar por teléfono",
+   "to call on the phone"
+  ],
+  "el-es-trabajador::he-is-always-working-opposite-of-perezoso": [
+   "Él es trabajador",
+   "he is hard-working (opposite of perezoso)"
+  ],
+  "stupido::stupid": [
+   "Estúpido",
+   "stupid"
+  ],
+  "graciosio::funny-person-in-spain": [
+   "Gracioso",
+   "funny (person in spain)"
+  ],
+  "tomo-una-foto::take-a-photo": [
+   "Tomo una foto",
+   "I take a photo"
+  ],
+  "sito-web::website": [
+   "Sitio web",
+   "website"
+  ],
+  "sean-es-un-estudiante-bueno::sean-is-a-great-student": [
+   "Sean es un estudiante bueno",
+   "Sean is a good student"
+  ],
+  "salado::mucho-sal-very-salty": [
+   "Salado",
+   "salty (mucha sal)"
+  ],
+  "el-paraguas::umbrella": [
+   "El paraguas",
+   "umbrella (always singular, masculine)"
+  ],
+  "alumno::alumni-of-the-school": [
+   "Alumno",
+   "student (at the school)"
+  ],
+  "gaglo::sweet-tooth-likes-sweets": [
+   "Goloso/a",
+   "sweet tooth, likes sweets"
+  ],
+  "esquiar::to-skii": [
+   "Esquiar",
+   "to ski"
+  ],
+  "hace-fresco::its-nice-out": [
+   "Hace fresco",
+   "it's cool / nice out"
+  ],
+  "estoy-enamorada-de::im-in-love": [
+   "Estoy enamorado/a de",
+   "I'm in love with"
+  ],
+  "soy-lista::im-intelligent": [
+   "Soy lista",
+   "I'm smart (feminine)"
+  ],
+  "limpio-sucio::clean": [
+   "Limpio/sucio",
+   "clean / dirty"
+  ],
+  "extranjero::foreigner": [
+   "Extranjero",
+   "foreigner / abroad (viajar al extranjero)"
+  ],
+  "emigrante::immigrant": [
+   "Emigrante",
+   "emigrant (inmigrante = immigrant)"
+  ],
+  "levantar-pesa::lifting-weights": [
+   "Levantar pesas",
+   "to lift weights"
+  ],
+  "jugar-al-futbol::play-football": [
+   "Jugar al fútbol",
+   "to play soccer"
+  ],
+  "lirico::lyrics": [
+   "Lírico",
+   "lyric / lyrical"
+  ],
+  "letra-de-cancions::lyrics": [
+   "Letra de canciones",
+   "lyrics"
+  ],
+  "ubicacion::location": [
+   "Ubicación",
+   "location / place"
+  ],
+  "amario::closet": [
+   "Armario",
+   "closet"
+  ],
+  "terraza::balcony": [
+   "Terraza",
+   "balcony / terrace"
+  ],
+  "microondas::microwaves": [
+   "El microondas",
+   "microwave"
+  ],
+  "funcionar::to-function-work-not-trabajar": [
+   "Funcionar",
+   "to function / work (machines — not trabajar)"
+  ],
+  "el-aula::class": [
+   "El aula",
+   "classroom"
+  ],
+  "suelo::the-floor": [
+   "Suelo",
+   "the floor / ground"
+  ],
+  "materiales-quimicas::chemical-materials": [
+   "Materiales químicos",
+   "chemical materials"
+  ],
+  "habla-por-telefono::talk-on-the-phone": [
+   "Hablar por teléfono",
+   "to talk on the phone"
+  ],
+  "tiempro-libre::free-time": [
+   "Tiempo libre",
+   "free time"
+  ],
+  "cumplo-33-anos::i-completed-33-years": [
+   "Cumplo 33 años",
+   "I turn 33 (years)"
+  ],
+  "la-mayoria::the-majority": [
+   "La mayoría",
+   "the majority / most"
+  ],
+  "no-me-afecta::it-doesn-t-affect": [
+   "No me afecta",
+   "it doesn't affect me"
+  ],
+  "desuyanar::to-eat-breakfast": [
+   "Desayunar",
+   "to eat breakfast"
+  ],
+  "el-desuyono::breakfast": [
+   "El desayuno",
+   "breakfast"
+  ],
+  "repuesta::response": [
+   "Respuesta",
+   "response"
+  ],
+  "menor-que::less": [
+   "Menor que",
+   "younger / less than"
+  ],
+  "no-parace-gordo::doesn-t-seem-fat": [
+   "No parece gordo",
+   "doesn’t seem fat"
+  ],
+  "empresas::company-small": [
+   "Empresa",
+   "company (small)"
+  ],
+  "pintura::painter": [
+   "Pintura",
+   "painting (pintor = painter)"
+  ],
+  "el-calculo::accounting": [
+   "El cálculo",
+   "calculus"
+  ],
+  "con-frequencia::often": [
+   "Con frecuencia",
+   "often"
+  ],
+  "pedir::to-ask-for": [
+   "Pedir",
+   "to ask for / to order (pido)"
+  ],
+  "la-geologia::geologist": [
+   "La geología",
+   "geology"
+  ],
+  "recomendar::reccomend": [
+   "Recomendar",
+   "to recommend"
+  ],
+  "la-creatividad::creative": [
+   "La creatividad",
+   "creativity"
+  ],
+  "salir::to-leave": [
+   "Salir",
+   "to leave / to go out"
+  ],
+  "ganar::to-win": [
+   "Ganar",
+   "to win / to earn"
+  ],
+  "llevarse-mal::get-along-bad": [
+   "Llevarse mal",
+   "to get along badly"
+  ],
+  "mi-companero-de-piso-y-yo-no-nos-llevamos-bien::my-apartment-neighbor-and-i-don-t-get-along": [
+   "Mi compañero de piso y yo no nos llevamos bien",
+   "my roommate and I don't get along"
+  ],
+  "ella-tiene-cincuenta-y-un-anos::she-is-51-years": [
+   "Ella tiene cincuenta y un años",
+   "she is 51 years old"
+  ],
+  "seguaramente-definitivamente::definitely": [
+   "Seguramente / definitivamente",
+   "definitely"
+  ],
+  "carpetas::folder": [
+   "Carpeta",
+   "folder"
+  ],
+  "entrente-de::in-front-other-objects-between-them": [
+   "Enfrente de",
+   "in front / across from (with things in between)"
+  ],
+  "enfrente-de::between": [
+   "Entre",
+   "between"
+  ],
+  "el-proximo-fin-de-semana::next-week": [
+   "El próximo fin de semana",
+   "next weekend"
+  ],
+  "lavero::keychain": [
+   "Llavero",
+   "keychain"
+  ],
+  "empiezo-mi-trabajo-el-lunes::i-start-my-job-on": [
+   "Empiezo mi trabajo el lunes",
+   "I start my job on Monday"
+  ],
+  "empiezo-a-trabajar-el-lunes::i-start-to-work": [
+   "Empiezo a trabajar el lunes",
+   "I start working on Monday"
+  ],
+  "remoler::to-stir": [
+   "Remover",
+   "to stir"
+  ],
+  "ellos-piensan-continumamente-en-las-vacaciones::they-are-constantly-thinking-of-vacation": [
+   "Ellos piensan continuamente en las vacaciones",
+   "they are constantly thinking of vacation"
+  ],
+  "continumamente-seguidamenete::constantly": [
+   "Continuamente / seguidamente",
+   "constantly"
+  ],
+  "despertar-a-alguien::to-wake-up-something": [
+   "Despertar a alguien",
+   "to wake someone up"
+  ],
+  "mostrar::to-show": [
+   "Mostrar",
+   "to show (irregular: muestro)"
+  ],
+  "duermes-bien-por-la-noche::did-you-sleep-you-well": [
+   "¿Duermes bien por la noche?",
+   "do you sleep well at night?"
+  ],
+  "yo-si-tengo-tiempo::if-i-have-tiempo": [
+   "Yo sí tengo tiempo",
+   "I DO have time"
+  ],
+  "los-parajos-tienen-alas-ellos-vuelan::the-birds-have-wings-they-fly": [
+   "Los pájaros tienen alas. Ellos vuelan",
+   "The birds have wings, they fly"
+  ],
+  "el-tia::aunt": [
+   "La tía",
+   "aunt"
+  ],
+  "madrasta::step-mother": [
+   "Madrastra",
+   "step mother"
+  ],
+  "hermanstro::step-sibling": [
+   "Hermanastro",
+   "step sibling"
+  ],
+  "major::older": [
+   "Mayor",
+   "older"
+  ],
+  "cancha-de-tenis::tenis-courts": [
+   "Cancha de tenis",
+   "tennis court"
+  ],
+  "hago-ejercicios-todos-ls-dias::i-workout-every-day": [
+   "Hago ejercicio todos los días",
+   "I work out every day"
+  ],
+  "hace-un-viaje::to-travel": [
+   "Hacer un viaje",
+   "to take a trip"
+  ],
+  "pedir-un-favor::can-i-have-a-favor": [
+   "Pedir un favor",
+   "to ask a favor"
+  ],
+  "acostarse::to-go-bed-irregular-y-reflexive": [
+   "Acostarse",
+   "to go to bed (irregular, reflexive)"
+  ],
+  "banarse::to-bath": [
+   "Bañarse",
+   "to bathe"
+  ],
+  "secarse::drying": [
+   "Secarse",
+   "to dry off"
+  ],
+  "la-secadora::hair-dryer": [
+   "La secadora",
+   "dryer / hair dryer"
+  ],
+  "levantarese::to-get-up": [
+   "Levantarse",
+   "to get up"
+  ],
+  "caro::face": [
+   "La cara",
+   "face"
+  ],
+  "la-vez::feminine": [
+   "La vez",
+   "time / occasion (feminine)"
+  ],
+  "salud-dental::dental-hygience": [
+   "Salud dental",
+   "dental hygiene"
+  ],
+  "la-vida-es-una-prueba::the-live-is-a-test": [
+   "La vida es una prueba",
+   "life is a test"
+  ],
+  "llover::rain": [
+   "Llover",
+   "to rain"
+  ],
+  "impedir-a-alguien-hacer-algo::to-imped-people-doing-stuff": [
+   "Impedir a alguien hacer algo",
+   "to prevent someone from doing something"
+  ],
+  "saludarse-a-alguien::to-greet-someone": [
+   "Saludar a alguien",
+   "to greet someone"
+  ],
+  "no-vale-la-pena::it-s-not-worth-the-pain-not-worth-it": [
+   "¡No vale la pena!",
+   "it's not worth it"
+  ],
+  "no-queda-queso-en-casa::there-s-not-cheese-left-in-the-house": [
+   "No queda queso en casa",
+   "there's no cheese left in the house"
+  ],
+  "faltar::the-lack-of-something": [
+   "Faltar",
+   "to be lacking / missing"
+  ],
+  "bahar::to-go-down": [
+   "Bajar",
+   "to go down"
+  ],
+  "poner-la-machinas::turn-on-the-radio-tv-la-musica": [
+   "Poner las máquinas",
+   "turn on the radio / tv / music"
+  ],
+  "desvestires::to-get-undressed": [
+   "Desvestirse",
+   "to get undressed"
+  ],
+  "cual-es-tu-serie-mas-favorita::what-is-your-favorite-show": [
+   "¿Cuál es tu serie favorita?",
+   "what is your favorite show?"
+  ],
+  "juanes-tiene-mas-de-14-millones-de-albumes-vendidos::juanes-has-more-than-14-million-album-plays": [
+   "Juanes tiene más de 14 millones de álbumes vendidos",
+   "Juanes has more than 14 million albums sold"
+  ],
+  "vaciar-el-lavaplatos::put-the-dishes-away": [
+   "Vaciar el lavaplatos",
+   "to empty the dishwasher"
+  ],
+  "antiguo::old-not-for-people-things": [
+   "Antiguo",
+   "antique / old (things, not people)"
+  ],
+  "anterior::previous-an-terr-e-or": [
+   "Anterior",
+   "previous"
+  ],
+  "sean-es-tan-hablador-como-athenas::sean-is-talks-the-same-amount-as-athenas": [
+   "Sean es tan hablador como Athenas",
+   "Sean is as talkative as Athenas"
+  ],
+  "circular::circulates": [
+   "Circular",
+   "to circulate"
+  ],
+  "estado-civil::marriage-status": [
+   "Estado civil",
+   "marital status"
+  ],
+  "casao-soltero-divorciado::married-single-divorce": [
+   "Casado / soltero / divorciado",
+   "married, single, divorce"
+  ],
+  "recoger-la-ropa-del-piso::pick-up-the-cloths-on-the-floor": [
+   "Recoger la ropa del piso",
+   "pick up the clothes on the floor"
+  ],
+  "el-piso::floor": [
+   "El piso",
+   "floor / also the apartment itself (planta = floor too)"
+  ],
+  "el-plan::floor-plan": [
+   "El plan",
+   "floor plan (of a house)"
+  ],
+  "con-vista-de-la-cuidad::with-a-view-of-the-city": [
+   "Con vista de la ciudad",
+   "with a view of the city"
+  ],
+  "accessioros::accessories": [
+   "Accesorios",
+   "accessories"
+  ],
+  "la-cama::ned": [
+   "La cama",
+   "bed"
+  ],
+  "darse-cuenta-de-algo-enterarse-de-algo::i-realized-that": [
+   "Darse cuenta de algo / Enterarse de algo",
+   "to realize / find out about something"
+  ],
+  "hacer-deport::do-sports": [
+   "Hacer deporte",
+   "do sports"
+  ],
+  "el-ano-pasado::the-last-year": [
+   "El año pasado",
+   "last year"
+  ],
+  "principiantes::beginner": [
+   "Principiante",
+   "beginner"
+  ],
+  "tengo-un-resfriado-muy-grande::i-have-the-flu-very-bad": [
+   "Tengo un resfriado muy grande",
+   "I have a bad cold"
+  ],
+  "existar::to-exist": [
+   "Existir",
+   "to exist"
+  ],
+  "soprender-a::to-surprise": [
+   "Sorprender a",
+   "to surprise"
+  ],
+  "instrumentos::instrument": [
+   "Instrumento",
+   "instrument"
+  ],
+  "primero::tercero-are-exceptions": [
+   "El primero",
+   "the first"
+  ],
+  "piso::floors": [
+   "El piso",
+   "floor / also the apartment itself (planta = floor too)"
+  ],
+  "el-primero-de-enero::de-is-breaking-up-the-enero-and-primero-so-you-keep-the-o": [
+   "El primero de enero",
+   "first of january"
+  ],
+  "piso::planta-floors-planta-also-means-plant": [
+   "El piso",
+   "floor / also the apartment itself (planta = floor too)"
+  ],
+  "la-costumbre::costume": [
+   "La costumbre",
+   "tradition or custom"
+  ],
+  "que-fecha-es-hoy::what-date-is-today": [
+   "¿Qué fecha es hoy?",
+   "what is the date today?"
+  ],
+  "chevre::cool": [
+   "Chévere",
+   "cool"
+  ],
+  "no-me-digas::no-way": [
+   "No me digas",
+   "no way / can’t believe it"
+  ],
+  "adonde-vas::adonde-always-with-ir": [
+   "¿Adónde vas?",
+   "Where to? Where are you going"
+  ],
+  "pasar-por::wandering-around": [
+   "Pasar por",
+   "to pass by / swing by / wander around"
+  ],
+  "pienso-que::i-think-that": [
+   "Pienso que",
+   "I think that (opinion)"
+  ],
+  "lejos-de::far": [
+   "Lejos de",
+   "far from"
+  ],
+  "pasillo::hallway": [
+   "El pasillo",
+   "hallway"
+  ],
+  "antiguo::antique-oldo": [
+   "Antiguo",
+   "antique / old (things, not people)"
+  ],
+  "ubicacion::place": [
+   "Ubicación",
+   "location / place"
+  ],
+  "piso::floors-or-the-apartment-itself": [
+   "El piso",
+   "floor / also the apartment itself (planta = floor too)"
+  ],
+  "jueves::thursday": [
+   "El jueves",
+   "thursday"
+  ],
+  "agusto::august": [
+   "Agosto",
+   "august"
+  ],
+  "marcador::marker": [
+   "El marcador",
+   "marker"
+  ],
+  "cada::room": [
+   "Cada",
+   "each"
+  ],
+  "comedor::dining-room": [
+   "El comedor",
+   "dining room"
+  ],
+  "basurero::trash-can": [
+   "El basurero",
+   "small trash can"
+  ],
+  "ensenar::to-teach-also-to-show": [
+   "Enseñar",
+   "to teach / to show"
+  ],
+  "asistir-a::attend": [
+   "Asistir a",
+   "to attend"
+  ],
+  "olvidar::to-forgot": [
+   "Olvidar",
+   "to forget"
+  ],
+  "llevar::to-carry": [
+   "Llevar",
+   "to wear (for accessories)"
+  ],
+  "extranjero::foreigner-outside-the-country-traveling": [
+   "Extranjero",
+   "foreigner / abroad (viajar al extranjero)"
+  ],
+  "encima-de::on-top": [
+   "Encima de",
+   "on top of"
+  ],
+  "la-lado-de::next-to": [
+   "Al lado de",
+   "next to"
+  ],
+  "detras-de::behind-accent-on-the-e": [
+   "Detrás de",
+   "behind"
+  ],
+  "hace-fresco::good-weather": [
+   "Hace fresco",
+   "it's cool / nice out"
+  ],
+  "contar::to-count-tell-a-story": [
+   "Contar",
+   "to count / to tell (a story)"
+  ],
+  "pedir::to-ask-for-to-order-pedir-pido": [
+   "Pedir",
+   "to ask for / to order (pido)"
+  ],
+  "la-mayoria::mostly": [
+   "La mayoría",
+   "the majority / most"
+  ],
+  "pedir::ask-for-order": [
+   "Pedir",
+   "to ask for / to order (pido)"
+  ],
+  "liberia::book-store": [
+   "Librería",
+   "book store"
+  ],
+  "hacer::hago-haces-hace-hacemos-hacen": [
+   "Hacer",
+   "to do / to make"
+  ],
+  "levantar-pesas::to-lift-weight": [
+   "Levantar pesas",
+   "to lift weights"
+  ],
+  "intentar::to-intend": [
+   "Intentar",
+   "to try / to attempt"
+  ],
+  "acostarse::go-to-bed": [
+   "Acostarse",
+   "to go to bed (irregular, reflexive)"
+  ],
+  "tema::subject": [
+   "El tema",
+   "theme"
+  ],
+  "salir::to-go-out-to-leave": [
+   "Salir",
+   "to leave / to go out"
+  ],
+  "calentar::to-heat-heat-up": [
+   "Calentar",
+   "to heat (up)"
+  ],
+  "suelo::floor": [
+   "Suelo",
+   "the floor / ground"
+  ],
+  "quitar-la-mesa::opposite-of-set-the-table": [
+   "Quitar la mesa",
+   "clear the table"
+  ],
+  "poner-la-mesa::set-the-table": [
+   "Poner la mesa",
+   "to set the table"
+  ],
+  "ganar::to-earn-to-win": [
+   "Ganar",
+   "to win / to earn"
+  ],
+  "comodo::comfort": [
+   "Cómodo",
+   "comfortable"
+  ],
+  "terraza::terrace": [
+   "Terraza",
+   "balcony / terrace"
+  ],
+  "la-secadora::dryer": [
+   "La secadora",
+   "dryer / hair dryer"
+  ],
+  "llevar::preferir-vender-venir-ver": [
+   "Llevar",
+   "to wear (for accessories)"
+  ],
+  "el-paraguas::umbrella-always-singular-always-masculine": [
+   "El paraguas",
+   "umbrella (always singular, masculine)"
+  ],
+  "funcionar::to-function": [
+   "Funcionar",
+   "to function / work (machines — not trabajar)"
+  ],
+  "contar::to-tell": [
+   "Contar",
+   "to count / to tell (a story)"
+  ],
+  "muebles::furniture": [
+   "Los muebles",
+   "furniture"
+  ],
+  "lapiz::pencil": [
+   "El lápiz / los lápices",
+   "pencil / pencils"
+  ],
+  "morado::purple": [
+   "Morado/a",
+   "purple"
+  ]
+ },
+ "note_pairs": [
+  "4-irregular-comparatives::mejor-peor-y-menor-mayor",
+  "adonde-vas::adonde-always-with-ir",
+  "con-ella::etc",
+  "el-primero-de-enero::de-is-breaking-up-the-enero-and-primero-so-you-keep-the-o",
+  "en-uso::buy-this-book-to-grammar",
+  "formula-for-equal-is-verbo-tanto-a::os-as-nombre-como",
+  "hacer::hago-haces-hace-hacemos-hacen",
+  "llevar::preferir-vender-venir-ver",
+  "popular::work-on-pronunciation",
+  "primero::tercero-are-exceptions",
+  "verbo-mas-menos-que-nombre::formula-for-comparing",
+  "what-floor::the-third-el-tercero"
+ ]
+}

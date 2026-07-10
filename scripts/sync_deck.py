@@ -6,6 +6,10 @@ Usage: python3 scripts/sync_deck.py <doc_text_file> <deck_json>
 Idempotent merge: existing cards/notes in the deck are never modified or
 removed (their ids anchor localStorage progress); only new material is added.
 Classification rules are mirrored in js/parser.js for the app's paste-import.
+
+data/corrections.json (written during the 2026-07 grammar cleanup) maps raw
+doc pairs to their corrected/merged deck pairs, so the doc's typos never
+re-enter the deck on sync.
 """
 import json
 import os
@@ -118,10 +122,19 @@ def main():
     else:
         deck = {"version": 1, "lessons": [], "cards": []}
 
+    corr_path = os.path.join(os.path.dirname(deck_path), "corrections.json")
+    pair_corrections, note_pairs = {}, set()
+    if os.path.exists(corr_path):
+        with open(corr_path, encoding="utf-8") as f:
+            corr = json.load(f)
+        pair_corrections = corr.get("pair_corrections", {})
+        note_pairs = set(corr.get("note_pairs", []))
+
     lessons_by_date = {l["date"]: l for l in deck["lessons"]}
     ids = {c["id"] for c in deck["cards"]}
     seen_pairs = {norm_pair(c["spanish"], c["english"]): c["id"] for c in deck["cards"]}
-    existing_notes = {l["date"]: set(l["notes"]) for l in deck["lessons"]}
+    # note dedup by slug so accent fixes to existing notes don't break matching
+    existing_notes = {l["date"]: {slugify(n) for n in l["notes"]} for l in deck["lessons"]}
 
     new_cards, new_notes, skipped = [], [], []
     current = None
@@ -145,6 +158,12 @@ def main():
                 existing_notes[date] = set()
             current = lessons_by_date[date]
             continue
+
+        def add_note(text):
+            if slugify(text) not in existing_notes[current["date"]]:
+                current["notes"].append(text)
+                existing_notes[current["date"]].add(slugify(text))
+                new_notes.append((current["date"], text))
         if current is None:
             skipped.append(("before first lesson", line))
             continue
@@ -153,13 +172,16 @@ def main():
         if kind == "skip":
             skipped.append((rest[0], line))
         elif kind == "note":
-            if rest[0] not in existing_notes[current["date"]]:
-                current["notes"].append(rest[0])
-                existing_notes[current["date"]].add(rest[0])
-                new_notes.append((current["date"], rest[0]))
+            add_note(rest[0])
         else:
             es, en = rest
             pair = norm_pair(es, en)
+            if pair in note_pairs:  # reclassified as a grammar note during cleanup
+                add_note(line)
+                continue
+            if pair in pair_corrections:  # doc typo -> corrected/merged deck text
+                es, en = pair_corrections[pair]
+                pair = norm_pair(es, en)
             if pair in seen_pairs:
                 continue
             base = f"{current['date']}_{slugify(es)}"

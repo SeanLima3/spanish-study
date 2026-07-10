@@ -12,7 +12,8 @@
     "G + e always (hey)",
     "G + A (ga)",
     "G+ o (Go)",
-    "G+ u"
+    "G+ u",
+    "En uso - buy this book to grammar"
    ]
   },
   {
@@ -28,8 +29,8 @@
     "G+i - he",
     "G+e - hey",
     "G+o+a",
-    "Cual es tu numero de telefono",
-    "Cual es su numero de telefono (usted)"
+    "Cual es tu numero de teléfono",
+    "Cual es su numero de teléfono (usted)"
    ]
   },
   {
@@ -75,7 +76,10 @@
     "Prifiero el primero",
     "Prefiero el primer boligrafo",
     "Prefiero el último",
-    "Vocab test on all the words we did"
+    "Vocab test on all the words we did",
+    "Primero - tercero are exceptions",
+    "El primero de enero - de is breaking up the enero and primero, so you keep the o",
+    "What floor - the third - el tercero"
    ]
   },
   {
@@ -84,7 +88,7 @@
     "Un lunes bueno",
     "No tengo un lugar especial",
     "Soy profes",
-    "Veintitres"
+    "Veintitrés"
    ]
   },
   {
@@ -109,7 +113,7 @@
     "Hay [how many] [object] [color]",
     "Hay seis controles de juego negros",
     "Hay tres auriculares/audífonos negros",
-    "Hay siete guitarras. Las guitarras son gris, azul, negro, verde, amarillo, y marron claro",
+    "Hay siete guitarras. Las guitarras son gris, azul, negro, verde, amarillo, y marrón claro",
     "Hay dos botellas de agua roja y negra clara",
     "Hay dos portátiles negros",
     "Hay cuatro pares de zapatos blancos",
@@ -131,12 +135,15 @@
     "Cuál-Cuáles",
     "Mi clase favorita es mathematica",
     "Cuándo",
-    "Mis clases de espanol los lunes a las seis por la tarde y los jueves a las seis y media por la tarde - My spanish classes are monday at 6pm and on thursdays at 6Ñ30pm",
+    "Mis clases de español los lunes a las seis por la tarde y los jueves a las seis y media por la tarde - My spanish classes are monday at 6pm and on thursdays at 6Ñ30pm",
     "Dónde",
     "Estudio español porque mi esposa es de caracas y quiero hablar con ella y su familia",
     "Con - yo - conmigo",
     "Con - tu - contigo",
-    "De quién es el cuaderno? Whose notebook is this"
+    "De quién es el cuaderno? Whose notebook is this",
+    "¿Adónde vas? - adonde always with ir",
+    "Con ella - etc.",
+    "Popular - work on pronunciation"
    ]
   },
   {
@@ -196,7 +203,7 @@
     "Te gusta llegar tarde",
     "Te gusta mirar las películas con Javier Bardem",
     "Te gusta cortar el pelo de Blue",
-    "Debo practicar más espanol",
+    "Debo practicar más español",
     "Debo abandonar mi trabajo",
     "Debo tocar el piano",
     "Debo caminar cuando hace buen tiempo",
@@ -229,21 +236,21 @@
     "Toco la guitarra todos los días",
     "Compro muchas cosas por mi música",
     "El gato busca por su juguetes",
-    "Practico hablar espanol con mi esposa",
+    "Practico hablar español con mi esposa",
     "El corre en la carrera",
     "Aprendo acerca de AI en mi trabaja",
     "Como la cena a las ocho por la noche",
     "Vemos la tele antes de la cena",
     "Creo que los cavaliers ganan el campeonato",
     "A veces vendo el equipo de music",
-    "Aprendo espanol con mi profesora",
+    "Aprendo español con mi profesora",
     "Jack abre la puerta",
     "Mi profressora compite su pantatella",
     "La profesora debe repietir la palabara",
     "Mi esposa y yo decidimos que ir a Miami",
     "Mi gato recibe mi amor",
     "La profesora describe la tarea",
-    "Prefiero tener las clases de espanol por la noche"
+    "Prefiero tener las clases de español por la noche"
    ]
   },
   {
@@ -254,7 +261,7 @@
    "date": "2026-05-04",
    "notes": [
     "Adding -ero is a person who does that thing (Cartero)",
-    "Adding -eria is the location where that happens (example: Peluqueria)",
+    "Adding -eria is the location where that happens (example: Peluquería)",
     "La veterinaria -",
     "Que tienes que hacer",
     "Yo tengo dos gatos",
@@ -266,7 +273,7 @@
     "La profesora explica el problema. Tiene sentido",
     "Tengo ganas de practicar la guitarra",
     "Mi práctica empieza en treinta minutos. Tengo prisa",
-    "Tengo que estudiar mi espanol para mi clase hoy"
+    "Tengo que estudiar mi español para mi clase hoy"
    ]
   },
   {
@@ -296,7 +303,7 @@
   {
    "date": "2026-05-23",
    "notes": [
-    "Dias de la semana, no “en”, usar “el”",
+    "Días de la semana, no “en”, usar “el”",
     "Months and seasons use “en”",
     "Empezar a hacer algo",
     "Bien is adverb",
@@ -311,19 +318,21 @@
    "notes": [
     "Prepositions: a, en, de, con, por, para",
     "The verb after preposition doesn’t conjugate, inifinitivo",
-    "La madre / mama"
+    "La madre / mamá"
    ]
   },
   {
    "date": "2026-05-29",
-   "notes": []
+   "notes": [
+    "Hacer - hago - haces - hace - hacemos - hacen"
+   ]
   },
   {
    "date": "2026-06-05",
    "notes": [
     "Tienes algun plan divertido para el fin de semana",
     "All electronic",
-    "Algunas veces despues de levantarme - Sometimes after I wake up (notice levantarme, doesn’t conjugate but you get the reflexive pronoun)",
+    "Algunas veces después de levantarme - Sometimes after I wake up (notice levantarme, doesn’t conjugate but you get the reflexive pronoun)",
     "Me despierto a las ocho y media -",
     "Despertarse",
     "Levantarse",
@@ -349,23 +358,26 @@
    "date": "2026-06-15",
    "notes": [
     "Maquillan (Mah- key- on)",
-    "Susana tiene 3 gatos. Maria tambien tiene. Maria tiene tantos gatos como Susana - Susana has 3 cats. Maria also has 3 cats. Maria has the same amount of cats as Susana",
-    "Mas / menos, adj, que, nombre",
-    "Exceptions are age, and better / worse: ejemplos: Yo tengo 33 anos. Tu tienes 31 anos. Tu eres mayor que yo. Yo soy menor que tu. Friends es mejor que GoT. GoT es peor que Friends"
+    "Susana tiene 3 gatos. Maria también tiene. Maria tiene tantos gatos como Susana - Susana has 3 cats. Maria also has 3 cats. Maria has the same amount of cats as Susana",
+    "Más / menos, adj, que, nombre",
+    "Exceptions are age, and better / worse: ejemplos: Yo tengo 33 años. Tu tienes 31 años. Tu eres mayor que yo. Yo soy menor que tu. Friends es mejor que GoT. GoT es peor que Friends",
+    "Verbo, más / menos, que, nombre - formula for comparing",
+    "Formula for equal is Verbo, tanto/a - os - as, nombre, como"
    ]
   },
   {
    "date": "2026-06-21",
    "notes": [
     "El medicamento esta funcionado",
-    "Mas grande when referring to size of things"
+    "Más grande when referring to size of things",
+    "4 irregular comparatives - mejor / peor y Menor / mayor"
    ]
   },
   {
    "date": "2026-06-22",
    "notes": [
     "Malm (bed name) es más",
-    "Los gatitos son los animales mas lindos de todos",
+    "Los gatitos son los animales más lindos de todos",
     "Los conejos son los animales menos lindos de todos",
     "Edvard Munch es más talentoso de todos",
     "Andy Warhol es menos talentoso de todos",
@@ -373,13 +385,14 @@
     "Elon Musk y Jeff Bezos son las personas menos humildes de todas",
     "Quiero ir a una tienda. Necesito más ropa. Gap vende un abrigo muy bonito. Prefiero la ropa negra o blanca. En la tienda, veo una camisa muy bonita pero es cara. ¿Debo comprar la camisa y llevar para una semana? Cuando vengo a mi casa, ¡entiendo que tengo la misma camisa!",
     "Me entero de que",
-    "Mucha hambre (hambre es feminina)"
+    "Mucha hambre (hambre es feminina)",
+    "Llevar - preferir - vender venir ver"
    ]
   },
   {
    "date": "2026-06-30",
    "notes": [
-    "No voy a comprar mas de GE. Sus productos son carisimos"
+    "No voy a comprar más de GE. Sus productos son carísimos"
    ]
   },
   {
@@ -412,7 +425,7 @@
   },
   {
    "id": "2026-03-09_la-manana",
-   "spanish": "La manana",
+   "spanish": "La mañana",
    "english": "the morning",
    "lesson": "2026-03-09"
   },
@@ -430,7 +443,7 @@
   },
   {
    "id": "2026-03-09_buenos-dias",
-   "spanish": "Buenos dias",
+   "spanish": "Buenos días",
    "english": "good morning",
    "lesson": "2026-03-09"
   },
@@ -491,7 +504,7 @@
   {
    "id": "2026-03-09_ensenar",
    "spanish": "Enseñar",
-   "english": "to teach",
+   "english": "to teach / to show",
    "lesson": "2026-03-09"
   },
   {
@@ -502,7 +515,7 @@
   },
   {
    "id": "2026-03-09_cual-es-tu-nombre",
-   "spanish": "Cual es tu nombre",
+   "spanish": "¿Cuál es tu nombre?",
    "english": "what is your name",
    "lesson": "2026-03-09"
   },
@@ -520,13 +533,13 @@
   },
   {
    "id": "2026-03-09_sinonimos",
-   "spanish": "Sinonimos",
+   "spanish": "Sinónimos",
    "english": "synonyms",
    "lesson": "2026-03-09"
   },
   {
    "id": "2026-03-09_algre-contento-a-muy-bien",
-   "spanish": "algre/contento(a)/muy bien",
+   "spanish": "Alegre / contento(a) / muy bien",
    "english": "I’m doing great",
    "lesson": "2026-03-09"
   },
@@ -538,13 +551,13 @@
   },
   {
    "id": "2026-03-09_solomente",
-   "spanish": "Solomente",
+   "spanish": "Solamente",
    "english": "only",
    "lesson": "2026-03-09"
   },
   {
    "id": "2026-03-09_mas-o-menos-regular-normal",
-   "spanish": "Mas o menos / regular / normal",
+   "spanish": "Más o menos / regular / normal",
    "english": "alright",
    "lesson": "2026-03-09"
   },
@@ -586,7 +599,7 @@
   },
   {
    "id": "2026-03-09_soltaro",
-   "spanish": "Soltaro",
+   "spanish": "Soltero",
    "english": "single",
    "lesson": "2026-03-09"
   },
@@ -634,8 +647,8 @@
   },
   {
    "id": "2026-03-09_cuanto-pesa",
-   "spanish": "Cuanto pesa",
-   "english": "how many pounds",
+   "spanish": "¿Cuánto pesa?",
+   "english": "how much does he/she/it weigh?",
    "lesson": "2026-03-09"
   },
   {
@@ -646,19 +659,19 @@
   },
   {
    "id": "2026-03-09_yo-tambien",
-   "spanish": "Yo tambien",
+   "spanish": "Yo también",
    "english": "me too",
    "lesson": "2026-03-09"
   },
   {
    "id": "2026-03-09_de-verdad",
-   "spanish": "De verdad?",
+   "spanish": "¿De verdad?",
    "english": "really?",
    "lesson": "2026-03-09"
   },
   {
    "id": "2026-03-09_en-serio",
-   "spanish": "En serio?",
+   "spanish": "¿En serio?",
    "english": "seriously?",
    "lesson": "2026-03-09"
   },
@@ -670,31 +683,31 @@
   },
   {
    "id": "2026-03-09_que-tal",
-   "spanish": "Que tal",
+   "spanish": "¿Qué tal?",
    "english": "what’s up? (formal / nonformal)",
    "lesson": "2026-03-09"
   },
   {
    "id": "2026-03-09_la-palabra",
-   "spanish": "La Palabra",
+   "spanish": "La palabra",
    "english": "word",
    "lesson": "2026-03-09"
   },
   {
    "id": "2026-03-09_la-letra",
-   "spanish": "La Letra",
+   "spanish": "La letra",
    "english": "letters",
    "lesson": "2026-03-09"
   },
   {
    "id": "2026-03-09_el-alfabeto",
-   "spanish": "El Alfabeto",
+   "spanish": "El alfabeto",
    "english": "alphabet",
    "lesson": "2026-03-09"
   },
   {
    "id": "2026-03-09_el-girasol",
-   "spanish": "El Girasol",
+   "spanish": "El girasol",
    "english": "sunflower (ge (hey))",
    "lesson": "2026-03-09"
   },
@@ -706,19 +719,13 @@
   },
   {
    "id": "2026-03-09_la-proxima-sesion",
-   "spanish": "La Proxima sesion",
+   "spanish": "La próxima sesión",
    "english": "next session",
    "lesson": "2026-03-09"
   },
   {
-   "id": "2026-03-09_en-uso",
-   "spanish": "En uso",
-   "english": "buy this book to grammar",
-   "lesson": "2026-03-09"
-  },
-  {
    "id": "2026-03-12_buen-dia",
-   "spanish": "Buen Dia",
+   "spanish": "Buen Día",
    "english": "have a good day",
    "lesson": "2026-03-12"
   },
@@ -730,13 +737,13 @@
   },
   {
    "id": "2026-03-12_que-pasa",
-   "spanish": "Que pasa",
+   "spanish": "¿Qué pasa?",
    "english": "what’s up",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_como-te-va-todo",
-   "spanish": "Como te va todo",
+   "spanish": "¿Cómo te va todo?",
    "english": "how are things, how is everything",
    "lesson": "2026-03-12"
   },
@@ -802,19 +809,19 @@
   },
   {
    "id": "2026-03-12_como-se-dice",
-   "spanish": "Como se dice",
+   "spanish": "¿Cómo se dice?",
    "english": "how do you say",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_como-se-escribe",
-   "spanish": "Como se escribe",
+   "spanish": "¿Cómo se escribe?",
    "english": "how do you spell",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_que-significa",
-   "spanish": "Que significa",
+   "spanish": "¿Qué significa?",
    "english": "What does that mean",
    "lesson": "2026-03-12"
   },
@@ -826,7 +833,7 @@
   },
   {
    "id": "2026-03-12_puedes-repetir",
-   "spanish": "Puedes repetir",
+   "spanish": "¿Puedes repetir?",
    "english": "can you repeat",
    "lesson": "2026-03-12"
   },
@@ -844,7 +851,7 @@
   },
   {
    "id": "2026-03-12_que-onda",
-   "spanish": "Que onda?",
+   "spanish": "¿Qué onda?",
    "english": "What’s up (mexico only)",
    "lesson": "2026-03-12"
   },
@@ -862,25 +869,25 @@
   },
   {
    "id": "2026-03-12_la-guerra",
-   "spanish": "La Guerra",
+   "spanish": "La guerra",
    "english": "ger-ah",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_el-japon",
-   "spanish": "El Japon",
+   "spanish": "El Japón",
    "english": "place",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_jabon",
-   "spanish": "Jabon",
+   "spanish": "El jabón",
    "english": "soap",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_la-jirafa",
-   "spanish": "La Jirafa",
+   "spanish": "La jirafa",
    "english": "giraffe",
    "lesson": "2026-03-12"
   },
@@ -904,13 +911,13 @@
   },
   {
    "id": "2026-03-12_el-carro",
-   "spanish": "El Carro",
+   "spanish": "El carro",
    "english": "car",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_el-coche",
-   "spanish": "El Coche",
+   "spanish": "El coche",
    "english": "car",
    "lesson": "2026-03-12"
   },
@@ -928,61 +935,61 @@
   },
   {
    "id": "2026-03-12_el-avion",
-   "spanish": "El Avion",
+   "spanish": "El avión",
    "english": "plane",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_el-aguacate",
-   "spanish": "El Aguacate",
+   "spanish": "El aguacate",
    "english": "avocado",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_el-anillo",
-   "spanish": "El Anillo",
+   "spanish": "El anillo",
    "english": "ring",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_el-agua",
-   "spanish": "El Agua",
+   "spanish": "El agua",
    "english": "water",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_el-arcoiris",
-   "spanish": "El Arcoiris",
+   "spanish": "El arcoíris",
    "english": "rainbow",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_la-abeja",
-   "spanish": "La Abeja",
+   "spanish": "La abeja",
    "english": "bee",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_la-arana",
-   "spanish": "La Araña",
+   "spanish": "La araña",
    "english": "spider",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_la-ancla",
-   "spanish": "La Ancla",
+   "spanish": "La ancla",
    "english": "anchor",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_el-arbol",
-   "spanish": "El Árbol",
+   "spanish": "El árbol",
    "english": "tree",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_el-la-astronauta",
-   "spanish": "El La Astronauta",
+   "spanish": "El/la astronauta",
    "english": "astronaut",
    "lesson": "2026-03-12"
   },
@@ -994,43 +1001,43 @@
   },
   {
    "id": "2026-03-12_el-espejo",
-   "spanish": "El Espejo",
+   "spanish": "El espejo",
    "english": "mirror",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_la-escalera",
-   "spanish": "La Escalera",
+   "spanish": "La escalera",
    "english": "ladder",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_el-enano",
-   "spanish": "El Enano",
+   "spanish": "El enano",
    "english": "gnome",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_la-estrella",
-   "spanish": "La Estrella",
+   "spanish": "La estrella",
    "english": "star",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_el-elefante",
-   "spanish": "El Elefante",
+   "spanish": "El elefante",
    "english": "elephant",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_el-erizo",
-   "spanish": "El Erizo",
+   "spanish": "El erizo",
    "english": "hedgehog",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_la-escoba",
-   "spanish": "La Escoba",
+   "spanish": "La escoba",
    "english": "broom",
    "lesson": "2026-03-12"
   },
@@ -1042,7 +1049,7 @@
   },
   {
    "id": "2026-03-12_igaul",
-   "spanish": "Igaul",
+   "spanish": "Igual",
    "english": "equals",
    "lesson": "2026-03-12"
   },
@@ -1054,13 +1061,13 @@
   },
   {
    "id": "2026-03-12_el-idioma",
-   "spanish": "El Idioma",
+   "spanish": "El idioma",
    "english": "language",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_la-imagen",
-   "spanish": "La Imagen",
+   "spanish": "La imagen",
    "english": "image",
    "lesson": "2026-03-12"
   },
@@ -1072,7 +1079,7 @@
   },
   {
    "id": "2026-03-12_identico",
-   "spanish": "Identico",
+   "spanish": "Idéntico",
    "english": "identical",
    "lesson": "2026-03-12"
   },
@@ -1096,55 +1103,55 @@
   },
   {
    "id": "2026-03-12_chevere",
-   "spanish": "Chevere",
+   "spanish": "Chévere",
    "english": "cool",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_el-oso",
-   "spanish": "El Oso",
+   "spanish": "El oso",
    "english": "bear",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_el-ojo",
-   "spanish": "El Ojo",
+   "spanish": "El ojo",
    "english": "eye",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_el-ogro",
-   "spanish": "El Ogro",
+   "spanish": "El ogro",
    "english": "ogre",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_la-oveja",
-   "spanish": "La Oveja",
+   "spanish": "La oveja",
    "english": "sheep",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_la-oreja",
-   "spanish": "La Oreja",
+   "spanish": "La oreja",
    "english": "ear",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_el-ovni",
-   "spanish": "El Ovni",
+   "spanish": "El ovni",
    "english": "ufo",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_la-olla",
-   "spanish": "La Olla",
+   "spanish": "La olla",
    "english": "pot",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_el-ordenador",
-   "spanish": "El Ordenador",
+   "spanish": "El ordenador",
    "english": "another word for computer",
    "lesson": "2026-03-12"
   },
@@ -1156,19 +1163,19 @@
   },
   {
    "id": "2026-03-12_la-ostra",
-   "spanish": "La Ostra",
+   "spanish": "La ostra",
    "english": "oyster",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_el-universo",
-   "spanish": "El Universo",
+   "spanish": "El universo",
    "english": "universe",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_la-una",
-   "spanish": "La Uña",
+   "spanish": "La uña",
    "english": "nail",
    "lesson": "2026-03-12"
   },
@@ -1180,13 +1187,13 @@
   },
   {
    "id": "2026-03-12_las-uvas",
-   "spanish": "Las Uvas",
+   "spanish": "Las uvas",
    "english": "grapes",
    "lesson": "2026-03-12"
   },
   {
    "id": "2026-03-12_el-uniforme",
-   "spanish": "El Uniforme",
+   "spanish": "El uniforme",
    "english": "uniform",
    "lesson": "2026-03-12"
   },
@@ -1199,7 +1206,7 @@
   {
    "id": "2026-03-12_contar",
    "spanish": "Contar",
-   "english": "to count",
+   "english": "to count / to tell (a story)",
    "lesson": "2026-03-12"
   },
   {
@@ -1210,7 +1217,7 @@
   },
   {
    "id": "2026-03-12_a-que-hora",
-   "spanish": "A que hora",
+   "spanish": "¿A qué hora?",
    "english": "what time?",
    "lesson": "2026-03-12"
   },
@@ -1222,7 +1229,7 @@
   },
   {
    "id": "2026-03-16_avisame",
-   "spanish": "Avisame",
+   "spanish": "Avísame",
    "english": "let me know",
    "lesson": "2026-03-16"
   },
@@ -1294,7 +1301,7 @@
   },
   {
    "id": "2026-03-16_habitacion",
-   "spanish": "Habitacíon",
+   "spanish": "Habitación",
    "english": "room",
    "lesson": "2026-03-16"
   },
@@ -1330,26 +1337,26 @@
   },
   {
    "id": "2026-03-16_cuadernos",
-   "spanish": "Cuadernos",
+   "spanish": "El cuaderno",
    "english": "notebook",
    "lesson": "2026-03-16"
   },
   {
    "id": "2026-03-16_el-lapiz",
-   "spanish": "El lápiz",
-   "english": "los lápices - pencil pencils",
+   "spanish": "El lápiz / los lápices",
+   "english": "pencil / pencils",
    "lesson": "2026-03-16"
   },
   {
    "id": "2026-03-16_la-actriz",
-   "spanish": "La actriz",
-   "english": "las actrices - actress, actresses",
+   "spanish": "La actriz / las actrices",
+   "english": "actress / actresses",
    "lesson": "2026-03-16"
   },
   {
    "id": "2026-03-16_el-leccion-lecciones",
-   "spanish": "El leccíon leccíones",
-   "english": "lecture l",
+   "spanish": "La lección / las lecciones",
+   "english": "lesson / lessons",
    "lesson": "2026-03-16"
   },
   {
@@ -1384,7 +1391,7 @@
   },
   {
    "id": "2026-03-16_olividar",
-   "spanish": "Olividar",
+   "spanish": "Olvidar",
    "english": "to forget",
    "lesson": "2026-03-16"
   },
@@ -1397,7 +1404,7 @@
   {
    "id": "2026-03-19_tema",
    "spanish": "Tema",
-   "english": "title/theme",
+   "english": "theme / title / subject",
    "lesson": "2026-03-19"
   },
   {
@@ -1474,26 +1481,26 @@
   },
   {
    "id": "2026-03-19_cual-es-tu-dia-de-la-semana-favorito",
-   "spanish": "Cual es tu día de la semana favorito",
+   "spanish": "¿Cuál es tu día de la semana favorito?",
    "english": "what is your favorite day of the week",
    "lesson": "2026-03-19"
   },
   {
    "id": "2026-03-19_tengo-miedo",
    "spanish": "Tengo miedo",
-   "english": "fear-scared",
+   "english": "I'm scared",
    "lesson": "2026-03-19"
   },
   {
    "id": "2026-03-19_me-encanta-el-domingo",
    "spanish": "Me encanta el domingo",
-   "english": "I also love sundays",
+   "english": "I love Sundays",
    "lesson": "2026-03-19"
   },
   {
    "id": "2026-03-19_cuando-es-tu-practica-de-musica",
-   "spanish": "Cuando es tu practica de música",
-   "english": "when do you practice music_",
+   "spanish": "¿Cuándo es tu práctica de música?",
+   "english": "when is your music practice?",
    "lesson": "2026-03-19"
   },
   {
@@ -1570,7 +1577,7 @@
   },
   {
    "id": "2026-03-19_alguna-veces",
-   "spanish": "Alguna veces",
+   "spanish": "Algunas veces",
    "english": "sometimes",
    "lesson": "2026-03-19"
   },
@@ -1594,8 +1601,8 @@
   },
   {
    "id": "2026-03-19_que-fecha-es-hoy",
-   "spanish": "Que fecha es hoy",
-   "english": "what is the day today (date)",
+   "spanish": "¿Qué fecha es hoy?",
+   "english": "what is the date today?",
    "lesson": "2026-03-19"
   },
   {
@@ -1684,14 +1691,14 @@
   },
   {
    "id": "2026-03-19_deciembre",
-   "spanish": "Deciembre",
+   "spanish": "Diciembre",
    "english": "december",
    "lesson": "2026-03-19"
   },
   {
    "id": "2026-03-19_que-fecha-es",
-   "spanish": "Que fecha es?",
-   "english": "whats todays day",
+   "spanish": "¿Qué fecha es?",
+   "english": "what's today's date?",
    "lesson": "2026-03-19"
   },
   {
@@ -1708,8 +1715,8 @@
   },
   {
    "id": "2026-03-19_hoy-es-el-ciecinueva-de-marzo",
-   "spanish": "Hoy es el ciecinueva de marzo",
-   "english": "article for date",
+   "spanish": "Hoy es el diecinueve de marzo",
+   "english": "today is the 19th of March (article for dates)",
    "lesson": "2026-03-19"
   },
   {
@@ -1720,7 +1727,7 @@
   },
   {
    "id": "2026-03-19_segundo-segunda",
-   "spanish": "Segundo segunda",
+   "spanish": "Segundo/a",
    "english": "second",
    "lesson": "2026-03-19"
   },
@@ -1743,21 +1750,9 @@
    "lesson": "2026-03-19"
   },
   {
-   "id": "2026-03-19_primero",
-   "spanish": "Primero",
-   "english": "tercero are exceptions",
-   "lesson": "2026-03-19"
-  },
-  {
    "id": "2026-03-19_hoy-es-el-primer-dia-del-mes",
-   "spanish": "Hoy es el primer dia del mes",
+   "spanish": "Hoy es el primer día del mes",
    "english": "today is the first day of the month",
-   "lesson": "2026-03-19"
-  },
-  {
-   "id": "2026-03-19_piso",
-   "spanish": "Piso",
-   "english": "floors",
    "lesson": "2026-03-19"
   },
   {
@@ -1768,7 +1763,7 @@
   },
   {
    "id": "2026-03-19_cual-piso",
-   "spanish": "Cuál piso?",
+   "spanish": "¿Cuál piso?",
    "english": "what floor",
    "lesson": "2026-03-19"
   },
@@ -1782,18 +1777,6 @@
    "id": "2026-03-19_el-tercer-piso",
    "spanish": "El tercer piso",
    "english": "third floor",
-   "lesson": "2026-03-19"
-  },
-  {
-   "id": "2026-03-19_what-floor",
-   "spanish": "What floor",
-   "english": "the third - el tercero",
-   "lesson": "2026-03-19"
-  },
-  {
-   "id": "2026-03-19_el-primero-de-enero-2",
-   "spanish": "El primero de enero",
-   "english": "de is breaking up the enero and primero, so you keep the o",
    "lesson": "2026-03-19"
   },
   {
@@ -1815,14 +1798,8 @@
    "lesson": "2026-03-19"
   },
   {
-   "id": "2026-03-19_piso-2",
-   "spanish": "Piso",
-   "english": "planta - floors (planta also means plant)",
-   "lesson": "2026-03-19"
-  },
-  {
    "id": "2026-03-19_cual-prefieres",
-   "spanish": "Cual prefieres",
+   "spanish": "¿Cuál prefieres?",
    "english": "which do you prefer",
    "lesson": "2026-03-19"
   },
@@ -1858,7 +1835,7 @@
   },
   {
    "id": "2026-03-19_la-estaciones-del-ano",
-   "spanish": "La estaciones del año",
+   "spanish": "Las estaciones del año",
    "english": "the seasons of the year",
    "lesson": "2026-03-19"
   },
@@ -1888,7 +1865,7 @@
   },
   {
    "id": "2026-03-19_principe",
-   "spanish": "Principe",
+   "spanish": "Príncipe",
    "english": "prince",
    "lesson": "2026-03-19"
   },
@@ -1906,7 +1883,7 @@
   },
   {
    "id": "2026-03-19_cual-es-tu-estacion-favorita",
-   "spanish": "Cuál es tu estación favorita",
+   "spanish": "¿Cuál es tu estación favorita?",
    "english": "which is your favorite season",
    "lesson": "2026-03-19"
   },
@@ -1924,13 +1901,13 @@
   },
   {
    "id": "2026-03-19_dia-festivo",
-   "spanish": "Dia festivo",
+   "spanish": "Día festivo",
    "english": "holiday",
    "lesson": "2026-03-19"
   },
   {
    "id": "2026-03-19_despues-de-la-noche-de-brujas",
-   "spanish": "Despues de La noche de Brujas",
+   "spanish": "Después de la Noche de Brujas",
    "english": "the night after halloween",
    "lesson": "2026-03-19"
   },
@@ -1959,12 +1936,6 @@
    "lesson": "2026-03-23"
   },
   {
-   "id": "2026-03-23_la-costumbre",
-   "spanish": "La costumbre",
-   "english": "costume",
-   "lesson": "2026-03-23"
-  },
-  {
    "id": "2026-03-23_el-garaje",
    "spanish": "El garaje",
    "english": "garage",
@@ -1978,7 +1949,7 @@
   },
   {
    "id": "2026-03-23_el-portatil",
-   "spanish": "El portatil",
+   "spanish": "El portátil",
    "english": "laptop",
    "lesson": "2026-03-23"
   },
@@ -2014,19 +1985,19 @@
   },
   {
    "id": "2026-03-23_mi-sueno",
-   "spanish": "Mi sueno",
+   "spanish": "Mi sueño",
    "english": "my dream",
    "lesson": "2026-03-23"
   },
   {
    "id": "2026-03-23_intentar",
    "spanish": "Intentar",
-   "english": "to try",
+   "english": "to try / to attempt",
    "lesson": "2026-03-23"
   },
   {
    "id": "2026-03-23_de-donde-eres",
-   "spanish": "De donde eres?",
+   "spanish": "¿De dónde eres?",
    "english": "where are you from",
    "lesson": "2026-03-23"
   },
@@ -2038,19 +2009,19 @@
   },
   {
    "id": "2026-03-23_que-haces",
-   "spanish": "Que haces",
+   "spanish": "¿Qué haces?",
    "english": "What do you do for work",
    "lesson": "2026-03-23"
   },
   {
    "id": "2026-03-23_cual-es-tu-trabajo",
-   "spanish": "Cual es tu trabajo",
+   "spanish": "¿Cuál es tu trabajo?",
    "english": "what is your job",
    "lesson": "2026-03-23"
   },
   {
    "id": "2026-03-23_a-que-te-dedicas",
-   "spanish": "A que te dedicas?",
+   "spanish": "¿A qué te dedicas?",
    "english": "what is your job",
    "lesson": "2026-03-23"
   },
@@ -2062,7 +2033,7 @@
   },
   {
    "id": "2026-03-23_consultor-de-tecnologia",
-   "spanish": "Consultor de tecnologia",
+   "spanish": "Consultor de tecnología",
    "english": "consultant of tech (my job)",
    "lesson": "2026-03-23"
   },
@@ -2074,26 +2045,20 @@
   },
   {
    "id": "2026-03-23_caracteristicas-fisicas",
-   "spanish": "Caracteristicas fisicas",
+   "spanish": "Características físicas",
    "english": "physical characteristics",
    "lesson": "2026-03-23"
   },
   {
    "id": "2026-03-23_marta-es-seria",
    "spanish": "Marta es seria",
-   "english": "marta is series",
+   "english": "Marta is serious",
    "lesson": "2026-03-23"
   },
   {
    "id": "2026-03-23_marta-es-alta",
    "spanish": "Marta es alta",
-   "english": "marta is tall",
-   "lesson": "2026-03-23"
-  },
-  {
-   "id": "2026-03-23_que-fecha-es-hoy",
-   "spanish": "Que fecha es hoy",
-   "english": "what date is today",
+   "english": "Marta is tall",
    "lesson": "2026-03-23"
   },
   {
@@ -2104,7 +2069,7 @@
   },
   {
    "id": "2026-03-23_todo-paso-genial-anoche",
-   "spanish": "Todo paso genial anoche",
+   "spanish": "Todo pasó genial anoche",
    "english": "everything went super well last night",
    "lesson": "2026-03-23"
   },
@@ -2122,8 +2087,8 @@
   },
   {
    "id": "2026-03-27_eeuu",
-   "spanish": "EEUU",
-   "english": "estados unidos",
+   "spanish": "EE. UU.",
+   "english": "Estados Unidos (USA)",
    "lesson": "2026-03-27"
   },
   {
@@ -2133,14 +2098,8 @@
    "lesson": "2026-03-27"
   },
   {
-   "id": "2026-03-27_chevre",
-   "spanish": "Chevre",
-   "english": "cool",
-   "lesson": "2026-03-27"
-  },
-  {
    "id": "2026-03-27_investigacion",
-   "spanish": "Investigacion",
+   "spanish": "Investigación",
    "english": "research",
    "lesson": "2026-03-27"
   },
@@ -2177,7 +2136,7 @@
   {
    "id": "2026-03-27_hay-16-hombres-en-la-clase",
    "spanish": "Hay 16 hombres en la clase",
-   "english": "There are 16 people in the class",
+   "english": "there are 16 men in the class",
    "lesson": "2026-03-27"
   },
   {
@@ -2200,7 +2159,7 @@
   },
   {
    "id": "2026-03-27_palido",
-   "spanish": "Palido",
+   "spanish": "Pálido",
    "english": "pale",
    "lesson": "2026-03-27"
   },
@@ -2212,7 +2171,7 @@
   },
   {
    "id": "2026-03-27_marron-cafe",
-   "spanish": "Marron / cafe",
+   "spanish": "Marrón / café",
    "english": "brown",
    "lesson": "2026-03-27"
   },
@@ -2236,7 +2195,7 @@
   },
   {
    "id": "2026-03-27_claro-verde-oscuro-verde",
-   "spanish": "Claro verde oscuro verde",
+   "spanish": "Verde claro, verde oscuro",
    "english": "light green dark green",
    "lesson": "2026-03-27"
   },
@@ -2266,7 +2225,7 @@
   },
   {
    "id": "2026-03-27_que-libro-prefieres",
-   "spanish": "Que libro prefieres?",
+   "spanish": "¿Qué libro prefieres?",
    "english": "What book do you prefer",
    "lesson": "2026-03-27"
   },
@@ -2290,7 +2249,7 @@
   },
   {
    "id": "2026-03-27_contesta-en-espanol",
-   "spanish": "Contesta en espanol",
+   "spanish": "Contesta en español",
    "english": "answer in spanish",
    "lesson": "2026-03-27"
   },
@@ -2308,7 +2267,7 @@
   },
   {
    "id": "2026-03-27_lee-el-dialogo",
-   "spanish": "Lee el dialogo",
+   "spanish": "Lee el diálogo",
    "english": "read the conversation",
    "lesson": "2026-03-27"
   },
@@ -2326,7 +2285,7 @@
   },
   {
    "id": "2026-03-27_pajaro",
-   "spanish": "Pajaro",
+   "spanish": "Pájaro",
    "english": "bird",
    "lesson": "2026-03-27"
   },
@@ -2357,7 +2316,7 @@
   {
    "id": "2026-03-27_ve-a-la-pizarra",
    "spanish": "Ve a la pizarra",
-   "english": "this is Ir, not veer",
+   "english": "go to the board (this is ir, not ver)",
    "lesson": "2026-03-27"
   },
   {
@@ -2376,12 +2335,6 @@
    "id": "2026-03-30_punto",
    "spanish": "Punto",
    "english": "period",
-   "lesson": "2026-03-30"
-  },
-  {
-   "id": "2026-03-30_no-me-digas",
-   "spanish": "No me digas",
-   "english": "no way",
    "lesson": "2026-03-30"
   },
   {
@@ -2405,19 +2358,13 @@
   {
    "id": "2026-03-30_vale",
    "spanish": "Vale",
-   "english": "okay (espana)",
+   "english": "okay (España)",
    "lesson": "2026-03-30"
   },
   {
    "id": "2026-03-30_dale",
-   "spanish": "Dale",
-   "english": "come on! Excited",
-   "lesson": "2026-03-30"
-  },
-  {
-   "id": "2026-03-30_popular",
-   "spanish": "Popular",
-   "english": "work on pronunciation",
+   "spanish": "¡Dale!",
+   "english": "come on! (excited)",
    "lesson": "2026-03-30"
   },
   {
@@ -2446,14 +2393,14 @@
   },
   {
    "id": "2026-03-30_como-es-maria",
-   "spanish": "Cómo es Maria",
-   "english": "how is maria - description about her, physical or character description",
+   "spanish": "¿Cómo es María?",
+   "english": "what is María like? (physical or character description)",
    "lesson": "2026-03-30"
   },
   {
    "id": "2026-03-30_como-es-paris",
-   "spanish": "Como es Paris",
-   "english": "how is france - describe the city",
+   "spanish": "¿Cómo es París?",
+   "english": "what is Paris like? (describe the city)",
    "lesson": "2026-03-30"
   },
   {
@@ -2482,8 +2429,8 @@
   },
   {
    "id": "2026-03-30_adonde",
-   "spanish": "Adonde",
-   "english": "only used for Ir - where to",
+   "spanish": "Adónde",
+   "english": "where to (only used with ir)",
    "lesson": "2026-03-30"
   },
   {
@@ -2499,15 +2446,9 @@
    "lesson": "2026-03-30"
   },
   {
-   "id": "2026-03-30_con-ella",
-   "spanish": "Con ella",
-   "english": "etc.",
-   "lesson": "2026-03-30"
-  },
-  {
    "id": "2026-03-30_que",
-   "spanish": "Que",
-   "english": "what- but only when there is no ser after. Then you use cual",
+   "spanish": "Qué",
+   "english": "what (but if ser follows, use cuál)",
    "lesson": "2026-03-30"
   },
   {
@@ -2518,20 +2459,14 @@
   },
   {
    "id": "2026-03-30_de-quien",
-   "spanish": "De quien",
+   "spanish": "¿De quién?",
    "english": "Whose",
    "lesson": "2026-03-30"
   },
   {
    "id": "2026-03-30_el-cuaderno-es-de-jose",
-   "spanish": "El cuaderno es de jose",
-   "english": "its joses notebook",
-   "lesson": "2026-03-30"
-  },
-  {
-   "id": "2026-03-30_adonde-vas",
-   "spanish": "¿Adónde vas?",
-   "english": "adonde always with ir",
+   "spanish": "El cuaderno es de José",
+   "english": "it's José's notebook",
    "lesson": "2026-03-30"
   },
   {
@@ -2542,7 +2477,7 @@
   },
   {
    "id": "2026-04-03_un-monton-de",
-   "spanish": "Un monton de",
+   "spanish": "Un montón de",
    "english": "a lot",
    "lesson": "2026-04-03"
   },
@@ -2565,62 +2500,56 @@
    "lesson": "2026-04-03"
   },
   {
-   "id": "2026-04-03_pasar-por",
-   "spanish": "Pasar por",
-   "english": "wandering around",
-   "lesson": "2026-04-03"
-  },
-  {
    "id": "2026-04-03_pasar-por-2",
    "spanish": "Pasar por",
-   "english": "pass by/swing by",
+   "english": "to pass by / swing by / wander around",
    "lesson": "2026-04-03"
   },
   {
    "id": "2026-04-03_guia",
-   "spanish": "Guia",
+   "spanish": "Guía",
    "english": "guide",
    "lesson": "2026-04-03"
   },
   {
    "id": "2026-04-03_guia-de-viaje",
-   "spanish": "Guia de viaje",
+   "spanish": "Guía de viaje",
    "english": "travel guide",
    "lesson": "2026-04-03"
   },
   {
    "id": "2026-04-03_valer",
    "spanish": "Valer",
-   "english": "value",
+   "english": "to be worth",
    "lesson": "2026-04-03"
   },
   {
    "id": "2026-04-03_cuanto-vale",
-   "spanish": "Cuanto vale",
+   "spanish": "¿Cuánto vale?",
    "english": "how much",
    "lesson": "2026-04-03"
   },
   {
    "id": "2026-04-03_cuanto-cuesta",
-   "spanish": "Cuanto cuesta",
+   "spanish": "¿Cuánto cuesta?",
    "english": "how much does it cost",
    "lesson": "2026-04-03"
   },
   {
    "id": "2026-04-03_casar",
-   "spanish": "Casar",
+   "spanish": "Casarse",
    "english": "to get married",
    "lesson": "2026-04-03"
   },
   {
    "id": "2026-04-03_llamar-por-telefono",
-   "spanish": "Llamar por telefono",
-   "english": "Quien llamas por telefeno - who are you calling on the phone",
+   "spanish": "Llamar por teléfono",
+   "english": "to call on the phone",
    "lesson": "2026-04-03"
   },
   {
    "id": "2026-04-03_de-que-color-es-tu-camisa",
-   "spanish": "De que color es tu camisa",
+   "spanish": "¿De qué color es tu camisa?",
    "english": "what color is your shirt",
    "lesson": "2026-04-03"
   },
@@ -2632,7 +2561,7 @@
   },
   {
    "id": "2026-04-03_cuantas-computadoras-tienes-en-tu-oficina",
-   "spanish": "Cuantas computadoras tienes en tu oficina",
+   "spanish": "¿Cuántas computadoras tienes en tu oficina?",
    "english": "how many computers do you have in your office",
    "lesson": "2026-04-03"
   },
@@ -2644,13 +2573,13 @@
   },
   {
    "id": "2026-04-03_hace-frio",
-   "spanish": "Hace frio",
+   "spanish": "Hace frío",
    "english": "it’s cold",
    "lesson": "2026-04-03"
   },
   {
    "id": "2026-04-03_que-hora-es",
-   "spanish": "Que hora es?",
+   "spanish": "¿Qué hora es?",
    "english": "what time is it",
    "lesson": "2026-04-03"
   },
@@ -2746,7 +2675,7 @@
   },
   {
    "id": "2026-04-06_a-que-hora-es-la-clase-de-espanol",
-   "spanish": "A qué hora es la clase de español",
+   "spanish": "¿A qué hora es la clase de español?",
    "english": "what time is spanish class",
    "lesson": "2026-04-06"
   },
@@ -2794,13 +2723,13 @@
   },
   {
    "id": "2026-04-06_el-es-trabajador",
-   "spanish": "El es trabajador",
-   "english": "he is always working - opposite of perezoso",
+   "spanish": "Él es trabajador",
+   "english": "he is hard-working (opposite of perezoso)",
    "lesson": "2026-04-06"
   },
   {
    "id": "2026-04-06_stupido",
-   "spanish": "Stupido",
+   "spanish": "Estúpido",
    "english": "stupid",
    "lesson": "2026-04-06"
   },
@@ -2817,12 +2746,6 @@
    "lesson": "2026-04-06"
   },
   {
-   "id": "2026-04-06_pienso-que",
-   "spanish": "Pienso que",
-   "english": "I think that",
-   "lesson": "2026-04-06"
-  },
-  {
    "id": "2026-04-06_sobre",
    "spanish": "Sobre",
    "english": "about",
@@ -2836,7 +2759,7 @@
   },
   {
    "id": "2026-04-06_graciosio",
-   "spanish": "Graciosio",
+   "spanish": "Gracioso",
    "english": "funny (person in spain)",
    "lesson": "2026-04-06"
   },
@@ -2848,7 +2771,7 @@
   },
   {
    "id": "2026-04-06_oye",
-   "spanish": "Oye",
+   "spanish": "¡Oye!",
    "english": "listen!",
    "lesson": "2026-04-06"
   },
@@ -2885,7 +2808,7 @@
   {
    "id": "2026-04-11_tomo-una-foto",
    "spanish": "Tomo una foto",
-   "english": "take a photo",
+   "english": "I take a photo",
    "lesson": "2026-04-11"
   },
   {
@@ -2908,14 +2831,8 @@
   },
   {
    "id": "2026-04-11_sito-web",
-   "spanish": "Sito web",
+   "spanish": "Sitio web",
    "english": "website",
-   "lesson": "2026-04-11"
-  },
-  {
-   "id": "2026-04-11_lejos-de",
-   "spanish": "Lejos de",
-   "english": "far",
    "lesson": "2026-04-11"
   },
   {
@@ -2932,7 +2849,7 @@
   },
   {
    "id": "2026-04-11_azucar",
-   "spanish": "Azucar",
+   "spanish": "Azúcar",
    "english": "sugar",
    "lesson": "2026-04-11"
   },
@@ -2945,7 +2862,7 @@
   {
    "id": "2026-04-11_sean-es-un-estudiante-bueno",
    "spanish": "Sean es un estudiante bueno",
-   "english": "sean is a great student",
+   "english": "Sean is a good student",
    "lesson": "2026-04-11"
   },
   {
@@ -2956,20 +2873,14 @@
   },
   {
    "id": "2026-04-11_que-tal-esta",
-   "spanish": "Que tal esta",
+   "spanish": "¿Qué tal está?",
    "english": "how is that",
    "lesson": "2026-04-11"
   },
   {
    "id": "2026-04-11_salado",
    "spanish": "Salado",
-   "english": "mucho sal - very salty",
-   "lesson": "2026-04-11"
-  },
-  {
-   "id": "2026-04-11_pasillo",
-   "spanish": "Pasillo",
-   "english": "hallway",
+   "english": "salty (mucha sal)",
    "lesson": "2026-04-11"
   },
   {
@@ -2986,13 +2897,13 @@
   },
   {
    "id": "2026-04-11_la-serie",
-   "spanish": "La Serie",
+   "spanish": "La serie",
    "english": "series, tv show",
    "lesson": "2026-04-11"
   },
   {
    "id": "2026-04-11_moreno-a",
-   "spanish": "Moreno-a",
+   "spanish": "Moreno/a",
    "english": "brunette, but not just hair",
    "lesson": "2026-04-11"
   },
@@ -3011,7 +2922,7 @@
   {
    "id": "2026-04-11_el-paraguas",
    "spanish": "El paraguas",
-   "english": "umbrella",
+   "english": "umbrella (always singular, masculine)",
    "lesson": "2026-04-11"
   },
   {
@@ -3023,7 +2934,7 @@
   {
    "id": "2026-04-11_alumno",
    "spanish": "Alumno",
-   "english": "alumni of the school",
+   "english": "student (at the school)",
    "lesson": "2026-04-11"
   },
   {
@@ -3075,12 +2986,6 @@
    "lesson": "2026-04-11"
   },
   {
-   "id": "2026-04-11_antiguo",
-   "spanish": "Antiguo",
-   "english": "antique-oldo",
-   "lesson": "2026-04-11"
-  },
-  {
    "id": "2026-04-11_pasteles",
    "spanish": "Pasteles",
    "english": "cakes",
@@ -3094,14 +2999,14 @@
   },
   {
    "id": "2026-04-11_gaglo",
-   "spanish": "Gaglo",
+   "spanish": "Goloso/a",
    "english": "sweet tooth, likes sweets",
    "lesson": "2026-04-11"
   },
   {
    "id": "2026-04-11_esquiar",
    "spanish": "Esquiar",
-   "english": "to skii",
+   "english": "to ski",
    "lesson": "2026-04-11"
   },
   {
@@ -3113,13 +3018,13 @@
   {
    "id": "2026-04-11_hace-fresco",
    "spanish": "Hace fresco",
-   "english": "its nice out",
+   "english": "it's cool / nice out",
    "lesson": "2026-04-11"
   },
   {
    "id": "2026-04-11_estoy-enamorada-de",
-   "spanish": "Estoy enamorada de",
-   "english": "im in love",
+   "spanish": "Estoy enamorado/a de",
+   "english": "I'm in love with",
    "lesson": "2026-04-11"
   },
   {
@@ -3137,7 +3042,7 @@
   {
    "id": "2026-04-11_soy-lista",
    "spanish": "Soy lista",
-   "english": "Im intelligent",
+   "english": "I'm smart (feminine)",
    "lesson": "2026-04-11"
   },
   {
@@ -3159,12 +3064,6 @@
    "lesson": "2026-04-18"
   },
   {
-   "id": "2026-04-18_ubicacion",
-   "spanish": "Ubicacion",
-   "english": "place",
-   "lesson": "2026-04-18"
-  },
-  {
    "id": "2026-04-18_exigente",
    "spanish": "Exigente",
    "english": "strict",
@@ -3177,12 +3076,6 @@
    "lesson": "2026-04-18"
   },
   {
-   "id": "2026-04-18_piso",
-   "spanish": "Piso",
-   "english": "floors, or the apartment itself",
-   "lesson": "2026-04-18"
-  },
-  {
    "id": "2026-04-18_pescado",
    "spanish": "Pescado",
    "english": "fish",
@@ -3190,7 +3083,7 @@
   },
   {
    "id": "2026-04-18_que-te-pasa",
-   "spanish": "Que te pasa?",
+   "spanish": "¿Qué te pasa?",
    "english": "what’s wrong? What’s going on? When you know something is up",
    "lesson": "2026-04-18"
   },
@@ -3202,38 +3095,38 @@
   },
   {
    "id": "2026-04-18_vacio",
-   "spanish": "Vacio",
+   "spanish": "Vacío",
    "english": "empty",
    "lesson": "2026-04-18"
   },
   {
    "id": "2026-04-18_facil",
-   "spanish": "Facil",
+   "spanish": "Fácil",
    "english": "easy",
    "lesson": "2026-04-18"
   },
   {
    "id": "2026-04-18_limpio-sucio",
    "spanish": "Limpio/sucio",
-   "english": "clean",
+   "english": "clean / dirty",
    "lesson": "2026-04-18"
   },
   {
    "id": "2026-04-18_extranjero",
    "spanish": "Extranjero",
-   "english": "foreigner",
+   "english": "foreigner / abroad (viajar al extranjero)",
    "lesson": "2026-04-18"
   },
   {
    "id": "2026-04-18_companeros-de-trabajo",
-   "spanish": "Companeros de trabajo",
+   "spanish": "Compañeros de trabajo",
    "english": "coworkers",
    "lesson": "2026-04-18"
   },
   {
    "id": "2026-04-18_emigrante",
    "spanish": "Emigrante",
-   "english": "immigrant",
+   "english": "emigrant (inmigrante = immigrant)",
    "lesson": "2026-04-18"
   },
   {
@@ -3256,7 +3149,7 @@
   },
   {
    "id": "2026-04-18_simpatico-antipatico",
-   "spanish": "Simpatico/antipatico",
+   "spanish": "Simpático/antipático",
    "english": "nice or mean for people",
    "lesson": "2026-04-18"
   },
@@ -3274,13 +3167,13 @@
   },
   {
    "id": "2026-04-18_sonreir",
-   "spanish": "Sonreir",
+   "spanish": "Sonreír",
    "english": "to smile",
    "lesson": "2026-04-18"
   },
   {
    "id": "2026-04-18_reir",
-   "spanish": "Reir",
+   "spanish": "Reír",
    "english": "to laugh",
    "lesson": "2026-04-18"
   },
@@ -3288,12 +3181,6 @@
    "id": "2026-04-18_sol",
    "spanish": "Sol",
    "english": "sun",
-   "lesson": "2026-04-18"
-  },
-  {
-   "id": "2026-04-18_muebles",
-   "spanish": "Muebles",
-   "english": "furniture",
    "lesson": "2026-04-18"
   },
   {
@@ -3310,8 +3197,8 @@
   },
   {
    "id": "2026-04-18_chale",
-   "spanish": "Chale",
-   "english": "villa typically by the water",
+   "spanish": "Chalé",
+   "english": "villa, typically by the water",
    "lesson": "2026-04-18"
   },
   {
@@ -3418,26 +3305,8 @@
   },
   {
    "id": "2026-04-20_ciento-veintiseis",
-   "spanish": "Ciento veintiseis",
+   "spanish": "Ciento veintiséis",
    "english": "126",
-   "lesson": "2026-04-20"
-  },
-  {
-   "id": "2026-04-20_jueves",
-   "spanish": "Jueves",
-   "english": "Thursday",
-   "lesson": "2026-04-20"
-  },
-  {
-   "id": "2026-04-20_agusto",
-   "spanish": "Agusto",
-   "english": "august",
-   "lesson": "2026-04-20"
-  },
-  {
-   "id": "2026-04-20_marcador",
-   "spanish": "Marcador",
-   "english": "marker",
    "lesson": "2026-04-20"
   },
   {
@@ -3447,21 +3316,9 @@
    "lesson": "2026-04-20"
   },
   {
-   "id": "2026-04-20_lapiz",
-   "spanish": "Lapiz",
-   "english": "pencil",
-   "lesson": "2026-04-20"
-  },
-  {
-   "id": "2026-04-20_morado",
-   "spanish": "Morado",
-   "english": "purple",
-   "lesson": "2026-04-20"
-  },
-  {
    "id": "2026-04-20_levantar-pesa",
-   "spanish": "Levantar pesa",
-   "english": "lifting weights",
+   "spanish": "Levantar pesas",
+   "english": "to lift weights",
    "lesson": "2026-04-20"
   },
   {
@@ -3472,7 +3329,7 @@
   },
   {
    "id": "2026-04-20_desafio",
-   "spanish": "Desafio",
+   "spanish": "Desafío",
    "english": "challenge",
    "lesson": "2026-04-20"
   },
@@ -3496,19 +3353,19 @@
   },
   {
    "id": "2026-04-20_jugar-al-futbol",
-   "spanish": "Jugar al futbol",
-   "english": "Play football",
+   "spanish": "Jugar al fútbol",
+   "english": "to play soccer",
    "lesson": "2026-04-20"
   },
   {
    "id": "2026-04-20_lirico",
-   "spanish": "Lirico",
-   "english": "lyrics",
+   "spanish": "Lírico",
+   "english": "lyric / lyrical",
    "lesson": "2026-04-20"
   },
   {
    "id": "2026-04-20_letra-de-cancions",
-   "spanish": "Letra de cancions",
+   "spanish": "Letra de canciones",
    "english": "lyrics",
    "lesson": "2026-04-20"
   },
@@ -3658,7 +3515,7 @@
   },
   {
    "id": "2026-04-23_se-llevan-bien",
-   "spanish": "Se llevan bien?",
+   "spanish": "¿Se llevan bien?",
    "english": "are they getting along",
    "lesson": "2026-04-23"
   },
@@ -3670,8 +3527,8 @@
   },
   {
    "id": "2026-04-23_ubicacion",
-   "spanish": "Ubicacion",
-   "english": "location",
+   "spanish": "Ubicación",
+   "english": "location / place",
    "lesson": "2026-04-23"
   },
   {
@@ -3694,7 +3551,7 @@
   },
   {
    "id": "2026-04-23_estacion",
-   "spanish": "Estacion",
+   "spanish": "Estación",
    "english": "station",
    "lesson": "2026-04-23"
   },
@@ -3705,21 +3562,9 @@
    "lesson": "2026-04-23"
   },
   {
-   "id": "2026-04-23_cada",
-   "spanish": "Cada",
-   "english": "Room",
-   "lesson": "2026-04-23"
-  },
-  {
    "id": "2026-04-23_amario",
-   "spanish": "Amario",
+   "spanish": "Armario",
    "english": "closet",
-   "lesson": "2026-04-23"
-  },
-  {
-   "id": "2026-04-23_comedor",
-   "spanish": "Comedor",
-   "english": "dining room",
    "lesson": "2026-04-23"
   },
   {
@@ -3749,13 +3594,13 @@
   {
    "id": "2026-04-23_terraza",
    "spanish": "Terraza",
-   "english": "Balcony",
+   "english": "balcony / terrace",
    "lesson": "2026-04-23"
   },
   {
    "id": "2026-04-23_microondas",
-   "spanish": "Microondas",
-   "english": "microwaves",
+   "spanish": "El microondas",
+   "english": "microwave",
    "lesson": "2026-04-23"
   },
   {
@@ -3784,20 +3629,20 @@
   },
   {
    "id": "2026-04-23_la-nube",
-   "spanish": "La Nube",
+   "spanish": "La nube",
    "english": "cloud",
    "lesson": "2026-04-23"
   },
   {
    "id": "2026-04-23_el-cielo",
-   "spanish": "El Cielo",
+   "spanish": "El cielo",
    "english": "sky",
    "lesson": "2026-04-23"
   },
   {
    "id": "2026-04-23_funcionar",
    "spanish": "Funcionar",
-   "english": "to function/work (not trabajar)",
+   "english": "to function / work (machines — not trabajar)",
    "lesson": "2026-04-23"
   },
   {
@@ -3814,8 +3659,8 @@
   },
   {
    "id": "2026-04-23_el-aula",
-   "spanish": "El Aula",
-   "english": "class",
+   "spanish": "El aula",
+   "english": "classroom",
    "lesson": "2026-04-23"
   },
   {
@@ -3832,7 +3677,7 @@
   },
   {
    "id": "2026-04-23_detras-de",
-   "spanish": "Detras de",
+   "spanish": "Detrás de",
    "english": "behind",
    "lesson": "2026-04-23"
   },
@@ -3857,18 +3702,12 @@
   {
    "id": "2026-04-23_suelo",
    "spanish": "Suelo",
-   "english": "the floor",
-   "lesson": "2026-04-23"
-  },
-  {
-   "id": "2026-04-23_basurero",
-   "spanish": "Basurero",
-   "english": "Trash can",
+   "english": "the floor / ground",
    "lesson": "2026-04-23"
   },
   {
    "id": "2026-04-23_peluqueria",
-   "spanish": "Peluqueria",
+   "spanish": "Peluquería",
    "english": "barbershop / salon",
    "lesson": "2026-04-23"
   },
@@ -3927,12 +3766,6 @@
    "lesson": "2026-04-28"
   },
   {
-   "id": "2026-04-28_ensenar",
-   "spanish": "Ensenar",
-   "english": "to teach/also to show",
-   "lesson": "2026-04-28"
-  },
-  {
    "id": "2026-04-28_andar-caminar",
    "spanish": "Andar/Caminar",
    "english": "to walk",
@@ -3946,7 +3779,7 @@
   },
   {
    "id": "2026-04-28_el-periodico",
-   "spanish": "El periodico",
+   "spanish": "El periódico",
    "english": "Newspaper",
    "lesson": "2026-04-28"
   },
@@ -3964,7 +3797,7 @@
   },
   {
    "id": "2026-04-28_materiales-quimicas",
-   "spanish": "Materiales químicas",
+   "spanish": "Materiales químicos",
    "english": "chemical materials",
    "lesson": "2026-04-28"
   },
@@ -3982,13 +3815,13 @@
   },
   {
    "id": "2026-04-28_habla-por-telefono",
-   "spanish": "Habla por telefono",
-   "english": "talk on the phone",
+   "spanish": "Hablar por teléfono",
+   "english": "to talk on the phone",
    "lesson": "2026-04-28"
   },
   {
    "id": "2026-04-28_en-comparacion-con",
-   "spanish": "En comparacion con",
+   "spanish": "En comparación con",
    "english": "in comparison to",
    "lesson": "2026-04-28"
   },
@@ -4005,14 +3838,8 @@
    "lesson": "2026-04-28"
   },
   {
-   "id": "2026-04-28_asistir-a",
-   "spanish": "Asistir a",
-   "english": "attend",
-   "lesson": "2026-04-28"
-  },
-  {
    "id": "2026-04-28_tiempro-libre",
-   "spanish": "Tiempro libre",
+   "spanish": "Tiempo libre",
    "english": "free time",
    "lesson": "2026-04-28"
   },
@@ -4054,14 +3881,14 @@
   },
   {
    "id": "2026-04-28_cumplo-33-anos",
-   "spanish": "Cumplo 33 anos",
-   "english": "I completed 33 years",
+   "spanish": "Cumplo 33 años",
+   "english": "I turn 33 (years)",
    "lesson": "2026-04-28"
   },
   {
    "id": "2026-04-28_la-mayoria",
-   "spanish": "La mayoria",
-   "english": "the majority",
+   "spanish": "La mayoría",
+   "english": "the majority / most",
    "lesson": "2026-04-28"
   },
   {
@@ -4091,7 +3918,7 @@
   {
    "id": "2026-04-28_no-me-afecta",
    "spanish": "No me afecta",
-   "english": "it doesn’t affect",
+   "english": "it doesn't affect me",
    "lesson": "2026-04-28"
   },
   {
@@ -4102,13 +3929,13 @@
   },
   {
    "id": "2026-04-28_desuyanar",
-   "spanish": "Desuyanar",
+   "spanish": "Desayunar",
    "english": "to eat breakfast",
    "lesson": "2026-04-28"
   },
   {
    "id": "2026-04-28_el-desuyono",
-   "spanish": "El desuyono",
+   "spanish": "El desayuno",
    "english": "breakfast",
    "lesson": "2026-04-28"
   },
@@ -4144,7 +3971,7 @@
   },
   {
    "id": "2026-04-28_sientate-en-mis-piernas",
-   "spanish": "Sientate en mis piernas",
+   "spanish": "Siéntate en mis piernas",
    "english": "sit in my lap",
    "lesson": "2026-04-28"
   },
@@ -4167,21 +3994,9 @@
    "lesson": "2026-04-28"
   },
   {
-   "id": "2026-04-30_olvidar",
-   "spanish": "Olvidar",
-   "english": "to forgot",
-   "lesson": "2026-04-30"
-  },
-  {
    "id": "2026-04-30_terminar",
    "spanish": "Terminar",
    "english": "To finish",
-   "lesson": "2026-04-30"
-  },
-  {
-   "id": "2026-04-30_llevar",
-   "spanish": "Llevar",
-   "english": "to carry",
    "lesson": "2026-04-30"
   },
   {
@@ -4198,7 +4013,7 @@
   },
   {
    "id": "2026-04-30_repuesta",
-   "spanish": "Repuesta",
+   "spanish": "Respuesta",
    "english": "response",
    "lesson": "2026-04-30"
   },
@@ -4228,13 +4043,13 @@
   },
   {
    "id": "2026-04-30_ya-basta",
-   "spanish": "Ya basta!",
+   "spanish": "¡Ya basta!",
    "english": "that’s enough!",
    "lesson": "2026-04-30"
   },
   {
    "id": "2026-04-30_cual-es-el-problema",
-   "spanish": "Cual es el problema",
+   "spanish": "¿Cuál es el problema?",
    "english": "what is the problem",
    "lesson": "2026-04-30"
   },
@@ -4390,7 +4205,7 @@
   },
   {
    "id": "2026-04-30_te-sientes-mejor",
-   "spanish": "Te sientes mejor",
+   "spanish": "¿Te sientes mejor?",
    "english": "are you feeling better",
    "lesson": "2026-04-30"
   },
@@ -4402,19 +4217,19 @@
   },
   {
    "id": "2026-04-30_un-ano-mayor-que-tu",
-   "spanish": "Un ano mayor que tu",
+   "spanish": "Un año mayor que tu",
    "english": "a year older than you",
    "lesson": "2026-04-30"
   },
   {
    "id": "2026-04-30_menor-que",
    "spanish": "Menor que",
-   "english": "less",
+   "english": "younger / less than",
    "lesson": "2026-04-30"
   },
   {
    "id": "2026-04-30_no-parace-gordo",
-   "spanish": "No parace gordo",
+   "spanish": "No parece gordo",
    "english": "doesn’t seem fat",
    "lesson": "2026-04-30"
   },
@@ -4456,20 +4271,20 @@
   },
   {
    "id": "2026-04-30_compania",
-   "spanish": "Compania",
+   "spanish": "Compañía",
    "english": "company (big)",
    "lesson": "2026-04-30"
   },
   {
    "id": "2026-04-30_empresas",
-   "spanish": "Empresas",
+   "spanish": "Empresa",
    "english": "company (small)",
    "lesson": "2026-04-30"
   },
   {
    "id": "2026-04-30_pintura",
    "spanish": "Pintura",
-   "english": "painter",
+   "english": "painting (pintor = painter)",
    "lesson": "2026-04-30"
   },
   {
@@ -4480,7 +4295,7 @@
   },
   {
    "id": "2026-04-30_la-psicologia",
-   "spanish": "La psicologia",
+   "spanish": "La psicología",
    "english": "psychology",
    "lesson": "2026-04-30"
   },
@@ -4492,13 +4307,13 @@
   },
   {
    "id": "2026-04-30_el-calculo",
-   "spanish": "El calculo",
-   "english": "accounting",
+   "spanish": "El cálculo",
+   "english": "calculus",
    "lesson": "2026-04-30"
   },
   {
    "id": "2026-04-30_la-biologia",
-   "spanish": "La biologia",
+   "spanish": "La biología",
    "english": "biology",
    "lesson": "2026-04-30"
   },
@@ -4510,7 +4325,7 @@
   },
   {
    "id": "2026-04-30_la-estadistica",
-   "spanish": "La estadistica",
+   "spanish": "La estadística",
    "english": "statistics",
    "lesson": "2026-04-30"
   },
@@ -4522,7 +4337,7 @@
   },
   {
    "id": "2026-04-30_la-economia",
-   "spanish": "La economia",
+   "spanish": "La economía",
    "english": "economics",
    "lesson": "2026-04-30"
   },
@@ -4534,20 +4349,14 @@
   },
   {
    "id": "2026-05-04_vale-la-pena",
-   "spanish": "Vale la pena!",
+   "spanish": "¡Vale la pena!",
    "english": "it will be worth it",
    "lesson": "2026-05-04"
   },
   {
    "id": "2026-05-04_con-frequencia",
-   "spanish": "Con frequencia",
+   "spanish": "Con frecuencia",
    "english": "often",
-   "lesson": "2026-05-04"
-  },
-  {
-   "id": "2026-05-04_extranjero",
-   "spanish": "Extranjero",
-   "english": "Foreigner / Outside the country (traveling)",
    "lesson": "2026-05-04"
   },
   {
@@ -4559,7 +4368,7 @@
   {
    "id": "2026-05-04_pedir",
    "spanish": "Pedir",
-   "english": "To ask for",
+   "english": "to ask for / to order (pido)",
    "lesson": "2026-05-04"
   },
   {
@@ -4588,7 +4397,7 @@
   },
   {
    "id": "2026-05-04_la-filosofia",
-   "spanish": "La filosofia",
+   "spanish": "La filosofía",
    "english": "philosophy",
    "lesson": "2026-05-04"
   },
@@ -4600,19 +4409,19 @@
   },
   {
    "id": "2026-05-04_la-educacion-fisica",
-   "spanish": "La educacion fisica",
+   "spanish": "La educación física",
    "english": "physical education",
    "lesson": "2026-05-04"
   },
   {
    "id": "2026-05-04_la-fisica",
-   "spanish": "La fisica",
+   "spanish": "La física",
    "english": "physics",
    "lesson": "2026-05-04"
   },
   {
    "id": "2026-05-04_la-geografia",
-   "spanish": "La geografia",
+   "spanish": "La geografía",
    "english": "geography",
    "lesson": "2026-05-04"
   },
@@ -4636,13 +4445,13 @@
   },
   {
    "id": "2026-05-04_la-geologia",
-   "spanish": "La geologia",
-   "english": "Geologist",
+   "spanish": "La geología",
+   "english": "geology",
    "lesson": "2026-05-04"
   },
   {
    "id": "2026-05-04_la-sociologia",
-   "spanish": "La sociologia",
+   "spanish": "La sociología",
    "english": "sociology",
    "lesson": "2026-05-04"
   },
@@ -4655,12 +4464,12 @@
   {
    "id": "2026-05-04_recomendar",
    "spanish": "Recomendar",
-   "english": "reccomend",
+   "english": "to recommend",
    "lesson": "2026-05-04"
   },
   {
    "id": "2026-05-04_el-diseno",
-   "spanish": "El diseno",
+   "spanish": "El diseño",
    "english": "design",
    "lesson": "2026-05-04"
   },
@@ -4678,19 +4487,19 @@
   },
   {
    "id": "2026-05-04_la-informatica-la-computacion",
-   "spanish": "La informatica / la computacion",
+   "spanish": "La informática / la computación",
    "english": "IT",
    "lesson": "2026-05-04"
   },
   {
    "id": "2026-05-04_la-ingenieria",
-   "spanish": "La Ingenieria",
+   "spanish": "La ingeniería",
    "english": "engineering",
    "lesson": "2026-05-04"
   },
   {
    "id": "2026-05-04_las-matematicas",
-   "spanish": "Las Matematicas",
+   "spanish": "Las matemáticas",
    "english": "mathematics",
    "lesson": "2026-05-04"
   },
@@ -4702,13 +4511,13 @@
   },
   {
    "id": "2026-05-04_la-pedagogia",
-   "spanish": "La pedagogia",
+   "spanish": "La pedagogía",
    "english": "education",
    "lesson": "2026-05-04"
   },
   {
    "id": "2026-05-04_la-quimica",
-   "spanish": "La quimica",
+   "spanish": "La química",
    "english": "chemistry",
    "lesson": "2026-05-04"
   },
@@ -4726,20 +4535,20 @@
   },
   {
    "id": "2026-05-04_mayuscula",
-   "spanish": "Mayuscula",
+   "spanish": "Mayúscula",
    "english": "upper case",
    "lesson": "2026-05-04"
   },
   {
    "id": "2026-05-04_minuscula",
-   "spanish": "Minuscula",
+   "spanish": "Minúscula",
    "english": "lower case",
    "lesson": "2026-05-04"
   },
   {
    "id": "2026-05-04_la-creatividad",
    "spanish": "La creatividad",
-   "english": "creative",
+   "english": "creativity",
    "lesson": "2026-05-04"
   },
   {
@@ -4804,7 +4613,7 @@
   },
   {
    "id": "2026-05-04_ten-cuidado",
-   "spanish": "Ten cuidado",
+   "spanish": "¡Ten cuidado!",
    "english": "Be careful!",
    "lesson": "2026-05-04"
   },
@@ -4817,12 +4626,12 @@
   {
    "id": "2026-05-04_salir",
    "spanish": "Salir",
-   "english": "to leave",
+   "english": "to leave / to go out",
    "lesson": "2026-05-04"
   },
   {
    "id": "2026-05-04_tener-razon",
-   "spanish": "Tener razon",
+   "spanish": "Tener razón",
    "english": "to be right",
    "lesson": "2026-05-04"
   },
@@ -4835,7 +4644,7 @@
   {
    "id": "2026-05-04_ganar",
    "spanish": "Ganar",
-   "english": "to win",
+   "english": "to win / to earn",
    "lesson": "2026-05-04"
   },
   {
@@ -4865,24 +4674,24 @@
   {
    "id": "2026-05-10_llevarse-mal",
    "spanish": "Llevarse mal",
-   "english": "get along bad",
+   "english": "to get along badly",
    "lesson": "2026-05-10"
   },
   {
    "id": "2026-05-10_mi-companero-de-piso-y-yo-no-nos-llevamos-bien",
-   "spanish": "Mi companero de piso y yo no nos llevamos bien",
-   "english": "my apartment neighbor and I don’t get along",
+   "spanish": "Mi compañero de piso y yo no nos llevamos bien",
+   "english": "my roommate and I don't get along",
    "lesson": "2026-05-10"
   },
   {
    "id": "2026-05-10_ella-tiene-cincuenta-y-un-anos",
    "spanish": "Ella tiene cincuenta y un años",
-   "english": "she is 51 years",
+   "english": "she is 51 years old",
    "lesson": "2026-05-10"
   },
   {
    "id": "2026-05-10_seguaramente-definitivamente",
-   "spanish": "Seguaramente / definitivamente",
+   "spanish": "Seguramente / definitivamente",
    "english": "definitely",
    "lesson": "2026-05-10"
   },
@@ -4912,7 +4721,7 @@
   },
   {
    "id": "2026-05-10_carpetas",
-   "spanish": "Carpetas",
+   "spanish": "Carpeta",
    "english": "folder",
    "lesson": "2026-05-10"
   },
@@ -4925,7 +4734,7 @@
   {
    "id": "2026-05-10_carrera",
    "spanish": "Carrera",
-   "english": "major (in school",
+   "english": "major (in school)",
    "lesson": "2026-05-10"
   },
   {
@@ -4947,21 +4756,9 @@
    "lesson": "2026-05-10"
   },
   {
-   "id": "2026-05-10_encima-de",
-   "spanish": "Encima de",
-   "english": "on top",
-   "lesson": "2026-05-10"
-  },
-  {
    "id": "2026-05-10_debajo-de",
    "spanish": "Debajo de",
    "english": "under",
-   "lesson": "2026-05-10"
-  },
-  {
-   "id": "2026-05-10_la-lado-de",
-   "spanish": "La lado de",
-   "english": "next to",
    "lesson": "2026-05-10"
   },
   {
@@ -4974,12 +4771,6 @@
    "id": "2026-05-10_a-la-izquierda-de",
    "spanish": "A la izquierda de",
    "english": "to the left",
-   "lesson": "2026-05-10"
-  },
-  {
-   "id": "2026-05-10_detras-de",
-   "spanish": "Detras de",
-   "english": "behind (accent on the e)",
    "lesson": "2026-05-10"
   },
   {
@@ -4996,8 +4787,8 @@
   },
   {
    "id": "2026-05-10_entrente-de",
-   "spanish": "Entrente de",
-   "english": "in front (other objects between them)",
+   "spanish": "Enfrente de",
+   "english": "in front / across from (with things in between)",
    "lesson": "2026-05-10"
   },
   {
@@ -5014,19 +4805,19 @@
   },
   {
    "id": "2026-05-10_enfrente-de",
-   "spanish": "Enfrente de",
+   "spanish": "Entre",
    "english": "between",
    "lesson": "2026-05-10"
   },
   {
    "id": "2026-05-10_el-papel-esta-sobre-la-pared",
-   "spanish": "El papel esta sobre la pared",
+   "spanish": "El papel está sobre la pared",
    "english": "the paper is on the wall",
    "lesson": "2026-05-10"
   },
   {
    "id": "2026-05-21_la-proxima-semana",
-   "spanish": "La proxima semana",
+   "spanish": "La próxima semana",
    "english": "next week",
    "lesson": "2026-05-21"
   },
@@ -5039,12 +4830,12 @@
   {
    "id": "2026-05-21_el-proximo-fin-de-semana",
    "spanish": "El próximo fin de semana",
-   "english": "next week",
+   "english": "next weekend",
    "lesson": "2026-05-21"
   },
   {
    "id": "2026-05-21_mas-que",
-   "spanish": "Mas que",
+   "spanish": "Más que",
    "english": "more than",
    "lesson": "2026-05-21"
   },
@@ -5067,12 +4858,6 @@
    "lesson": "2026-05-21"
   },
   {
-   "id": "2026-05-21_hace-fresco",
-   "spanish": "Hace fresco",
-   "english": "good weather",
-   "lesson": "2026-05-21"
-  },
-  {
    "id": "2026-05-21_la-llave",
    "spanish": "La llave",
    "english": "key",
@@ -5086,13 +4871,13 @@
   },
   {
    "id": "2026-05-21_periodico",
-   "spanish": "Periodico",
+   "spanish": "Periódico",
    "english": "newspaper",
    "lesson": "2026-05-21"
   },
   {
    "id": "2026-05-21_hacer-natacion-nadar",
-   "spanish": "Hacer natacion / nadar",
+   "spanish": "Hacer natación / nadar",
    "english": "to swim",
    "lesson": "2026-05-21"
   },
@@ -5104,7 +4889,7 @@
   },
   {
    "id": "2026-05-21_carino",
-   "spanish": "Carino",
+   "spanish": "Cariño",
    "english": "dear / honey / sweetheart, in a sentence referring to someone",
    "lesson": "2026-05-21"
   },
@@ -5128,7 +4913,7 @@
   },
   {
    "id": "2026-05-21_pagina",
-   "spanish": "Pagina",
+   "spanish": "Página",
    "english": "page",
    "lesson": "2026-05-21"
   },
@@ -5170,7 +4955,7 @@
   },
   {
    "id": "2026-05-21_aqui-tienes",
-   "spanish": "Aqui tienes",
+   "spanish": "Aquí tienes",
    "english": "here you go (giving to someone)",
    "lesson": "2026-05-21"
   },
@@ -5194,7 +4979,7 @@
   },
   {
    "id": "2026-05-21_lavero",
-   "spanish": "Lavero",
+   "spanish": "Llavero",
    "english": "keychain",
    "lesson": "2026-05-21"
   },
@@ -5290,7 +5075,7 @@
   },
   {
    "id": "2026-05-21_en-que-piensas-en-mis-examenes",
-   "spanish": "En que piensas? En mis examenes",
+   "spanish": "¿En qué piensas? En mis exámenes",
    "english": "What are you thinking about? My exams",
    "lesson": "2026-05-21"
   },
@@ -5315,25 +5100,19 @@
   {
    "id": "2026-05-23_empiezo-mi-trabajo-el-lunes",
    "spanish": "Empiezo mi trabajo el lunes",
-   "english": "I start my job on",
+   "english": "I start my job on Monday",
    "lesson": "2026-05-23"
   },
   {
    "id": "2026-05-23_empiezo-a-trabajar-el-lunes",
    "spanish": "Empiezo a trabajar el lunes",
-   "english": "I start to work",
+   "english": "I start working on Monday",
    "lesson": "2026-05-23"
   },
   {
    "id": "2026-05-23_quieren-tomar-algo",
-   "spanish": "Quieren tomar algo?",
+   "spanish": "¿Quieren tomar algo?",
    "english": "do they want anything to drink",
-   "lesson": "2026-05-23"
-  },
-  {
-   "id": "2026-05-23_contar",
-   "spanish": "Contar",
-   "english": "to count / tell a story",
    "lesson": "2026-05-23"
   },
   {
@@ -5345,7 +5124,7 @@
   {
    "id": "2026-05-23_calentar",
    "spanish": "Calentar",
-   "english": "to heat up",
+   "english": "to heat (up)",
    "lesson": "2026-05-23"
   },
   {
@@ -5362,7 +5141,7 @@
   },
   {
    "id": "2026-05-23_remoler",
-   "spanish": "Remoler",
+   "spanish": "Remover",
    "english": "to stir",
    "lesson": "2026-05-23"
   },
@@ -5374,13 +5153,13 @@
   },
   {
    "id": "2026-05-23_ellos-piensan-continumamente-en-las-vacaciones",
-   "spanish": "Ellos piensan continumamente en las vacaciones",
+   "spanish": "Ellos piensan continuamente en las vacaciones",
    "english": "they are constantly thinking of vacation",
    "lesson": "2026-05-23"
   },
   {
    "id": "2026-05-23_continumamente-seguidamenete",
-   "spanish": "Continumamente / seguidamenete",
+   "spanish": "Continuamente / seguidamente",
    "english": "constantly",
    "lesson": "2026-05-23"
   },
@@ -5393,7 +5172,7 @@
   {
    "id": "2026-05-23_despertar-a-alguien",
    "spanish": "Despertar a alguien",
-   "english": "to wake up something",
+   "english": "to wake someone up",
    "lesson": "2026-05-23"
   },
   {
@@ -5440,13 +5219,13 @@
   },
   {
    "id": "2026-05-23_no-esta-bien",
-   "spanish": "No esta bien",
+   "spanish": "No está bien",
    "english": "that’s not good",
    "lesson": "2026-05-23"
   },
   {
    "id": "2026-05-23_sonar",
-   "spanish": "Sonar",
+   "spanish": "Soñar",
    "english": "to dream",
    "lesson": "2026-05-23"
   },
@@ -5470,7 +5249,7 @@
   },
   {
    "id": "2026-05-23_la-nina-suena-con-un-castillo",
-   "spanish": "La nina suena con un castillo",
+   "spanish": "La niña sueña con un castillo",
    "english": "the girl dreams about a castle",
    "lesson": "2026-05-23"
   },
@@ -5494,7 +5273,7 @@
   },
   {
    "id": "2026-05-23_lo-que-sea",
-   "spanish": "Lo que sea!",
+   "spanish": "¡Lo que sea!",
    "english": "or whatever",
    "lesson": "2026-05-23"
   },
@@ -5506,14 +5285,8 @@
   },
   {
    "id": "2026-05-23_sonar-con",
-   "spanish": "Sonar con",
+   "spanish": "Soñar con",
    "english": "to dream about",
-   "lesson": "2026-05-23"
-  },
-  {
-   "id": "2026-05-23_pedir",
-   "spanish": "Pedir",
-   "english": "to ask for / to order (pedir -> pido)",
    "lesson": "2026-05-23"
   },
   {
@@ -5567,7 +5340,7 @@
   {
    "id": "2026-05-23_mostrar",
    "spanish": "Mostrar",
-   "english": "to show",
+   "english": "to show (irregular: muestro)",
    "lesson": "2026-05-23"
   },
   {
@@ -5590,14 +5363,14 @@
   },
   {
    "id": "2026-05-25_duermes-bien-por-la-noche",
-   "spanish": "Duermes bien por la noche?",
-   "english": "did you sleep you well?",
+   "spanish": "¿Duermes bien por la noche?",
+   "english": "do you sleep well at night?",
    "lesson": "2026-05-25"
   },
   {
    "id": "2026-05-25_yo-si-tengo-tiempo",
-   "spanish": "Yo si tengo tiempo",
-   "english": "If I have tiempo",
+   "spanish": "Yo sí tengo tiempo",
+   "english": "I DO have time",
    "lesson": "2026-05-25"
   },
   {
@@ -5620,7 +5393,7 @@
   },
   {
    "id": "2026-05-25_los-parajos-tienen-alas-ellos-vuelan",
-   "spanish": "Los parajos tienen alas. Ellos vuelan",
+   "spanish": "Los pájaros tienen alas. Ellos vuelan",
    "english": "The birds have wings, they fly",
    "lesson": "2026-05-25"
   },
@@ -5704,25 +5477,25 @@
   },
   {
    "id": "2026-05-25_el-tio",
-   "spanish": "El tio",
+   "spanish": "El tío",
    "english": "uncle",
    "lesson": "2026-05-25"
   },
   {
    "id": "2026-05-25_el-tia",
-   "spanish": "El tia",
+   "spanish": "La tía",
    "english": "aunt",
    "lesson": "2026-05-25"
   },
   {
    "id": "2026-05-25_cunado",
-   "spanish": "Cunado",
+   "spanish": "Cuñado",
    "english": "brother in law",
    "lesson": "2026-05-25"
   },
   {
    "id": "2026-05-25_cunada",
-   "spanish": "Cunada",
+   "spanish": "Cuñada",
    "english": "sister in law",
    "lesson": "2026-05-25"
   },
@@ -5746,7 +5519,7 @@
   },
   {
    "id": "2026-05-25_madrasta",
-   "spanish": "Madrasta",
+   "spanish": "Madrastra",
    "english": "step mother",
    "lesson": "2026-05-25"
   },
@@ -5758,7 +5531,7 @@
   },
   {
    "id": "2026-05-25_hermanstro",
-   "spanish": "Hermanstro",
+   "spanish": "Hermanastro",
    "english": "step sibling",
    "lesson": "2026-05-25"
   },
@@ -5788,7 +5561,7 @@
   },
   {
    "id": "2026-05-25_major",
-   "spanish": "Major",
+   "spanish": "Mayor",
    "english": "older",
    "lesson": "2026-05-25"
   },
@@ -5799,21 +5572,9 @@
    "lesson": "2026-05-25"
   },
   {
-   "id": "2026-05-25_la-mayoria",
-   "spanish": "La mayoria",
-   "english": "mostly",
-   "lesson": "2026-05-25"
-  },
-  {
    "id": "2026-05-29_estoy-emocionado",
    "spanish": "Estoy emocionado",
    "english": "I’m excited",
-   "lesson": "2026-05-29"
-  },
-  {
-   "id": "2026-05-29_pedir",
-   "spanish": "Pedir",
-   "english": "ask for / order",
    "lesson": "2026-05-29"
   },
   {
@@ -5866,14 +5627,8 @@
   },
   {
    "id": "2026-05-29_adonde-vas",
-   "spanish": "Adonde vas?",
+   "spanish": "¿Adónde vas?",
    "english": "Where to? Where are you going",
-   "lesson": "2026-05-29"
-  },
-  {
-   "id": "2026-05-29_liberia",
-   "spanish": "Liberia",
-   "english": "book store",
    "lesson": "2026-05-29"
   },
   {
@@ -5891,7 +5646,7 @@
   {
    "id": "2026-05-29_cancha-de-tenis",
    "spanish": "Cancha de tenis",
-   "english": "tenis courts",
+   "english": "tennis court",
    "lesson": "2026-05-29"
   },
   {
@@ -5902,7 +5657,7 @@
   },
   {
    "id": "2026-05-29_hace-un-ano",
-   "spanish": "Hace un ano",
+   "spanish": "Hace un año",
    "english": "a year ago",
    "lesson": "2026-05-29"
   },
@@ -5926,20 +5681,14 @@
   },
   {
    "id": "2026-05-29_mas-despacio",
-   "spanish": "Mas despacio",
+   "spanish": "Más despacio",
    "english": "slow down",
    "lesson": "2026-05-29"
   },
   {
-   "id": "2026-05-29_hacer",
-   "spanish": "Hacer",
-   "english": "hago - haces - hace - hacemos - hacen",
-   "lesson": "2026-05-29"
-  },
-  {
    "id": "2026-05-29_hago-ejercicios-todos-ls-dias",
-   "spanish": "Hago ejercicios todos ls dias",
-   "english": "I workout every day",
+   "spanish": "Hago ejercicio todos los días",
+   "english": "I work out every day",
    "lesson": "2026-05-29"
   },
   {
@@ -5955,15 +5704,9 @@
    "lesson": "2026-05-29"
   },
   {
-   "id": "2026-05-29_levantar-pesas",
-   "spanish": "Levantar pesas",
-   "english": "to lift weight",
-   "lesson": "2026-05-29"
-  },
-  {
    "id": "2026-05-29_hace-un-viaje",
-   "spanish": "Hace un viaje",
-   "english": "to travel",
+   "spanish": "Hacer un viaje",
+   "english": "to take a trip",
    "lesson": "2026-05-29"
   },
   {
@@ -5974,19 +5717,19 @@
   },
   {
    "id": "2026-06-05_me-confio",
-   "spanish": "Me confio",
+   "spanish": "Me confío",
    "english": "I’m confident",
    "lesson": "2026-06-05"
   },
   {
    "id": "2026-06-05_pedir-un-favor",
    "spanish": "Pedir un favor",
-   "english": "can I have a favor",
+   "english": "to ask a favor",
    "lesson": "2026-06-05"
   },
   {
    "id": "2026-06-05_te-puedo-pedir-un-favor",
-   "spanish": "Te puedo pedir un favor?",
+   "spanish": "¿Te puedo pedir un favor?",
    "english": "can I request a favor",
    "lesson": "2026-06-05"
   },
@@ -5999,13 +5742,13 @@
   {
    "id": "2026-06-05_acostarse",
    "spanish": "Acostarse",
-   "english": "to go bed (irregular y reflexive)",
+   "english": "to go to bed (irregular, reflexive)",
    "lesson": "2026-06-05"
   },
   {
    "id": "2026-06-05_banarse",
-   "spanish": "Banarse",
-   "english": "to bath",
+   "spanish": "Bañarse",
+   "english": "to bathe",
    "lesson": "2026-06-05"
   },
   {
@@ -6016,7 +5759,7 @@
   },
   {
    "id": "2026-06-05_el-champu",
-   "spanish": "El champu",
+   "spanish": "El champú",
    "english": "shampoo",
    "lesson": "2026-06-05"
   },
@@ -6029,7 +5772,7 @@
   {
    "id": "2026-06-05_secarse",
    "spanish": "Secarse",
-   "english": "drying",
+   "english": "to dry off",
    "lesson": "2026-06-05"
   },
   {
@@ -6041,7 +5784,7 @@
   {
    "id": "2026-06-05_la-secadora",
    "spanish": "La secadora",
-   "english": "hair dryer",
+   "english": "dryer / hair dryer",
    "lesson": "2026-06-05"
   },
   {
@@ -6070,7 +5813,7 @@
   },
   {
    "id": "2026-06-05_levantarese",
-   "spanish": "Levantarese",
+   "spanish": "Levantarse",
    "english": "to get up",
    "lesson": "2026-06-05"
   },
@@ -6082,7 +5825,7 @@
   },
   {
    "id": "2026-06-05_caro",
-   "spanish": "Caro",
+   "spanish": "La cara",
    "english": "face",
    "lesson": "2026-06-05"
   },
@@ -6094,7 +5837,7 @@
   },
   {
    "id": "2026-06-05_la-maquina-de-afeitar",
-   "spanish": "La maquina de afeitar",
+   "spanish": "La máquina de afeitar",
    "english": "electric shaver",
    "lesson": "2026-06-05"
   },
@@ -6102,12 +5845,6 @@
    "id": "2026-06-05_lavarse",
    "spanish": "Lavarse",
    "english": "to wash (la cara, los manos)",
-   "lesson": "2026-06-05"
-  },
-  {
-   "id": "2026-06-05_el-jabon",
-   "spanish": "El jabon",
-   "english": "soap",
    "lesson": "2026-06-05"
   },
   {
@@ -6148,7 +5885,7 @@
   },
   {
    "id": "2026-06-05_me-ducho-todos-los-dias-por-la-noche-antes-de-dormir",
-   "spanish": "Me ducho todos los dias por la noche antes de dormir",
+   "spanish": "Me ducho todos los días por la noche antes de dormir",
    "english": "I shower every day at night before I sleep",
    "lesson": "2026-06-05"
   },
@@ -6172,8 +5909,8 @@
   },
   {
    "id": "2026-06-05_quien-acuesta-al-nino-esta-noche",
-   "spanish": "Quien acuesta al nino esta noche?",
-   "english": "who puts the child to bed",
+   "spanish": "¿Quién acuesta al niño esta noche?",
+   "english": "who puts the child to bed?",
    "lesson": "2026-06-05"
   },
   {
@@ -6185,37 +5922,31 @@
   {
    "id": "2026-06-05_la-vez",
    "spanish": "La vez",
-   "english": "feminine",
+   "english": "time / occasion (feminine)",
    "lesson": "2026-06-05"
   },
   {
    "id": "2026-06-05_algunas-veces-despues-del-almuerzo",
-   "spanish": "algunas veces después del almuerzo",
+   "spanish": "Algunas veces después del almuerzo",
    "english": "Sometimes after lunch",
    "lesson": "2026-06-05"
   },
   {
    "id": "2026-06-05_pero-al-menos-una-vez-al-dia",
-   "spanish": "pero al menos una vez al día",
+   "spanish": "Pero al menos una vez al día",
    "english": "but at least one time a day",
    "lesson": "2026-06-05"
   },
   {
    "id": "2026-06-05_salud-dental",
-   "spanish": "salud dental",
-   "english": "Dental hygience",
+   "spanish": "Salud dental",
+   "english": "dental hygiene",
    "lesson": "2026-06-05"
   },
   {
    "id": "2026-06-05_seguro-medico",
-   "spanish": "seguro médico",
+   "spanish": "Seguro médico",
    "english": "medical insurance",
-   "lesson": "2026-06-05"
-  },
-  {
-   "id": "2026-06-05_intentar",
-   "spanish": "Intentar",
-   "english": "to intend",
    "lesson": "2026-06-05"
   },
   {
@@ -6225,14 +5956,8 @@
    "lesson": "2026-06-05"
   },
   {
-   "id": "2026-06-05_acostarse-2",
-   "spanish": "Acostarse",
-   "english": "go to bed",
-   "lesson": "2026-06-05"
-  },
-  {
    "id": "2026-06-06_tenia-practica",
-   "spanish": "Tenia practica",
+   "spanish": "Tenía práctica",
    "english": "I had practice",
    "lesson": "2026-06-06"
   },
@@ -6258,12 +5983,6 @@
    "id": "2026-06-06_zumo",
    "spanish": "Zumo",
    "english": "juice (spain)",
-   "lesson": "2026-06-06"
-  },
-  {
-   "id": "2026-06-06_tema",
-   "spanish": "Tema",
-   "english": "subject",
    "lesson": "2026-06-06"
   },
   {
@@ -6305,25 +6024,13 @@
   {
    "id": "2026-06-06_la-vida-es-una-prueba",
    "spanish": "La vida es una prueba",
-   "english": "the live is a test",
+   "english": "life is a test",
    "lesson": "2026-06-06"
   },
   {
    "id": "2026-06-06_defender",
    "spanish": "Defender",
    "english": "to defend",
-   "lesson": "2026-06-06"
-  },
-  {
-   "id": "2026-06-06_salir",
-   "spanish": "Salir",
-   "english": "to go out / to leave",
-   "lesson": "2026-06-06"
-  },
-  {
-   "id": "2026-06-06_calentar",
-   "spanish": "Calentar",
-   "english": "to heat / heat up",
    "lesson": "2026-06-06"
   },
   {
@@ -6371,7 +6078,7 @@
   {
    "id": "2026-06-06_llover",
    "spanish": "Llover",
-   "english": "Rain",
+   "english": "to rain",
    "lesson": "2026-06-06"
   },
   {
@@ -6418,7 +6125,7 @@
   },
   {
    "id": "2026-06-06_solia",
-   "spanish": "Solia",
+   "spanish": "Solía",
    "english": "I used to",
    "lesson": "2026-06-06"
   },
@@ -6479,7 +6186,7 @@
   {
    "id": "2026-06-06_impedir-a-alguien-hacer-algo",
    "spanish": "Impedir a alguien hacer algo",
-   "english": "to imped people doing stuff",
+   "english": "to prevent someone from doing something",
    "lesson": "2026-06-06"
   },
   {
@@ -6496,7 +6203,7 @@
   },
   {
    "id": "2026-06-06_saludarse-a-alguien",
-   "spanish": "Saludarse a alguien",
+   "spanish": "Saludar a alguien",
    "english": "to greet someone",
    "lesson": "2026-06-06"
   },
@@ -6520,8 +6227,8 @@
   },
   {
    "id": "2026-06-14_no-vale-la-pena",
-   "spanish": "No vale la pena!",
-   "english": "it’s not worth the pain (not worth it)",
+   "spanish": "¡No vale la pena!",
+   "english": "it's not worth it",
    "lesson": "2026-06-14"
   },
   {
@@ -6539,13 +6246,13 @@
   {
    "id": "2026-06-14_no-queda-queso-en-casa",
    "spanish": "No queda queso en casa",
-   "english": "there’s not cheese left in the house",
+   "english": "there's no cheese left in the house",
    "lesson": "2026-06-14"
   },
   {
    "id": "2026-06-14_faltar",
    "spanish": "Faltar",
-   "english": "the lack of something",
+   "english": "to be lacking / missing",
    "lesson": "2026-06-14"
   },
   {
@@ -6564,12 +6271,6 @@
    "id": "2026-06-14_escaleras",
    "spanish": "Escaleras",
    "english": "stairs",
-   "lesson": "2026-06-14"
-  },
-  {
-   "id": "2026-06-14_suelo",
-   "spanish": "Suelo",
-   "english": "floor",
    "lesson": "2026-06-14"
   },
   {
@@ -6610,7 +6311,7 @@
   },
   {
    "id": "2026-06-14_bahar",
-   "spanish": "Bahar",
+   "spanish": "Bajar",
    "english": "to go down",
    "lesson": "2026-06-14"
   },
@@ -6622,8 +6323,8 @@
   },
   {
    "id": "2026-06-14_poner-la-machinas",
-   "spanish": "Poner la machinas",
-   "english": "turn on the radio / tv / la musica",
+   "spanish": "Poner las máquinas",
+   "english": "turn on the radio / tv / music",
    "lesson": "2026-06-14"
   },
   {
@@ -6645,12 +6346,6 @@
    "lesson": "2026-06-14"
   },
   {
-   "id": "2026-06-14_quitar-la-mesa",
-   "spanish": "Quitar la mesa",
-   "english": "opposite of set the table",
-   "lesson": "2026-06-14"
-  },
-  {
    "id": "2026-06-14_ponerse-la-ropa-vestirse",
    "spanish": "Ponerse la ropa / vestirse",
    "english": "to put on clothes / get dressed",
@@ -6658,7 +6353,7 @@
   },
   {
    "id": "2026-06-14_desvestires",
-   "spanish": "Desvestires",
+   "spanish": "Desvestirse",
    "english": "to get undressed",
    "lesson": "2026-06-14"
   },
@@ -6736,7 +6431,7 @@
   },
   {
    "id": "2026-06-15_la-alegria",
-   "spanish": "La alegria",
+   "spanish": "La alegría",
    "english": "happiness",
    "lesson": "2026-06-15"
   },
@@ -6778,7 +6473,7 @@
   },
   {
    "id": "2026-06-15_cuando-te-duchas-entonces",
-   "spanish": "Cuando te duchas entonces",
+   "spanish": "¿Cuándo te duchas entonces?",
    "english": "When do you shower then?",
    "lesson": "2026-06-15"
   },
@@ -6790,55 +6485,43 @@
   },
   {
    "id": "2026-06-15_leslie-camina-mas-que-pedro",
-   "spanish": "Leslie camina mas que Pedro",
+   "spanish": "Leslie camina más que Pedro",
    "english": "Leslie walks more than Pedro",
    "lesson": "2026-06-15"
   },
   {
-   "id": "2026-06-15_verbo-mas-menos-que-nombre",
-   "spanish": "Verbo, mas / menos, que, nombre",
-   "english": "formula for comparing",
-   "lesson": "2026-06-15"
-  },
-  {
    "id": "2026-06-15_cual-es-tu-serie-mas-favorita",
-   "spanish": "Cual es tu serie mas favorita",
+   "spanish": "¿Cuál es tu serie favorita?",
    "english": "what is your favorite show?",
    "lesson": "2026-06-15"
   },
   {
    "id": "2026-06-15_que-tal-manana",
-   "spanish": "Que tal manana?",
+   "spanish": "¿Qué tal mañana?",
    "english": "what about tomorrow?",
    "lesson": "2026-06-15"
   },
   {
-   "id": "2026-06-15_formula-for-equal-is-verbo-tanto-a",
-   "spanish": "Formula for equal is Verbo, tanto/a",
-   "english": "os - as, nombre, como",
-   "lesson": "2026-06-15"
-  },
-  {
    "id": "2026-06-15_que-disfruten",
-   "spanish": "Que disfruten!",
+   "spanish": "¡Que disfruten!",
    "english": "have fun! (ustedes)",
    "lesson": "2026-06-15"
   },
   {
    "id": "2026-06-15_juanes-tiene-mas-de-14-millones-de-albumes-vendidos",
-   "spanish": "Juanes tiene mas de 14 millones de albumes vendidos",
-   "english": "Juanes has more than 14 million album plays.",
+   "spanish": "Juanes tiene más de 14 millones de álbumes vendidos",
+   "english": "Juanes has more than 14 million albums sold",
    "lesson": "2026-06-15"
   },
   {
    "id": "2026-06-15_mas-de",
-   "spanish": "Mas de",
+   "spanish": "Más de",
    "english": "more than, used for something, not comparing to someone directly",
    "lesson": "2026-06-15"
   },
   {
    "id": "2026-06-15_los-quehaceres-domesticos",
-   "spanish": "Los quehaceres domesticos",
+   "spanish": "Los quehaceres domésticos",
    "english": "chores / house work",
    "lesson": "2026-06-15"
   },
@@ -6869,13 +6552,7 @@
   {
    "id": "2026-06-15_vaciar-el-lavaplatos",
    "spanish": "Vaciar el lavaplatos",
-   "english": "put the dishes away",
-   "lesson": "2026-06-15"
-  },
-  {
-   "id": "2026-06-15_poner-la-mesa",
-   "spanish": "Poner la mesa",
-   "english": "set the table",
+   "english": "to empty the dishwasher",
    "lesson": "2026-06-15"
   },
   {
@@ -6886,8 +6563,8 @@
   },
   {
    "id": "2026-06-21_que-susto",
-   "spanish": "Que susto",
-   "english": "You scared me",
+   "spanish": "¡Qué susto!",
+   "english": "you scared me!",
    "lesson": "2026-06-21"
   },
   {
@@ -6917,13 +6594,13 @@
   {
    "id": "2026-06-21_antiguo",
    "spanish": "Antiguo",
-   "english": "old (not for people, things)",
+   "english": "antique / old (things, not people)",
    "lesson": "2026-06-21"
   },
   {
    "id": "2026-06-21_anterior",
    "spanish": "Anterior",
-   "english": "previous (an - terr - e - or)",
+   "english": "previous",
    "lesson": "2026-06-21"
   },
   {
@@ -6941,19 +6618,13 @@
   {
    "id": "2026-06-21_sean-es-tan-hablador-como-athenas",
    "spanish": "Sean es tan hablador como Athenas",
-   "english": "Sean is talks the same amount as Athenas",
+   "english": "Sean is as talkative as Athenas",
    "lesson": "2026-06-21"
   },
   {
    "id": "2026-06-21_calidad",
    "spanish": "Calidad",
    "english": "quality",
-   "lesson": "2026-06-21"
-  },
-  {
-   "id": "2026-06-21_ganar",
-   "spanish": "Ganar",
-   "english": "to earn / to win",
    "lesson": "2026-06-21"
   },
   {
@@ -6977,7 +6648,7 @@
   {
    "id": "2026-06-21_circular",
    "spanish": "Circular",
-   "english": "circulates",
+   "english": "to circulate",
    "lesson": "2026-06-21"
   },
   {
@@ -7041,12 +6712,6 @@
    "lesson": "2026-06-21"
   },
   {
-   "id": "2026-06-21_4-irregular-comparatives",
-   "spanish": "4 irregular comparatives",
-   "english": "mejor / peor y Menor / mayor",
-   "lesson": "2026-06-21"
-  },
-  {
    "id": "2026-06-21_ingreso",
    "spanish": "Ingreso",
    "english": "income",
@@ -7060,13 +6725,13 @@
   },
   {
    "id": "2026-06-21_estado-civil",
-   "spanish": "Estado Civil",
-   "english": "marriage status",
+   "spanish": "Estado civil",
+   "english": "marital status",
    "lesson": "2026-06-21"
   },
   {
    "id": "2026-06-21_casao-soltero-divorciado",
-   "spanish": "Casao / soltero / divorciado",
+   "spanish": "Casado / soltero / divorciado",
    "english": "married, single, divorce",
    "lesson": "2026-06-21"
   },
@@ -7103,7 +6768,7 @@
   {
    "id": "2026-06-21_recoger-la-ropa-del-piso",
    "spanish": "Recoger la ropa del piso",
-   "english": "pick up the cloths on the floor",
+   "english": "pick up the clothes on the floor",
    "lesson": "2026-06-21"
   },
   {
@@ -7132,14 +6797,8 @@
   },
   {
    "id": "2026-06-22_la-comoda",
-   "spanish": "La Comoda",
+   "spanish": "La cómoda",
    "english": "drawer / dresser",
-   "lesson": "2026-06-22"
-  },
-  {
-   "id": "2026-06-22_comodo",
-   "spanish": "Comodo",
-   "english": "comfort",
    "lesson": "2026-06-22"
   },
   {
@@ -7169,7 +6828,7 @@
   {
    "id": "2026-06-22_el-piso",
    "spanish": "El piso",
-   "english": "floor",
+   "english": "floor / also the apartment itself (planta = floor too)",
    "lesson": "2026-06-22"
   },
   {
@@ -7187,7 +6846,7 @@
   {
    "id": "2026-06-22_el-plan",
    "spanish": "El plan",
-   "english": "floor plan",
+   "english": "floor plan (of a house)",
    "lesson": "2026-06-22"
   },
   {
@@ -7198,14 +6857,8 @@
   },
   {
    "id": "2026-06-22_con-vista-de-la-cuidad",
-   "spanish": "Con vista de la cuidad",
+   "spanish": "Con vista de la ciudad",
    "english": "with a view of the city",
-   "lesson": "2026-06-22"
-  },
-  {
-   "id": "2026-06-22_terraza",
-   "spanish": "Terraza",
-   "english": "terrace",
    "lesson": "2026-06-22"
   },
   {
@@ -7216,19 +6869,19 @@
   },
   {
    "id": "2026-06-22_accessioros",
-   "spanish": "Accessioros",
+   "spanish": "Accesorios",
    "english": "accessories",
    "lesson": "2026-06-22"
   },
   {
    "id": "2026-06-22_la-cama",
-   "spanish": "La Cama",
-   "english": "ned",
+   "spanish": "La cama",
+   "english": "bed",
    "lesson": "2026-06-22"
   },
   {
    "id": "2026-06-22_el-estante",
-   "spanish": "El Estante",
+   "spanish": "El estante",
    "english": "bookshelf",
    "lesson": "2026-06-22"
   },
@@ -7293,12 +6946,6 @@
    "lesson": "2026-06-22"
   },
   {
-   "id": "2026-06-22_la-secadora",
-   "spanish": "La secadora",
-   "english": "dryer",
-   "lesson": "2026-06-22"
-  },
-  {
    "id": "2026-06-22_el-lavaplatos",
    "spanish": "El lavaplatos",
    "english": "dishwasher",
@@ -7336,7 +6983,7 @@
   },
   {
    "id": "2026-06-22_el-es-el-mas-alto",
-   "spanish": "El es el más alto",
+   "spanish": "Él es el más alto",
    "english": "he is the tallest",
    "lesson": "2026-06-22"
   },
@@ -7371,15 +7018,9 @@
    "lesson": "2026-06-22"
   },
   {
-   "id": "2026-06-22_llevar",
-   "spanish": "Llevar",
-   "english": "preferir - vender venir ver",
-   "lesson": "2026-06-22"
-  },
-  {
    "id": "2026-06-22_darse-cuenta-de-algo-enterarse-de-algo",
    "spanish": "Darse cuenta de algo / Enterarse de algo",
-   "english": "I realized that",
+   "english": "to realize / find out about something",
    "lesson": "2026-06-22"
   },
   {
@@ -7390,7 +7031,7 @@
   },
   {
    "id": "2026-06-22_la-edad",
-   "spanish": "La Edad",
+   "spanish": "La edad",
    "english": "age",
    "lesson": "2026-06-22"
   },
@@ -7402,7 +7043,7 @@
   },
   {
    "id": "2026-06-22_soy-alergico",
-   "spanish": "Soy alergico",
+   "spanish": "Soy alérgico",
    "english": "I’m allergic",
    "lesson": "2026-06-22"
   },
@@ -7443,12 +7084,6 @@
    "lesson": "2026-06-22"
   },
   {
-   "id": "2026-06-22_el-paraguas",
-   "spanish": "El paraguas",
-   "english": "umbrella, always singular always masculine",
-   "lesson": "2026-06-22"
-  },
-  {
    "id": "2026-06-22_la-copa-mundial",
    "spanish": "La copa mundial",
    "english": "world cup",
@@ -7468,7 +7103,7 @@
   },
   {
    "id": "2026-06-22_que-celos",
-   "spanish": "Que celos!",
+   "spanish": "¡Qué celos!",
    "english": "I’m jealous",
    "lesson": "2026-06-22"
   },
@@ -7480,19 +7115,19 @@
   },
   {
    "id": "2026-06-22_vaya",
-   "spanish": "Vaya!",
+   "spanish": "¡Vaya!",
    "english": "damn!",
    "lesson": "2026-06-22"
   },
   {
    "id": "2026-06-22_mierda",
-   "spanish": "Mierda!",
+   "spanish": "¡Mierda!",
    "english": "shit!",
    "lesson": "2026-06-22"
   },
   {
    "id": "2026-06-22_joder",
-   "spanish": "Joder!",
+   "spanish": "¡Joder!",
    "english": "fuck",
    "lesson": "2026-06-22"
   },
@@ -7522,7 +7157,7 @@
   },
   {
    "id": "2026-06-30_bano-a-mis-gatos",
-   "spanish": "Bano a mis gatos",
+   "spanish": "Baño a mis gatos",
    "english": "I wash my cats",
    "lesson": "2026-06-30"
   },
@@ -7534,7 +7169,7 @@
   },
   {
    "id": "2026-06-30_hacer-deport",
-   "spanish": "Hacer deport",
+   "spanish": "Hacer deporte",
    "english": "do sports",
    "lesson": "2026-06-30"
   },
@@ -7558,20 +7193,14 @@
   },
   {
    "id": "2026-06-30_se-burlan-de-mi",
-   "spanish": "Se Burlan de mi",
-   "english": "they make fun of my…",
+   "spanish": "Se burlan de mí",
+   "english": "they make fun of my...",
    "lesson": "2026-06-30"
   },
   {
    "id": "2026-06-30_escritura",
    "spanish": "Escritura",
    "english": "handwriting",
-   "lesson": "2026-06-30"
-  },
-  {
-   "id": "2026-06-30_funcionar",
-   "spanish": "Funcionar",
-   "english": "to function",
    "lesson": "2026-06-30"
   },
   {
@@ -7588,7 +7217,7 @@
   },
   {
    "id": "2026-06-30_ultimo",
-   "spanish": "Ultimo",
+   "spanish": "Último",
    "english": "last or final",
    "lesson": "2026-06-30"
   },
@@ -7600,13 +7229,13 @@
   },
   {
    "id": "2026-06-30_el-ano-pasado",
-   "spanish": "El ano pasado",
-   "english": "the last year",
+   "spanish": "El año pasado",
+   "english": "last year",
    "lesson": "2026-06-30"
   },
   {
    "id": "2026-06-30_en-los-ultimos-5-anos",
-   "spanish": "En los ultimos 5 anos",
+   "spanish": "En los últimos 5 años",
    "english": "in the last 5 years",
    "lesson": "2026-06-30"
   },
@@ -7630,37 +7259,37 @@
   },
   {
    "id": "2026-06-30_sus-cafes-son-muy-ricos",
-   "spanish": "Sus cafes son muy ricos",
+   "spanish": "Sus cafés son muy ricos",
    "english": "their drinks are very good",
    "lesson": "2026-06-30"
   },
   {
    "id": "2026-06-30_son-riquisimos",
-   "spanish": "Son riquisimos",
+   "spanish": "Son riquísimos",
    "english": "very very very good",
    "lesson": "2026-06-30"
   },
   {
    "id": "2026-06-30_me-levanto-todos-los-dias-muy-temprano",
-   "spanish": "Me levanto todos los dias muy temprano",
+   "spanish": "Me levanto todos los días muy temprano",
    "english": "I wake up every day very early",
    "lesson": "2026-06-30"
   },
   {
    "id": "2026-06-30_tempranisimo",
-   "spanish": "Tempranisimo",
+   "spanish": "Tempranísimo",
    "english": "super early or too early",
    "lesson": "2026-06-30"
   },
   {
    "id": "2026-06-30_no-voy-a-comprar-mas-de-ge-sus-productos-son-muy-caros",
-   "spanish": "No voy a comprar mas de GE. Sus productos son muy caros",
+   "spanish": "No voy a comprar más de GE. Sus productos son muy caros",
    "english": "I don’t go to shop at giant eagle. The products are too expensive",
    "lesson": "2026-06-30"
   },
   {
    "id": "2026-06-30_buenisimo-a",
-   "spanish": "Buenisimo/a",
+   "spanish": "Buenísimo/a",
    "english": "very good or the best",
    "lesson": "2026-06-30"
   },
@@ -7677,21 +7306,9 @@
    "lesson": "2026-06-30"
   },
   {
-   "id": "2026-06-30_bajar",
-   "spanish": "Bajar",
-   "english": "to go down",
-   "lesson": "2026-06-30"
-  },
-  {
    "id": "2026-06-30_comenzar",
    "spanish": "Comenzar",
    "english": "to begin",
-   "lesson": "2026-06-30"
-  },
-  {
-   "id": "2026-06-30_contar",
-   "spanish": "Contar",
-   "english": "to tell",
    "lesson": "2026-06-30"
   },
   {
@@ -7768,7 +7385,7 @@
   },
   {
    "id": "2026-07-03_principiantes",
-   "spanish": "Principiantes",
+   "spanish": "Principiante",
    "english": "beginner",
    "lesson": "2026-07-03"
   },
@@ -7780,26 +7397,20 @@
   },
   {
    "id": "2026-07-03_no-estan-listos",
-   "spanish": "No estan listos",
+   "spanish": "No están listos",
    "english": "they’re not ready",
    "lesson": "2026-07-03"
   },
   {
-   "id": "2026-07-03_mostrar",
-   "spanish": "Mostrar",
-   "english": "to show (irregular) Muestro",
-   "lesson": "2026-07-03"
-  },
-  {
    "id": "2026-07-03_tengo-verguenza",
-   "spanish": "Tengo verguenza",
+   "spanish": "Tengo vergüenza",
    "english": "embarrassed",
    "lesson": "2026-07-03"
   },
   {
    "id": "2026-07-03_tengo-un-resfriado-muy-grande",
    "spanish": "Tengo un resfriado muy grande",
-   "english": "I have the flu very bad",
+   "english": "I have a bad cold",
    "lesson": "2026-07-03"
   },
   {
@@ -7828,7 +7439,7 @@
   },
   {
    "id": "2026-07-06_existar",
-   "spanish": "Existar",
+   "spanish": "Existir",
    "english": "to exist",
    "lesson": "2026-07-06"
   },
@@ -7882,19 +7493,19 @@
   },
   {
    "id": "2026-07-06_semaforo-rojo",
-   "spanish": "Semaforo rojo",
+   "spanish": "Semáforo rojo",
    "english": "red light (traffic)",
    "lesson": "2026-07-06"
   },
   {
    "id": "2026-07-06_soprender-a",
-   "spanish": "Soprender a",
+   "spanish": "Sorprender a",
    "english": "to surprise",
    "lesson": "2026-07-06"
   },
   {
    "id": "2026-07-06_instrumentos",
-   "spanish": "Instrumentos",
+   "spanish": "Instrumento",
    "english": "instrument",
    "lesson": "2026-07-06"
   },
@@ -7906,7 +7517,7 @@
   },
   {
    "id": "2026-07-06_despues",
-   "spanish": "Despues",
+   "spanish": "Después",
    "english": "after",
    "lesson": "2026-07-06"
   },
