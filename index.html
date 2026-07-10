@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#1c1917">
+  <title>Español · Flash Cards</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇪🇸</text></svg>">
+  <link rel="stylesheet" href="css/styles.css?v=1">
+</head>
+<body>
+  <header class="app-header">
+    <h1>Español</h1>
+    <nav class="tabs" id="nav-tabs">
+      <button class="tab active" data-view="study">Study</button>
+      <button class="tab" data-view="stats">Stats</button>
+      <button class="tab" data-view="notes">Notes</button>
+      <button class="tab" data-view="import">Import</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ STUDY ============ -->
+    <section id="view-study" class="view active">
+      <!-- setup -->
+      <div id="study-setup">
+        <div class="panel">
+          <h2>Direction</h2>
+          <div class="segmented" id="direction-picker">
+            <button data-dir="es-en">ES → EN</button>
+            <button data-dir="en-es">EN → ES</button>
+            <button data-dir="mixed">Mixed</button>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h2>What to study</h2>
+          <div class="mode-grid" id="mode-picker">
+            <button class="mode-card" data-mode="review">
+              <span class="mode-name">Review</span>
+              <span class="mode-count" id="count-review"></span>
+              <span class="mode-desc">due by spaced repetition</span>
+            </button>
+            <button class="mode-card" data-mode="incorrect">
+              <span class="mode-name">Missed</span>
+              <span class="mode-count" id="count-incorrect"></span>
+              <span class="mode-desc">ones you got wrong</span>
+            </button>
+            <button class="mode-card" data-mode="all">
+              <span class="mode-name">All cards</span>
+              <span class="mode-count" id="count-all"></span>
+              <span class="mode-desc">the whole deck</span>
+            </button>
+            <button class="mode-card" data-mode="lessons">
+              <span class="mode-name">By lesson</span>
+              <span class="mode-count" id="count-lessons"></span>
+              <span class="mode-desc">pick lesson dates</span>
+            </button>
+          </div>
+          <div id="lesson-picker" class="chip-row hidden"></div>
+        </div>
+
+        <div class="panel">
+          <h2>Session length</h2>
+          <div class="segmented" id="length-picker">
+            <button data-len="10">10</button>
+            <button data-len="25">25</button>
+            <button data-len="50">50</button>
+            <button data-len="0">All</button>
+          </div>
+        </div>
+
+        <button class="btn-primary btn-start" id="btn-start">Start studying</button>
+        <p class="setup-hint" id="setup-hint"></p>
+      </div>
+
+      <!-- session -->
+      <div id="study-session" class="hidden">
+        <div class="session-bar">
+          <button class="btn-ghost" id="btn-exit">✕</button>
+          <div class="progress-track"><div class="progress-fill" id="session-progress"></div></div>
+          <span class="session-count" id="session-count"></span>
+          <button class="btn-ghost" id="btn-direction" title="Change direction"></button>
+        </div>
+        <div class="card-stage">
+          <div class="flashcard" id="flashcard">
+            <span class="card-lang" id="card-lang"></span>
+            <p class="card-word" id="card-word"></p>
+            <span class="card-meta" id="card-meta"></span>
+            <span class="flip-hint" id="flip-hint">tap to reveal</span>
+          </div>
+        </div>
+        <div class="answer-row">
+          <button class="btn-answer btn-wrong hidden" id="btn-wrong">✗ Missed it</button>
+          <button class="btn-answer btn-right hidden" id="btn-right">✓ Got it</button>
+        </div>
+        <p class="key-hint">space to flip · ← missed · → got it</p>
+      </div>
+
+      <!-- summary -->
+      <div id="study-summary" class="hidden">
+        <div class="panel summary-panel">
+          <h2 id="summary-title"></h2>
+          <div class="summary-stats">
+            <div class="stat-big stat-right"><span id="summary-right"></span><label>got it</label></div>
+            <div class="stat-big stat-wrong"><span id="summary-wrong"></span><label>missed</label></div>
+          </div>
+          <div id="summary-missed-list"></div>
+          <div class="summary-actions">
+            <button class="btn-primary hidden" id="btn-redo">Redo missed cards</button>
+            <button class="btn-secondary" id="btn-again">New session</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section id="view-stats" class="view">
+      <div class="panel">
+        <h2>Overall</h2>
+        <div class="stat-row" id="stats-overall"></div>
+        <h3>Spaced repetition boxes</h3>
+        <div id="stats-boxes"></div>
+      </div>
+      <div class="panel">
+        <h2>Trouble words</h2>
+        <div id="stats-trouble"></div>
+      </div>
+      <div class="panel">
+        <h2>By lesson</h2>
+        <div id="stats-lessons"></div>
+      </div>
+      <div class="panel">
+        <h2>Backup</h2>
+        <p class="muted">Progress is saved in this browser. Export it to move to another device or keep a backup.</p>
+        <div class="summary-actions">
+          <button class="btn-secondary" id="btn-export">Export progress</button>
+          <button class="btn-secondary" id="btn-import-progress">Import progress</button>
+          <input type="file" id="file-progress" accept=".json" class="hidden">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NOTES ============ -->
+    <section id="view-notes" class="view">
+      <p class="muted view-intro">Grammar rules and example sentences from your lessons that aren’t flash cards.</p>
+      <div id="notes-list"></div>
+    </section>
+
+    <!-- ============ IMPORT ============ -->
+    <section id="view-import" class="view">
+      <div class="panel">
+        <h2>Paste lesson notes</h2>
+        <p class="muted">Paste new notes from your Google Doc (with the date header, e.g. <code>7/9/26</code>). The usual way to import is asking Claude Code to “sync my spanish notes” — this is the manual fallback.</p>
+        <textarea id="import-text" rows="8" placeholder="7/9/26&#10;&#10;La palabra - the word&#10;Hablar - to speak"></textarea>
+        <label class="import-date-row hidden" id="import-date-row">Lesson date for undated lines:
+          <input type="date" id="import-date">
+        </label>
+        <button class="btn-primary" id="btn-preview">Preview cards</button>
+      </div>
+      <div class="panel hidden" id="import-preview-panel">
+        <h2 id="import-preview-title"></h2>
+        <div id="import-preview"></div>
+        <button class="btn-primary" id="btn-confirm-import"></button>
+        <p class="muted" id="import-result"></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/srs.js?v=1"></script>
+  <script src="js/parser.js?v=1"></script>
+  <script src="js/app.js?v=1"></script>
+</body>
+</html>
