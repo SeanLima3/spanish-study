@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#1c1917">
   <title>Español · Flash Cards</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇪🇸</text></svg>">
-  <link rel="stylesheet" href="css/styles.css?v=1">
+  <link rel="stylesheet" href="css/styles.css?v=2">
 </head>
 <body>
   <header class="app-header">
@@ -30,6 +30,14 @@
             <button data-dir="es-en">ES → EN</button>
             <button data-dir="en-es">EN → ES</button>
             <button data-dir="mixed">Mixed</button>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h2>Quiz style</h2>
+          <div class="segmented" id="style-picker">
+            <button data-style="flip">Flip cards</button>
+            <button data-style="mc">Multiple choice</button>
           </div>
         </div>
 
@@ -90,11 +98,12 @@
             <span class="flip-hint" id="flip-hint">tap to reveal</span>
           </div>
         </div>
-        <div class="answer-row">
+        <div class="mc-options hidden" id="mc-options"></div>
+        <div class="answer-row" id="answer-row">
           <button class="btn-answer btn-wrong hidden" id="btn-wrong">✗ Missed it</button>
           <button class="btn-answer btn-right hidden" id="btn-right">✓ Got it</button>
         </div>
-        <p class="key-hint">space to flip · ← missed · → got it</p>
+        <p class="key-hint" id="key-hint">space to flip · ← missed · → got it</p>
       </div>
 
       <!-- summary -->
@@ -144,6 +153,10 @@
     <!-- ============ NOTES ============ -->
     <section id="view-notes" class="view">
       <p class="muted view-intro">Grammar rules and example sentences from your lessons that aren’t flash cards.</p>
+      <div class="segmented notes-toggle" id="notes-mode">
+        <button data-nmode="topic">By topic</button>
+        <button data-nmode="lesson">By lesson</button>
+      </div>
       <div id="notes-list"></div>
     </section>
 
@@ -167,8 +180,8 @@
     </section>
   </main>
 
-  <script src="js/srs.js?v=1"></script>
-  <script src="js/parser.js?v=1"></script>
-  <script src="js/app.js?v=1"></script>
+  <script src="js/srs.js?v=2"></script>
+  <script src="js/parser.js?v=2"></script>
+  <script src="js/app.js?v=2"></script>
 </body>
 </html>

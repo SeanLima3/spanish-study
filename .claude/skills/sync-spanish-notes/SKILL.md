@@ -22,8 +22,12 @@ Pull the latest lesson notes from Sean's Google Doc into `data/deck.json`, revie
    - New "cards" that are actually grammar rules/mnemonics → move to `NOTE_OVERRIDES` and re-run (delete the bad card from deck.json first if it was already written).
    - A lesson date that looks wrong (out of order with its neighbors, or in the future) is probably a typo in the doc — add a mapping to `DATE_FIXES`, fix the deck, and tell Sean so he can correct the doc.
 
-4. **Sanity-check** that `data/deck.json` is valid JSON and the card count only grew.
+4. **File new notes into grammar topics.** `data/grammar.json` maps note slugs to the topics shown in the app's Notes → "By topic" view (`{"topicOrder": [...], "bySlug": {slug: topic}}`). For each NEW note the sync added, compute its slug (lowercase, strip accents, non-alphanumerics → `-`, trim to 60 chars — same as `slugify` in `scripts/sync_deck.py`) and add a `bySlug` entry, choosing the best-fitting topic from `topicOrder` with judgment (his own practice sentences → "Example sentences"; anything that fits nothing → "More tips"). Don't invent new topics without asking Sean.
 
-5. **Commit and push** (main branch). GitHub Pages redeploys in about a minute; Sean's phone picks up the new deck on next load.
+5. **Sanity-check** that `data/deck.json` is valid JSON and the card count only grew.
 
-6. **Report to Sean**: how many new cards and notes per lesson date, anything you reclassified or skipped that he might want to double-check, and any doc typos found.
+6. **Fix obvious grammar/spelling slips** in new cards (missing accents, `¿…?` on questions, typos), keeping his wording otherwise. Any fix that changes the text also needs a `pair_corrections` entry in `data/corrections.json` (key = `slug(raw_es)::slug(raw_en)` of the ORIGINAL doc text, value = `[corrected_es, corrected_en]`) so the next sync doesn't re-add the uncorrected line. Accent-only or capitalization-only fixes don't strictly need an entry (slugs strip accents/case) but adding one is harmless.
+
+7. **Commit and push** (main branch). GitHub Pages redeploys in about a minute; Sean's phone picks up the new deck on next load.
+
+8. **Report to Sean**: how many new cards and notes per lesson date, corrections made, anything you reclassified or skipped that he might want to double-check, and any doc typos found.

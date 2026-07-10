@@ -191,6 +191,38 @@ main { max-width: 640px; margin: 0 auto; padding: 1.25rem 1rem 4rem; }
 .card-meta { font-size: 0.8rem; color: var(--text-muted); }
 .flip-hint { position: absolute; bottom: 0.9rem; font-size: 0.75rem; color: var(--text-muted); }
 
+/* multiple choice */
+.mc-options { display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: 0.5rem; }
+.mc-option {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  text-align: left;
+  padding: 0.85rem 1rem;
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+  font-size: 0.98rem;
+  line-height: 1.35;
+}
+.mc-option:disabled { cursor: default; }
+.mc-option.correct { border-color: var(--right); background: var(--right-soft); color: var(--right); font-weight: 650; }
+.mc-option.wrong { border-color: var(--wrong); background: var(--wrong-soft); color: var(--wrong); }
+.mc-key {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background: var(--surface-2);
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+@media (pointer: coarse) { .mc-key { display: none; } }
+
 .answer-row { display: flex; gap: 0.7rem; }
 .btn-answer {
   flex: 1;
@@ -233,6 +265,8 @@ main { max-width: 640px; margin: 0 auto; padding: 1.25rem 1rem 4rem; }
 .lesson-stat .due-badge { background: var(--accent-soft); color: var(--accent); border-radius: 999px; padding: 0.1rem 0.55rem; font-size: 0.78rem; font-weight: 650; }
 
 /* ============ notes ============ */
+.notes-toggle { margin-bottom: 1rem; max-width: 320px; }
+.note-date { color: var(--text-muted); font-size: 0.75rem; margin-left: 0.45rem; white-space: nowrap; }
 .notes-lesson { margin-bottom: 0.6rem; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); overflow: hidden; }
 .notes-lesson summary { padding: 0.75rem 1rem; font-weight: 650; cursor: pointer; list-style: none; display: flex; justify-content: space-between; }
 .notes-lesson summary::-webkit-details-marker { display: none; }

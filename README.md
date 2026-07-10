@@ -15,6 +15,13 @@ per-lesson filtering, and missed-card practice.
   browser's localStorage — never in the repo. Stats → Backup can export/import it.
 - Cards you miss drop to box 1 and come back right away; cards you keep getting
   right climb to box 5 (reviewed every 14 days).
+- Quiz styles: flip cards or multiple choice (distractors drawn from the deck,
+  preferring same-lesson cards).
+- Notes tab shows lesson grammar notes by topic (via `data/grammar.json`, a
+  slug→topic map) or by lesson date.
+- `data/corrections.json` maps raw doc pairs to corrected/merged deck pairs —
+  the July 2026 grammar cleanup lives there, and syncs consult it so doc typos
+  never re-enter the deck.
 
 ## Adding new lesson notes
 

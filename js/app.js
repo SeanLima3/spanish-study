@@ -10,8 +10,12 @@
   const state = {
     deck: { lessons: [], cards: [] },
     cardsById: new Map(),
+    grammar: { topicOrder: [], bySlug: {} },
     progress: loadJSON(LS.progress, {}),
-    prefs: Object.assign({ direction: "es-en", mode: "review", length: 25, lessonDates: [] }, loadJSON(LS.prefs, {})),
+    prefs: Object.assign(
+      { direction: "es-en", mode: "review", length: 25, lessonDates: [], quizStyle: "flip", notesMode: "topic" },
+      loadJSON(LS.prefs, {})
+    ),
     session: null,
     importPreview: null,
   };
@@ -64,6 +68,15 @@
     state.cardsById = new Map(deck.cards.map((c) => [c.id, c]));
   }
 
+  async function loadGrammar() {
+    try {
+      const res = await fetch("data/grammar.json?ts=" + Date.now());
+      state.grammar = await res.json();
+    } catch {
+      /* topic view degrades to "More tips" for everything */
+    }
+  }
+
   /* ---------- card pools ---------- */
   function poolFor(mode, lessonDates) {
     const today = SRS.todayStr();
@@ -82,6 +95,7 @@
     $("count-lessons").textContent = state.deck.lessons.length;
 
     document.querySelectorAll("#direction-picker button").forEach((b) => b.classList.toggle("active", b.dataset.dir === state.prefs.direction));
+    document.querySelectorAll("#style-picker button").forEach((b) => b.classList.toggle("active", b.dataset.style === state.prefs.quizStyle));
     document.querySelectorAll("#mode-picker .mode-card").forEach((b) => b.classList.toggle("active", b.dataset.mode === state.prefs.mode));
     document.querySelectorAll("#length-picker button").forEach((b) => b.classList.toggle("active", Number(b.dataset.len) === state.prefs.length));
 
@@ -140,22 +154,56 @@
     return state.session.queue[state.session.idx];
   }
 
+  function itemDir(item) {
+    return state.prefs.direction === "mixed" ? item.dir : state.prefs.direction;
+  }
+
+  function buildOptions(card, dir) {
+    const key = dir === "es-en" ? "english" : "spanish";
+    const answer = card[key];
+    const pool = state.deck.cards.filter((c) => c.id !== card.id && c[key] !== answer);
+    const texts = new Set();
+    for (const c of shuffle(pool.filter((c) => c.lesson === card.lesson)).slice(0, 2)) texts.add(c[key]);
+    for (const c of shuffle(pool)) {
+      if (texts.size >= 3) break;
+      texts.add(c[key]);
+    }
+    const opts = [...texts].slice(0, 3).map((text) => ({ text, correct: false }));
+    opts.push({ text: answer, correct: true });
+    return shuffle(opts);
+  }
+
   function renderCard() {
     const s = state.session;
     const item = currentItem();
     const card = state.cardsById.get(item.id);
-    const dir = state.prefs.direction === "mixed" ? item.dir : state.prefs.direction;
+    const dir = itemDir(item);
+    const mc = state.prefs.quizStyle === "mc";
     const frontIsSpanish = dir === "es-en";
-    const showingBack = s.flipped;
+    const showingBack = !mc && s.flipped;
     const showSpanish = frontIsSpanish !== showingBack;
 
     $("card-lang").textContent = showSpanish ? "Español" : "English";
     $("card-word").textContent = showSpanish ? card.spanish : card.english;
-    $("card-meta").textContent = showingBack ? `lesson ${fmtDate(card.lesson)}${item.requeued ? " · again" : ""}` : "";
-    $("flip-hint").classList.toggle("hidden", showingBack);
+    $("card-meta").textContent =
+      showingBack || mc ? `lesson ${fmtDate(card.lesson)}${item.requeued ? " · again" : ""}` : "";
+    $("flip-hint").classList.toggle("hidden", mc || showingBack);
     $("flashcard").classList.toggle("flipped", showingBack);
-    $("btn-wrong").classList.toggle("hidden", !showingBack);
-    $("btn-right").classList.toggle("hidden", !showingBack);
+    $("btn-wrong").classList.toggle("hidden", mc || !showingBack);
+    $("btn-right").classList.toggle("hidden", mc || !showingBack);
+    $("mc-options").classList.toggle("hidden", !mc);
+    $("key-hint").textContent = mc ? "press 1–4 to answer" : "space to flip · ← missed · → got it";
+
+    if (mc) {
+      if (!item.options || item.optionsDir !== dir) {
+        item.options = buildOptions(card, dir);
+        item.optionsDir = dir;
+        item.answered = false;
+      }
+      $("mc-options").innerHTML = item.options
+        .map((o, i) => `<button class="mc-option" data-i="${i}"><span class="mc-key">${i + 1}</span>${esc(o.text)}</button>`)
+        .join("");
+    }
 
     const answered = s.right + s.wrong;
     $("session-count").textContent = `${Math.min(answered + 1, s.queue.length)} / ${s.queue.length}`;
@@ -164,26 +212,51 @@
   }
 
   function flip() {
+    if (state.prefs.quizStyle === "mc") return;
     state.session.flipped = !state.session.flipped;
     renderCard();
   }
 
-  function answer(wasCorrect) {
+  function recordResult(item, wasCorrect) {
     const s = state.session;
-    if (!s.flipped) return;
-    const item = currentItem();
     state.progress[item.id] = SRS.applyResult(state.progress[item.id], wasCorrect);
     saveProgress();
     if (wasCorrect) s.right++;
     else {
       s.wrong++;
       if (!s.missedIds.includes(item.id)) s.missedIds.push(item.id);
-      if (!item.requeued) s.queue.push({ ...item, requeued: true }); // one more try at the end
+      if (!item.requeued) s.queue.push({ id: item.id, dir: item.dir, requeued: true }); // one more try at the end
     }
+  }
+
+  function advance() {
+    const s = state.session;
     s.idx++;
     s.flipped = false;
     if (s.idx >= s.queue.length) return endSession();
     renderCard();
+  }
+
+  function answer(wasCorrect) {
+    const s = state.session;
+    if (!s.flipped) return;
+    recordResult(currentItem(), wasCorrect);
+    advance();
+  }
+
+  function answerMC(idx) {
+    const item = currentItem();
+    if (!item.options || item.answered) return;
+    const chosen = item.options[idx];
+    if (!chosen) return;
+    item.answered = true;
+    document.querySelectorAll(".mc-option").forEach((b, i) => {
+      b.disabled = true;
+      if (item.options[i].correct) b.classList.add("correct");
+      else if (i === idx) b.classList.add("wrong");
+    });
+    recordResult(item, chosen.correct);
+    setTimeout(advance, chosen.correct ? 650 : 1500);
   }
 
   function endSession() {
@@ -294,13 +367,40 @@
 
   /* ---------- notes ---------- */
   function renderNotes() {
-    $("notes-list").innerHTML = state.deck.lessons
-      .filter((l) => l.notes && l.notes.length)
+    const mode = state.prefs.notesMode;
+    document.querySelectorAll("#notes-mode button").forEach((b) => b.classList.toggle("active", b.dataset.nmode === mode));
+
+    if (mode === "lesson") {
+      $("notes-list").innerHTML = state.deck.lessons
+        .filter((l) => l.notes && l.notes.length)
+        .map(
+          (l) => `
+          <details class="notes-lesson">
+            <summary>${fmtDate(l.date)}<span class="n">${l.notes.length} note${l.notes.length === 1 ? "" : "s"}</span></summary>
+            <ul>${l.notes.map((n) => `<li>${esc(n)}</li>`).join("")}</ul>
+          </details>`
+        )
+        .join("");
+      return;
+    }
+
+    const fallback = "More tips";
+    const groups = new Map(state.grammar.topicOrder.map((t) => [t, []]));
+    if (!groups.has(fallback)) groups.set(fallback, []);
+    for (const l of state.deck.lessons) {
+      for (const n of l.notes || []) {
+        const t = state.grammar.bySlug[Parser.slugify(n)] || fallback;
+        if (!groups.has(t)) groups.set(t, []);
+        groups.get(t).push({ n, date: l.date });
+      }
+    }
+    $("notes-list").innerHTML = [...groups]
+      .filter(([, notes]) => notes.length)
       .map(
-        (l) => `
+        ([topic, notes]) => `
         <details class="notes-lesson">
-          <summary>${fmtDate(l.date)}<span class="n">${l.notes.length} note${l.notes.length === 1 ? "" : "s"}</span></summary>
-          <ul>${l.notes.map((n) => `<li>${esc(n)}</li>`).join("")}</ul>
+          <summary>${esc(topic)}<span class="n">${notes.length}</span></summary>
+          <ul>${notes.map(({ n, date }) => `<li>${esc(n)}<span class="note-date">${fmtDate(date)}</span></li>`).join("")}</ul>
         </details>`
       )
       .join("");
@@ -395,6 +495,24 @@
       savePrefs();
       renderSetup();
     });
+    $("style-picker").addEventListener("click", (e) => {
+      const b = e.target.closest("button");
+      if (!b) return;
+      state.prefs.quizStyle = b.dataset.style;
+      savePrefs();
+      renderSetup();
+    });
+    $("notes-mode").addEventListener("click", (e) => {
+      const b = e.target.closest("button");
+      if (!b) return;
+      state.prefs.notesMode = b.dataset.nmode;
+      savePrefs();
+      renderNotes();
+    });
+    $("mc-options").addEventListener("click", (e) => {
+      const b = e.target.closest(".mc-option");
+      if (b) answerMC(Number(b.dataset.i));
+    });
     $("mode-picker").addEventListener("click", (e) => {
       const b = e.target.closest(".mode-card");
       if (!b) return;
@@ -439,6 +557,10 @@
     document.addEventListener("keydown", (e) => {
       if (!state.session || $("study-session").classList.contains("hidden")) return;
       if (e.target.matches("input, textarea")) return;
+      if (state.prefs.quizStyle === "mc") {
+        if (/^[1-4]$/.test(e.key)) answerMC(Number(e.key) - 1);
+        return;
+      }
       if (e.code === "Space" || e.code === "Enter") {
         e.preventDefault();
         flip();
@@ -469,6 +591,7 @@
   (async function boot() {
     try {
       await loadDeck();
+      await loadGrammar();
     } catch (err) {
       document.querySelector("main").innerHTML =
         `<div class="panel"><h2>Couldn’t load the deck</h2><p class="muted">data/deck.json failed to load (${esc(String(err))}). If you opened index.html directly from disk, serve it instead: <code>python3 -m http.server</code></p></div>`;
