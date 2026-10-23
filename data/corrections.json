@@ -851,6 +851,926 @@
   "morado::purple": [
    "Morado/a",
    "purple"
+  ],
+  "el-estante::shelf": [
+   "El estante",
+   "shelf"
+  ],
+  "acabo-de-inf::something-just-happened": [
+   "Acabar de + infinitivo",
+   "to have just done something"
+  ],
+  "acabo-de-venir-de-la-fiesta-de-cimpleanos-de-mi-sobrino::i-just-got-back-from-a-birthday-party-for-my-nephew": [
+   "Acabo de venir de la fiesta de cumpleaños de mi sobrino",
+   "I just got back from my nephew’s birthday party"
+  ],
+  "cer-cir::yo-form-is-zco": [
+   "-cer / -cir verbs",
+   "yo form ends in -zco (conozco, conduzco)"
+  ],
+  "la-victima::the-victim": [
+   "La víctima",
+   "the victim"
+  ],
+  "mantener::to-hold": [
+   "Mantener",
+   "to maintain / to hold"
+  ],
+  "crystal-se-despierta-temprano-los-fines-de-semana::crystal-wakes-up-early-on-weekdays": [
+   "Crystal se despierta temprano los fines de semana",
+   "Crystal wakes up early on weekends"
+  ],
+  "me-visto-bien-para-la-entrevista-de-trabajo::i-dress-well-for-job-interviews": [
+   "Me visto bien para la entrevista de trabajo",
+   "I dress well for the job interview"
+  ],
+  "los-estudiantes-se-escriben-cartas::the-students-write-letters-for-each-other": [
+   "Los estudiantes se escriben cartas",
+   "the students write letters to each other"
+  ],
+  "mis-amigos-y-yo-nos-enviamos-mensajes-todos-los-dias::my-friends-and-i-text-each-other-every-day": [
+   "Mis amigos y yo nos enviamos mensajes todos los días",
+   "My friends and I text each other every day"
+  ],
+  "de-vez-en-cuando::often": [
+   "De vez en cuando",
+   "from time to time / once in a while"
+  ],
+  "dos-veces-a::two-times": [
+   "Dos veces al / a la ___",
+   "twice a ___ (dos veces a la semana)"
+  ],
+  "el-estanteria::bookshelf": [
+   "La estantería",
+   "bookshelf"
+  ],
+  "el-huerto::garden-vegetables": [
+   "El huerto",
+   "vegetable garden"
+  ],
+  "ensenar::to-show-to-teach": [
+   "Enseñar",
+   "to teach / to show"
+  ],
+  "mostrar::to-show-muestro": [
+   "Mostrar",
+   "to show (irregular: muestro)"
+  ],
+  "el-camino::the-road": [
+   "El camino",
+   "the road / the path"
+  ],
+  "frijoles::beans": [
+   "Los frijoles",
+   "beans"
+  ],
+  "me-apetece-salir-a-pasear::i-feel-like-leaving": [
+   "Me apetece salir a pasear",
+   "I feel like going for a walk"
+  ],
+  "te-apetece-ir-al-cine-esta-noche::do-you-feel-like-going-to-the-movies-tonight": [
+   "¿Te apetece ir al cine esta noche?",
+   "Do you feel like going to the movies tonight?"
+  ],
+  "que-te-apetece-hacer-hoy::what-do-you-feel-like-doing-today": [
+   "¿Qué te apetece hacer hoy?",
+   "what do you feel like doing today?"
+  ],
+  "me-apetece-un-cafe::i-m-craving-a-coffee-i-feel-like-getting-a-coffee": [
+   "Me apetece un café",
+   "I’m craving a coffee / I feel like getting a coffee"
+  ],
+  "me-interesan-las-cuidades-grandes::big-cities-interest-me": [
+   "Me interesan las ciudades grandes",
+   "Big cities interest me"
+  ],
+  "jubilarse::to-get-retired": [
+   "Jubilarse",
+   "to retire"
+  ],
+  "que-descarado::how-rude": [
+   "¡Qué descarado!",
+   "how shameless! / how rude!"
+  ],
+  "paracer::to-seem-an-opinion-and-use-an-adjective": [
+   "Parecer",
+   "to seem (giving an opinion, + adjective)"
+  ],
+  "me-parecen-unos-zapatos-caros::the-shoes-seem-expensive-to-me": [
+   "Me parecen unos zapatos caros",
+   "They seem like expensive shoes to me"
+  ],
+  "me-parace-una-casa-muy-bonita::it-seems-to-me-the-house-is-beautiful": [
+   "Me parece una casa muy bonita",
+   "It seems like a very pretty house to me"
+  ],
+  "no-me-apetecen-los-esparragos-de-nada-por-nada::i-don-t-crave-asparagus-never-ever": [
+   "No me apetecen los espárragos para nada",
+   "I don’t feel like asparagus at all"
+  ],
+  "sandia::watermelon": [
+   "La sandía",
+   "watermelon"
+  ],
+  "me-gusta-mucho-poco-bastante::i-like-a-lot-little-enough": [
+   "Me gusta mucho / poco / bastante",
+   "I like it a lot / a little / quite a bit"
+  ],
+  "jack-a-mi-me-gustan-las-gambas-jill-a-mi-no-me-gusta-nada::i-like-shrimp-i-don-t-like-it-at-all": [
+   "¡A mí me gustan las gambas! — A mí no me gustan nada.",
+   "I like shrimp! — I don’t like them at all."
+  ],
+  "reunion::meeting-formal": [
+   "La reunión",
+   "meeting (formal)"
+  ],
+  "cita::a-date-romantico": [
+   "La cita",
+   "a date (romantic) / appointment"
+  ],
+  "me-gusta-mucho-el-helado-a-mi-tambien::i-like-ice-cream-a-lot-i-do-too": [
+   "Me gusta mucho el helado. — A mí también.",
+   "I like ice cream a lot. — Me too!"
+  ],
+  "no-me-gusta-la-sopa-a-mi-tampoco::i-don-t-like-soup-i-don-t-either": [
+   "No me gusta la sopa. — A mí tampoco.",
+   "I don’t like soup. — Me neither!"
+  ],
+  "no-puedo-cocinar-yo-tampoco::i-can-t-cook-me-neither": [
+   "No puedo cocinar. — Yo tampoco.",
+   "I can’t cook. — Me neither."
+  ],
+  "cuidar-a-alguien::to-take-care-of-something": [
+   "Cuidar a alguien",
+   "to take care of someone"
+  ],
+  "protector-a::a-protector": [
+   "Protector/a",
+   "protector"
+  ],
+  "me-apetece-tener-una-hamburguesa-para-la-cena-a-mi-no-me-ape::i-feel-like-having-a-burger-for-dinner-i-don-t-i-feel-like-h": [
+   "Me apetece una hamburguesa para la cena. — A mí no. Me apetece…",
+   "I feel like a burger for dinner. — I don’t. I feel like…"
+  ],
+  "no-me-gusta-nada-cocinar-a-mi-si::i-don-t-like-cooking-ever-i-do": [
+   "No me gusta nada cocinar. — A mí sí.",
+   "I don’t like cooking at all. — I do."
+  ],
+  "quiero-ver-una-pelicula-de-horror-yo-no::i-want-to-watch-a-horror-movie-i-don-t": [
+   "Quiero ver una película de horror. — Yo no.",
+   "I want to watch a horror movie. — I don’t."
+  ],
+  "no-voy-a-la-fiesta-yo-si::i-m-not-going-to-the-party-i-am": [
+   "No voy a la fiesta. — Yo sí.",
+   "I’m not going to the party. — I am."
+  ],
+  "el-balon::ball-bigger": [
+   "El balón",
+   "ball (bigger)"
+  ],
+  "el-futbol-americano::football": [
+   "El fútbol americano",
+   "football"
+  ],
+  "el-futbol::soccer": [
+   "El fútbol",
+   "soccer"
+  ],
+  "el-basquetbol-baloncesto::basketball": [
+   "El básquetbol / el baloncesto",
+   "basketball"
+  ],
+  "el-atletismo::sprinter": [
+   "El atletismo",
+   "track and field / athletics"
+  ],
+  "el-la-atleta::sprinter": [
+   "El / la atleta",
+   "athlete"
+  ],
+  "alpinismo::ice-climber": [
+   "El alpinismo",
+   "mountain climbing"
+  ],
+  "el-hace-practica-alpinismo::to-do-practice-ice-climber": [
+   "Él hace / practica alpinismo",
+   "he does / practices mountain climbing"
+  ],
+  "el-ciclismo::cyclist": [
+   "El ciclismo",
+   "cycling"
+  ],
+  "ella-monta-montar-bicicleta::she-rides-a-bike": [
+   "Ella monta en bicicleta (montar)",
+   "she rides a bike"
+  ],
+  "ella-hace-ciclismo::a-pro-cyclist": [
+   "Ella hace ciclismo",
+   "she does cycling (competitively)"
+  ],
+  "sobre-ruedas::roller-skating": [
+   "Patinaje sobre ruedas",
+   "roller skating"
+  ],
+  "ellas-ellos-patinan::hacen-patinaje-they-skate": [
+   "Ellos / ellas patinan / hacen patinaje",
+   "they skate"
+  ],
+  "deportiva::the-sport": [
+   "La gimnasia deportiva",
+   "artistic gymnastics"
+  ],
+  "ritmica::the-routine-dance-one": [
+   "La gimnasia rítmica",
+   "rhythmic gymnastics (the dance one)"
+  ],
+  "el-ella-hace-gimnasia::he-she-does-gymnastics": [
+   "Él / ella hace gimnasia",
+   "he / she does gymnastics"
+  ],
+  "el-hace-natacion-el-nada::he-swims": [
+   "Él hace natación / él nada",
+   "he swims"
+  ],
+  "el-hace-surfing-el-surfea-el-corre-olas::he-surfs": [
+   "Él hace surfing / él surfea / él corre olas",
+   "he surfs"
+  ],
+  "ola::wave": [
+   "La ola",
+   "wave"
+  ],
+  "el-equi::skiing": [
+   "El esquí",
+   "skiing"
+  ],
+  "esquies::skiis": [
+   "Los esquís",
+   "skis"
+  ],
+  "el-la-entrenador-a::coach": [
+   "El entrenador / la entrenadora",
+   "coach"
+  ],
+  "el-aficionado-a::fans": [
+   "El aficionado / la aficionada",
+   "fan"
+  ],
+  "el-arbitro-a::referees": [
+   "El árbitro / la árbitra",
+   "referee"
+  ],
+  "arnes::harness": [
+   "El arnés",
+   "harness"
+  ],
+  "merendar::e-ie-to-eat-an-afternoon-snack-meriendo-meriendas-etc": [
+   "Merendar",
+   "to have an afternoon snack (e→ie: meriendo, meriendas)"
+  ],
+  "la-carne-de-res::steak-mexico": [
+   "La carne de res",
+   "beef (Mexico)"
+  ],
+  "la-ternera::steak-espana": [
+   "La ternera",
+   "veal / beef (Spain)"
+  ],
+  "a-la-parrilla::grilled-chicken-esp": [
+   "Pollo a la parrilla",
+   "grilled chicken"
+  ],
+  "a-la-barbacoa::barbeque-chicken": [
+   "Pollo a la barbacoa",
+   "barbecue chicken"
+  ],
+  "el-pescado::fish": [
+   "Pescado",
+   "fish"
+  ],
+  "la-banana-el-platano::banana-platano-espana": [
+   "La banana / el plátano",
+   "banana (plátano in Spain)"
+  ],
+  "enhorabuena::congrats": [
+   "¡Enhorabuena!",
+   "congrats!"
+  ],
+  "felicidades::congrats": [
+   "¡Felicidades!",
+   "congrats"
+  ],
+  "la-zanahoria::carrots": [
+   "La zanahoria",
+   "carrot"
+  ],
+  "el-brocoli::brocolli": [
+   "El brócoli",
+   "broccoli"
+  ],
+  "las-judias-verde::green-beans": [
+   "Las judías verdes",
+   "green beans"
+  ],
+  "zumo::juice-esp": [
+   "Zumo",
+   "juice (spain)"
+  ],
+  "te-lo-presento::should-i-introduce-you-to-him": [
+   "¿Te lo presento?",
+   "Should I introduce you to him?"
+  ],
+  "la-azucarera::little-sugar-holder": [
+   "La azucarera",
+   "sugar bowl"
+  ],
+  "el-pimentero::pepper-holder": [
+   "El pimentero",
+   "pepper shaker"
+  ],
+  "miel::honey": [
+   "La miel",
+   "honey"
+  ],
+  "pavo::turkey": [
+   "El pavo",
+   "turkey"
+  ],
+  "la-galleta::cookies": [
+   "La galleta",
+   "cookie"
+  ],
+  "solamente-no-me-gusta-el-flan-pero-me-encanta-el-resto::i-only-don-t-like-flan-but-i-love-the-rest": [
+   "Solamente no me gusta el flan, pero me encanta el resto",
+   "The only one I don’t like is flan, but I love the rest"
+  ],
+  "el-zumo::los-zumos-esp-juice": [
+   "El zumo / los zumos",
+   "juice (Spain)"
+  ],
+  "el-te-los-tes::tea": [
+   "El té / los tés",
+   "tea"
+  ],
+  "una-copa-de-vino-blanco-y-tinto::cup-of-white-and-red-wine": [
+   "Una copa de vino blanco / tinto",
+   "a glass of white / red wine"
+  ],
+  "el-agua-fria::cold-water": [
+   "El agua fría",
+   "cold water"
+  ],
+  "estomago::stomach": [
+   "El estómago",
+   "stomach"
+  ],
+  "cuerpo::body": [
+   "El cuerpo",
+   "body"
+  ],
+  "delicioso-a-s-rico-a-s::very-good": [
+   "Delicioso / a / s / rico / a / s",
+   "delicious / tasty"
+  ],
+  "en-un-restaurante-restauran::in-a-restaurant": [
+   "En un restaurante",
+   "in a restaurant"
+  ],
+  "el-la-camarero-esp::waiter": [
+   "El camarero / la camarera",
+   "waiter (Spain)"
+  ],
+  "la-propina-las-propinas::tips": [
+   "La propina / las propinas",
+   "tip / tips"
+  ],
+  "que-te-apetece-tomar-beber-comer::what-do-you-want-to-drink-or-eat": [
+   "¿Qué te apetece tomar / beber / comer?",
+   "What do you feel like drinking / eating?"
+  ],
+  "desean-algo-de-tomar-beber-comer::what-do-you-want-to-eat-more-formal": [
+   "¿Desean algo de tomar / beber / comer?",
+   "Would you like something to drink / eat? (formal)"
+  ],
+  "buen-provecho::have-a-good-meal": [
+   "¡Buen provecho!",
+   "enjoy your meal"
+  ],
+  "enseguida::right-now": [
+   "Enseguida",
+   "right away"
+  ],
+  "me-pongo-a-dieta-para-perder-peso::i-m-on-a-diet-to-lose-weight": [
+   "Me pongo a dieta para perder peso",
+   "I’m going on a diet to lose weight"
+  ],
+  "ganar-peso::to-gain-wait": [
+   "Ganar peso",
+   "to gain weight"
+  ],
+  "cortado-a-s::taste-smells-bad-spoiled": [
+   "Cortado / a / s",
+   "spoiled / gone off (tastes or smells bad)"
+  ],
+  "pasarlo-bien::it-was-a-good-time": [
+   "Pasarlo bien",
+   "to have a good time"
+  ],
+  "cual-es-el-siguiente::what-s-next": [
+   "¿Cuál es el siguiente?",
+   "what’s next?"
+  ],
+  "pasarlo-de-maravilla::great-time": [
+   "Pasarlo de maravilla",
+   "to have a great time"
+  ],
+  "pasarlo-genial::it-was-really-good": [
+   "Pasarlo genial",
+   "to have a really good time"
+  ],
+  "parsarlo-de-puta-madre::it-was-the-fucking-greatest": [
+   "Pasarlo de puta madre",
+   "to have a fucking great time (vulgar)"
+  ],
+  "heladera::cooler-for-ice-and-drinks": [
+   "La heladera",
+   "cooler (for ice and drinks)"
+  ],
+  "hielo::ice": [
+   "El hielo",
+   "ice"
+  ],
+  "hay-algo-en-la-heladera-no-no-hay-nada-en-la-heladera::is-there-anything-in-the-cooler-no-no-there-is-nothing-in-th": [
+   "¿Hay algo en la heladera? No, no hay nada en la heladera.",
+   "is there anything in the cooler? No, no there is nothing in the cooler"
+  ],
+  "si-hay-algo-en-la-heladera::yes-there-is-something-in-the-cooler": [
+   "Sí, hay algo en la heladera",
+   "yes there is something in the cooler"
+  ],
+  "no-voy-a-dar-ni-sandwiches-ni-refrescos-a-nadie::i-m-not-going-to-give-no-sandwiches-nor-drinks-to-nobody": [
+   "No voy a dar ni sándwiches ni refrescos a nadie",
+   "I’m not going to give sandwiches or drinks to anyone"
+  ],
+  "ninguno-a-os-as::any-negative": [
+   "Ninguno / a / os / as",
+   "none / not any"
+  ],
+  "el-otro-dia-semana::the-other-day": [
+   "El otro día / la otra semana",
+   "the other day / week"
+  ],
+  "200-horas-dos-cientas-horas::200-hours-changes-feminine-masculine": [
+   "200 horas / doscientas horas",
+   "200 hours (doscientos/as agrees with gender)"
+  ],
+  "comenzar-a-hacer-algo::started-to-do-something": [
+   "Comenzar a hacer algo",
+   "to start doing something"
+  ],
+  "harina::flour": [
+   "La harina",
+   "flour"
+  ],
+  "ademas::plus-adding-to-a-story": [
+   "Además",
+   "besides / in addition / plus"
+  ],
+  "glorieta::small-town-square": [
+   "La glorieta",
+   "roundabout / small square"
+  ],
+  "centro-commercial::shopping-center-think-easton": [
+   "Centro comercial",
+   "shopping center (think Easton)"
+  ],
+  "entremetido::nosey": [
+   "Entrometido",
+   "nosy"
+  ],
+  "a-donde-fuiste-ayer::where-did-you-go-yesterday": [
+   "¿A dónde fuiste ayer?",
+   "where did you go yesterday?"
+  ],
+  "a-quien-viste-ayer::who-did-you-see-yesterday": [
+   "¿A quién viste ayer?",
+   "who did you see yesterday?"
+  ],
+  "cuando-fue-la-ultima-vez-que-viste-a-tus-padres::when-was-the-last-time-you-saw-your-parents": [
+   "¿Cuándo fue la última vez que viste a tus padres?",
+   "when was the last time you saw your parents?"
+  ],
+  "excusa::excuse": [
+   "La excusa",
+   "excuse"
+  ],
+  "los-beisbolistas::baseball-player": [
+   "Los beisbolistas",
+   "baseball players"
+  ],
+  "la-limpieza-tardo-5-anos::the-cleaning": [
+   "La limpieza tardó 5 años",
+   "the cleaning took 5 years"
+  ],
+  "tardar-durar::the-duration-of-a-task": [
+   "Tardar / durar",
+   "to take (time) / to last"
+  ],
+  "culpaple::guilty": [
+   "Culpable",
+   "guilty"
+  ],
+  "al-infinitivo::when-replacement-cuando-used-when-writing": [
+   "Al + infinitivo",
+   "upon / when doing something (replaces cuando)"
+  ],
+  "llevar::to-take-to-carry-to-wear-with-cloths": [
+   "Llevar",
+   "to take / to carry / to wear (clothes)"
+  ],
+  "apuntar::take-notes": [
+   "Apuntar",
+   "to take notes / to write down"
+  ],
+  "haber-only-has-two-forms-present::hay-past-hubo": [
+   "Hay / hubo",
+   "there is / there was (haber: present / past)"
+  ],
+  "alguno-ninguno::only-use-them-when-you-are-repeating-the-noun-otherwise-you-": [
+   "Algún / ningún + noun",
+   "some / no — alguno/ninguno drop the -o before a masculine singular noun"
+  ],
+  "tienes-algo-que-ver-con-esto::did-have-you-anything-to-do-with-this": [
+   "¿Tienes algo que ver con esto?",
+   "do you have anything to do with this?"
+  ],
+  "no-no-tengo-nada-que-ver-con-esto::no-i-had-nothing-to-do-with-this": [
+   "No, no tengo nada que ver con esto",
+   "no, I have nothing to do with this"
+  ],
+  "el-estante::a-shelf": [
+   "El estante",
+   "shelf"
+  ],
+  "freir::to-fry-frio-fries-frie-freimos-frien": [
+   "Freír",
+   "to fry (frío, fríes, fríe, freímos, fríen)"
+  ],
+  "la-propina::tip": [
+   "La propina / las propinas",
+   "tip / tips"
+  ],
+  "calentar-el-agua::the-heat-the-water": [
+   "Calentar el agua",
+   "to heat the water"
+  ],
+  "sobrevivir::survived": [
+   "Sobrevivir",
+   "to survive"
+  ],
+  "no-hice-nada::i-didn-t-do-nothing": [
+   "No hice nada",
+   "I didn’t do anything"
+  ],
+  "le-expulsaron-de-la-escuela::expelled-from-school": [
+   "Le expulsaron de la escuela",
+   "they expelled him from school"
+  ],
+  "supe-que-la-compania-estuvo-echando-a-las-personas-desde-hac::i-knew-the-company-was-going-to-fire-people-a-month-ago": [
+   "Supe que la compañía estuvo echando a las personas desde hace un mes",
+   "I found out the company had been firing people for a month"
+  ],
+  "estar-pasado-verb::ando-iendo-past-tense-of-doing-something": [
+   "Estar (pasado) + -ando / -iendo",
+   "past progressive (was doing something)"
+  ],
+  "que-tiempo-hace::how-s-the-weather": [
+   "¿Qué tiempo hace?",
+   "how’s the weather?"
+  ],
+  "hay-muchos-chubascos::rain-shower": [
+   "Hay (muchos) chubascos",
+   "there are (a lot of) rain showers"
+  ],
+  "llueve-a-cantaros::it-s-raining-hard-it-s-raining-cats-and-dogs-equivalent": [
+   "Llueve a cántaros",
+   "it’s raining hard (it’s raining cats and dogs equivalent)"
+  ],
+  "hace-hay-mucho-viento::it-s-really-windy": [
+   "Hace / Hay (mucho) viento",
+   "it’s (very) windy"
+  ],
+  "hace-fresco::not-hot-or-cold-nice-out": [
+   "Hace fresco",
+   "it’s cool out (not hot or cold)"
+  ],
+  "el-la-maximo-a::the-max": [
+   "El máximo / la máxima",
+   "the max"
+  ],
+  "que-pasatiempos-te-gusta-hacer::what-hobbies-do-you-like-to-do": [
+   "¿Qué pasatiempos te gusta hacer?",
+   "what hobbies do you like to do"
+  ],
+  "ir-a-una-discoteca::to-go-to-the-discotech": [
+   "Ir a una discoteca",
+   "to go to a nightclub"
+  ],
+  "dar-un-paseo::to-go-for-a-walk": [
+   "Dar un paseo / pasear",
+   "to go for a walk"
+  ],
+  "leer-una-novela-un-periodico-una-revista::to-read-a-book-newspaper-or-magazine": [
+   "Leer una novela (un periódico, una revista)",
+   "to read a novel (newspaper, magazine)"
+  ],
+  "ver-la-tele-una-serie-peli::watch-tv-series-movie": [
+   "Ver la tele / una serie / una peli",
+   "watch tv / series / movie"
+  ],
+  "pasarlo-bien::have-a-good-time": [
+   "Pasarlo bien",
+   "to have a good time"
+  ],
+  "un-refresco-con-hielo::a-refreshment-with-ice": [
+   "Un refresco con hielo",
+   "a soda with ice"
+  ],
+  "la-heladera::cooler": [
+   "La heladera",
+   "cooler (for ice and drinks)"
+  ],
+  "los-lentes-gafas-de-sol::sunglasses": [
+   "Los lentes / las gafas de sol",
+   "sunglasses"
+  ],
+  "que-tal-si::would-you-like-to-proposing-an-idea": [
+   "¿Qué tal si…?",
+   "how about… (proposing an idea)"
+  ],
+  "por-que-no::why-shouldn-t-we-proposing-an-idea": [
+   "¿Por qué no…?",
+   "why don’t we… (proposing an idea)"
+  ],
+  "deprisa::to-rush-quickly": [
+   "Deprisa",
+   "quickly / in a hurry"
+  ],
+  "a-los-numero-anos::when-someone-was-a-certain-age": [
+   "A los [número] años",
+   "at age [number]"
+  ],
+  "informe::a-report": [
+   "El informe",
+   "report"
+  ],
+  "de-pequeno-nino-joven::when-someone-was-that-age": [
+   "De [pequeño, niño, joven]",
+   "as a child / when young"
+  ],
+  "tener-exito::to-have-success": [
+   "Tener éxito",
+   "to have success"
+  ],
+  "marcharse::leave-and-go": [
+   "Marcharse",
+   "to leave / to go away"
+  ],
+  "recaudador::to-collect": [
+   "Recaudador",
+   "collector (tax collector)"
+  ],
+  "trasladarse::to-relocate-places": [
+   "Trasladarse",
+   "to relocate / to move"
+  ],
+  "la-libertda::freedom": [
+   "La libertad",
+   "freedom"
+  ],
+  "esta-claro::it-s-clear-weather": [
+   "Está claro",
+   "it’s clear (weather)"
+  ],
+  "sino::iinstead-but-rather": [
+   "Sino",
+   "but rather / instead"
+  ],
+  "sabana-mantas::sheets": [
+   "Las sábanas / las mantas",
+   "sheets / blankets"
+  ],
+  "fundas::pillow-case": [
+   "Las fundas",
+   "pillowcases"
+  ],
+  "almohadas::pillow": [
+   "Las almohadas",
+   "pillows"
+  ],
+  "tarea::worksheet": [
+   "La tarea",
+   "homework / worksheet"
+  ],
+  "tocar-a-la-puerta::knock-on-teh-door": [
+   "Tocar a la puerta",
+   "to knock on the door"
+  ],
+  "tocar-timbre::to-ring-the-doorbell": [
+   "Tocar el timbre",
+   "to ring the doorbell"
+  ],
+  "la-comodidad::comfort": [
+   "La comodidad",
+   "comfort"
+  ],
+  "al-infitivo::avoids-conjugation-la-primera-cosa-que-hizo-al-llegar-fue": [
+   "Al + infinitivo",
+   "upon / when doing something (replaces cuando)"
+  ],
+  "al-llegar::cuando-llego": [
+   "Al llegar",
+   "upon arriving (= cuando llegó)"
+  ],
+  "al-terminar-su-clase-empezo-a-ver-una-pelicula::after-i-finished-class-i-started-watching-a-movie": [
+   "Al terminar su clase, empezó a ver una película",
+   "After finishing class, she started watching a movie"
+  ],
+  "junto-con::together": [
+   "Junto con",
+   "together with"
+  ],
+  "bello-bonita::pretty": [
+   "Bello / bonito",
+   "pretty / beautiful"
+  ],
+  "cuidar-a::to-take-of": [
+   "Cuidar a alguien",
+   "to take care of someone"
+  ],
+  "mis-ojos-parecen-bien::my-eyes-appear-good": [
+   "Mis ojos parecen estar bien",
+   "my eyes seem fine"
+  ],
+  "biblotecario::librarian": [
+   "El bibliotecario",
+   "librarian"
+  ],
+  "inyectar-poner-inyeccion::to-give-injection": [
+   "Inyectar / poner una inyección",
+   "to give injection"
+  ],
+  "por-eso-entonces::because-of-that": [
+   "Por eso / entonces",
+   "that’s why / so…"
+  ],
+  "sin-embargo::never-the-less-however": [
+   "Sin embargo",
+   "nevertheless / however"
+  ],
+  "ademas::in-addition": [
+   "Además",
+   "besides / in addition / plus"
+  ],
+  "promedio-salario::average-salary": [
+   "El salario promedio",
+   "average salary"
+  ],
+  "la-mayoria-de-la-poblacion::the-majority-of-the-population": [
+   "La mayoría de la población",
+   "the majority of the population"
+  ],
+  "beneficio-perjuicio::benefits-disadvantage": [
+   "Beneficio / perjuicio",
+   "benefit / harm"
+  ],
+  "encontrarse-con-alguien::to-run-into-someone-expectedly": [
+   "Encontrarse con alguien",
+   "to run into someone unexpectedly"
+  ],
+  "noticia::news": [
+   "La noticia",
+   "news"
+  ],
+  "mi-amiga-dejo-a-su-esposo::my-friend-left-their-husband": [
+   "Mi amiga dejó a su esposo",
+   "My friend left her husband"
+  ],
+  "mi-madre-no-me-deja-salir::my-mom-won-t-let-me-leave": [
+   "Mi madre no me deja salir",
+   "my mom won’t let me go out"
+  ],
+  "bienvenidos::welcome": [
+   "¡Bienvenidos!",
+   "welcome!"
+  ],
+  "acabo-de-hacer-algo::i-already-have-something-i-ve-already-done-that": [
+   "Acabar de + infinitivo",
+   "to have just done something"
+  ],
+  "quieres-un-cafe-frio-no-acabo-de-tomar-uno::do-you-want-an-iced-coffee-no-i-ve-already-had-one": [
+   "¿Quieres un café frío? No, acabo de tomar uno",
+   "Do you want an iced coffee? No, I just had one"
+  ],
+  "cuidarse::take-care-of-yourself": [
+   "Cuidarse",
+   "take care of oneself"
+  ],
+  "cuidar-a-alguien::take-care-of-someone-something": [
+   "Cuidar a alguien",
+   "to take care of someone"
+  ],
+  "cuidate::take-care": [
+   "¡Cuídate!",
+   "take care!"
+  ],
+  "donde-te-sientas-en-el-cine-me-siento-en-la-tercera-fila::where-are-you-sitting-in-the-movies-i-m-sitting-in-the-3rd-r": [
+   "¿Dónde te sientas en el cine? Me siento en la tercera fila",
+   "Where do you sit at the movies? I sit in the third row"
+  ],
+  "peluqueria::hair-salon": [
+   "La peluquería",
+   "hair salon"
+  ],
+  "gestoria::management": [
+   "La gestoría",
+   "agency that handles paperwork (taxes, permits)"
+  ],
+  "la-crema-hidratante::face-cream": [
+   "La crema hidratante",
+   "moisturizer / face cream"
+  ],
+  "olor::odor": [
+   "El olor",
+   "odor"
+  ],
+  "joyas::jewelry": [
+   "Las joyas",
+   "jewelry"
+  ],
+  "en-la-joyeria::jewelry-store": [
+   "La joyería",
+   "jewelry store"
+  ],
+  "el-anillo-de-plata::ring-made-of-silver": [
+   "El anillo de plata",
+   "silver ring"
+  ],
+  "en-la-floreria-venden-flores::in-the-flower-store-they-sell-flowers": [
+   "En la florería venden flores",
+   "in the flower store, they sell flowers"
+  ],
+  "en-pasteleria-venden-pasteles::in-the-bakery-they-sell-cakes": [
+   "En la pastelería venden pasteles",
+   "in the pastry shop they sell cakes"
+  ],
+  "en-la-zapateria-venden-zapatos::in-the-show-store-they-sell-stores": [
+   "En la zapatería venden zapatos",
+   "in the shoe store they sell shoes"
+  ],
+  "una-pieza-de-mi-instrumento-no-funcio-pero-logre-arreglarlo::a-piece-of-my-instrument-didn-t-work-but-i-managed-to-figure": [
+   "Una pieza de mi instrumento no funcionó pero logré arreglarla",
+   "a piece of my instrument didn’t work but I managed to fix it"
+  ],
+  "contratar::to-contract": [
+   "Contratar",
+   "to hire / to contract"
+  ],
+  "medir::to-measure-ir-mido": [
+   "Medir",
+   "to measure (e→i: mido)"
+  ],
+  "altura::tall-height": [
+   "La altura",
+   "height"
+  ],
+  "mas-menos-por-entre-igual::addition-subtraction-multiplication-division-equal-to": [
+   "Más, menos, por, entre, igual a",
+   "addition, subtraction, multiplication, division, equal to"
+  ],
+  "me-di-cuenta-que-olvide-la-division::i-realized-i-forgot-division": [
+   "Me di cuenta de que olvidé la división",
+   "I realized I forgot division"
+  ],
+  "a-que-distancia-esta::how-far-is": [
+   "¿A qué distancia está…?",
+   "how far is…?"
+  ],
+  "camioneta::semi-truck": [
+   "Camioneta",
+   "pickup truck / van"
+  ],
+  "cuanto-pesa-mide-vale::how-much-does-he-weigh-how-tall-how-much-does-it-cost": [
+   "¿Cuánto pesa / mide / vale?",
+   "how much does it weigh / how tall is it / how much does it cost?"
+  ],
+  "la-papeleria::supply-store-office-like-staples": [
+   "La papelería",
+   "stationery / office supply store"
+  ],
+  "es-bastante-buena::good-enough": [
+   "Es bastante buena",
+   "it’s pretty good"
   ]
  },
  "note_pairs": [

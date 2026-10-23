@@ -31,7 +31,8 @@ SKIP_RE = re.compile(
     r"and listen|listen to the song|song - ser|a1$|debo hacer$|"
     r"why are the images|for future homework|book has a website|"
     r"combine irregular|2 sentences for all|cuarenta mas verbos|"
-    r"5 frases|5 debes|summary$)",
+    r"5 frases|5 debes|summary$|"
+    r"print those cards|cinco frases$|tema once|tarea \^|tarea, |go back to)",
     re.IGNORECASE,
 )
 
@@ -41,6 +42,9 @@ NOTE_OVERRIDES = {
     "Peli - cula - pronunciation for movie",
     "Con - yo - conmigo",
     "Con - tu - contigo",
+    "- Typically, when it happened is less important than what happened, so it can usually go at the end",
+    "- Singular masculine, uses algún, not algúno",
+    "- Same with ningún",
 }
 
 # Lines mangled in the doc, hand-fixed here.
