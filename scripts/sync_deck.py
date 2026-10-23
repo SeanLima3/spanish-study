@@ -220,6 +220,16 @@ def main():
         for reason, line in skipped:
             print(f"  [{reason}] {line}")
 
+    topics_path = os.path.join(os.path.dirname(deck_path), "topics.json")
+    if os.path.exists(topics_path):
+        with open(topics_path, encoding="utf-8") as f:
+            tagged = json.load(f)["byCard"]
+        untagged = [c for c in deck["cards"] if c["id"] not in tagged]
+        if untagged:
+            print(f"\nUntagged cards ({len(untagged)}) — add them to data/topics.json byCard:")
+            for c in untagged:
+                print(f"  {c['id']}  |  {c['spanish']} — {c['english']}")
+
 
 if __name__ == "__main__":
     main()

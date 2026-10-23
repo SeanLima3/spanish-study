@@ -11,9 +11,13 @@
     deck: { lessons: [], cards: [] },
     cardsById: new Map(),
     grammar: { topicOrder: [], bySlug: {} },
+    topics: { topics: [], byCard: {} },
     progress: loadJSON(LS.progress, {}),
     prefs: Object.assign(
-      { direction: "es-en", mode: "review", length: 25, lessonDates: [], quizStyle: "flip", notesMode: "topic" },
+      {
+        direction: "es-en", mode: "review", length: 25, lessonDates: [], quizStyle: "flip", notesMode: "topic",
+        topicIds: [], topicWords: [], topicQuery: "",
+      },
       loadJSON(LS.prefs, {})
     ),
     session: null,
@@ -77,6 +81,87 @@
     }
   }
 
+  async function loadTopics() {
+    try {
+      const res = await fetch("data/topics.json?ts=" + Date.now());
+      state.topics = await res.json();
+    } catch {
+      /* "By topic" mode just finds nothing but typed words */
+    }
+    state.topicsById = new Map(state.topics.topics.map((t) => [t.id, t]));
+    // aliases pre-normalized for matching typed text
+    for (const t of state.topics.topics) t.terms = [t.name, ...t.aliases].map(normText).filter(Boolean);
+    state.prefs.topicIds = state.prefs.topicIds.filter((id) => state.topicsById.has(id));
+  }
+
+  /* ---------- topic matching ---------- */
+  // lowercase, strip accents/punctuation, crude singular ("tiendas" -> "tienda")
+  function normText(s) {
+    return s
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^a-z0-9ñ]+/g, " ")
+      .trim()
+      .split(" ")
+      .filter(Boolean)
+      .map((w) => (w.length > 3 && w.endsWith("s") ? w.slice(0, -1) : w))
+      .join(" ");
+  }
+  const wordsIn = (hay, needle) => (" " + hay + " ").includes(" " + needle + " ");
+
+  // Best topic(s) for one typed fragment, matching whole words: a topic term
+  // inside the fragment ("quiz on past tense" ⊃ "past tense") or the fragment
+  // inside a term ("indirect" ⊂ "indirect object"). Longest match wins, so
+  // "expressions indefinite" picks indefinite words over everyday expressions.
+  function matchFragment(frag) {
+    let best = 0;
+    let hits = [];
+    for (const t of state.topics.topics) {
+      let score = 0;
+      for (const term of t.terms) {
+        if (wordsIn(frag, term)) score = Math.max(score, term.length + 0.5); // whole term typed beats a partial
+        else if (frag.length >= 4 && wordsIn(term, frag)) score = Math.max(score, frag.length);
+      }
+      if (score > best) [best, hits] = [score, [t.id]];
+      else if (score && score === best) hits.push(t.id);
+    }
+    return hits;
+  }
+
+  function cardsWithWord(word) {
+    return state.deck.cards.filter((c) => wordsIn(normText(c.spanish + " " + c.english), word));
+  }
+
+  // "past tense, direct and indirect, personal products" -> topics + leftover words
+  function parseTopicQuery(q) {
+    const frags = q
+      .split(/,|;|\/|&|\+|\n|\band\b|\bor\b|\by\b|\bo\b|\s-\s/i)
+      .map(normText)
+      .filter((f) => f && !/^(quiz|quiz on|vocab|vocabulary|on|the|de|del|la|el|los|las)$/.test(f));
+    const topicIds = [];
+    const words = [];
+    const unknown = [];
+    for (const f of frags) {
+      const hits = matchFragment(f);
+      if (hits.length) hits.forEach((id) => topicIds.includes(id) || topicIds.push(id));
+      else if (cardsWithWord(f).length) words.includes(f) || words.push(f);
+      else unknown.push(f);
+    }
+    return { topicIds, words, unknown };
+  }
+
+  function topicCards(topicIds, words) {
+    const ids = new Set(topicIds);
+    const byCard = state.topics.byCard;
+    return state.deck.cards.filter((c) => {
+      if ((byCard[c.id] || []).some((t) => ids.has(t))) return true;
+      if (!words.length) return false;
+      const text = normText(c.spanish + " " + c.english);
+      return words.some((w) => wordsIn(text, w));
+    });
+  }
+
   /* ---------- card pools ---------- */
   function poolFor(mode, lessonDates) {
     const today = SRS.todayStr();
@@ -84,7 +169,60 @@
     if (mode === "review") return cards.filter((c) => SRS.isDue(state.progress[c.id], today));
     if (mode === "incorrect") return cards.filter((c) => SRS.isTrouble(state.progress[c.id]));
     if (mode === "lessons") return cards.filter((c) => lessonDates.includes(c.lesson));
+    if (mode === "topics") return topicCards(state.prefs.topicIds, state.prefs.topicWords);
     return cards.slice();
+  }
+
+  function topicCount(id) {
+    let n = 0;
+    for (const tags of Object.values(state.topics.byCard)) if (tags.includes(id)) n++;
+    return n;
+  }
+
+  function renderTopicPicker() {
+    const tp = $("topic-picker");
+    tp.classList.toggle("hidden", state.prefs.mode !== "topics");
+    if (state.prefs.mode !== "topics") return;
+
+    if (!tp.dataset.built) {
+      tp.dataset.built = "1";
+      $("topic-search").value = state.prefs.topicQuery;
+      for (const kind of ["grammar", "vocab"]) {
+        $(`topic-all-${kind}`).innerHTML = state.topics.topics
+          .filter((t) => t.kind === kind)
+          .map((t) => `<button class="chip" data-topic="${t.id}">${esc(t.name)}<span class="chip-count">${topicCount(t.id)}</span></button>`)
+          .join("");
+      }
+    }
+    const sel = state.prefs.topicIds;
+    tp.querySelectorAll(".topic-browse .chip").forEach((c) => c.classList.toggle("active", sel.includes(c.dataset.topic)));
+    $("topic-selected").innerHTML =
+      sel
+        .map((id) => state.topicsById.get(id))
+        .map((t) => `<button class="chip active" data-topic="${t.id}" title="Remove">${esc(t.name)} ✕</button>`)
+        .join("") +
+      state.prefs.topicWords
+        .map((w) => `<button class="chip active chip-word" data-word="${esc(w)}" title="Remove">“${esc(w)}” ✕</button>`)
+        .join("");
+    $("btn-topic-clear").classList.toggle("hidden", !sel.length && !state.prefs.topicWords.length && !state.prefs.topicQuery);
+
+    const fb = $("topic-feedback");
+    const unknown = state.topicUnknown || [];
+    if (unknown.length) {
+      fb.innerHTML = `No topic or card matches <strong>${unknown.map(esc).join("</strong>, <strong>")}</strong> — try other words or browse below.`;
+    } else if (state.prefs.topicWords.length) {
+      fb.textContent = "Dashed chips are words found in your cards, not topics.";
+    } else fb.textContent = sel.length ? "" : "Type topics separated by commas, or browse the list.";
+  }
+
+  function applyTopicQuery(q) {
+    state.prefs.topicQuery = q;
+    const { topicIds, words, unknown } = parseTopicQuery(q);
+    state.prefs.topicIds = topicIds;
+    state.prefs.topicWords = words;
+    state.topicUnknown = unknown;
+    savePrefs();
+    renderSetup();
   }
 
   /* ---------- study setup ---------- */
@@ -93,6 +231,7 @@
     $("count-incorrect").textContent = poolFor("incorrect").length;
     $("count-all").textContent = state.deck.cards.length;
     $("count-lessons").textContent = state.deck.lessons.length;
+    $("count-topics").textContent = state.topics.topics.length;
 
     document.querySelectorAll("#direction-picker button").forEach((b) => b.classList.toggle("active", b.dataset.dir === state.prefs.direction));
     document.querySelectorAll("#style-picker button").forEach((b) => b.classList.toggle("active", b.dataset.style === state.prefs.quizStyle));
@@ -120,6 +259,8 @@
       lp.querySelectorAll(".chip").forEach((chip) => chip.classList.toggle("active", state.prefs.lessonDates.includes(chip.dataset.date)));
     }
 
+    renderTopicPicker();
+
     const pool = poolFor(state.prefs.mode, state.prefs.lessonDates);
     const n = state.prefs.length === 0 ? pool.length : Math.min(state.prefs.length, pool.length);
     $("btn-start").disabled = pool.length === 0;
@@ -127,7 +268,9 @@
       pool.length === 0
         ? state.prefs.mode === "lessons" && state.prefs.lessonDates.length === 0
           ? "Pick one or more lesson dates above."
-          : "Nothing to study here right now. 🎉"
+          : state.prefs.mode === "topics"
+            ? "Type or pick a topic above."
+            : "Nothing to study here right now. 🎉"
         : `${n} of ${pool.length} card${pool.length === 1 ? "" : "s"} this session`;
   }
 
@@ -520,6 +663,35 @@
       savePrefs();
       renderSetup();
     });
+    let topicTimer;
+    $("topic-search").addEventListener("input", (e) => {
+      clearTimeout(topicTimer);
+      topicTimer = setTimeout(() => applyTopicQuery(e.target.value), 250);
+    });
+    $("topic-search").addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        clearTimeout(topicTimer);
+        applyTopicQuery(e.target.value);
+        e.target.blur();
+      }
+    });
+    $("btn-topic-clear").addEventListener("click", () => {
+      $("topic-search").value = "";
+      applyTopicQuery("");
+    });
+    $("topic-picker").addEventListener("click", (e) => {
+      const chip = e.target.closest(".chip");
+      if (!chip) return;
+      if (chip.dataset.word) {
+        state.prefs.topicWords = state.prefs.topicWords.filter((w) => w !== chip.dataset.word);
+      } else {
+        const id = chip.dataset.topic;
+        const sel = state.prefs.topicIds;
+        state.prefs.topicIds = sel.includes(id) ? sel.filter((x) => x !== id) : [...sel, id];
+      }
+      savePrefs();
+      renderSetup();
+    });
     $("length-picker").addEventListener("click", (e) => {
       const b = e.target.closest("button");
       if (!b) return;
@@ -592,6 +764,7 @@
     try {
       await loadDeck();
       await loadGrammar();
+      await loadTopics();
     } catch (err) {
       document.querySelector("main").innerHTML =
         `<div class="panel"><h2>Couldn’t load the deck</h2><p class="muted">data/deck.json failed to load (${esc(String(err))}). If you opened index.html directly from disk, serve it instead: <code>python3 -m http.server</code></p></div>`;

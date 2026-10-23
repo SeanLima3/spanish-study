@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#1c1917">
   <title>Español · Flash Cards</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇪🇸</text></svg>">
-  <link rel="stylesheet" href="css/styles.css?v=2">
+  <link rel="stylesheet" href="css/styles.css?v=3">
 </head>
 <body>
   <header class="app-header">
@@ -64,8 +64,29 @@
               <span class="mode-count" id="count-lessons"></span>
               <span class="mode-desc">pick lesson dates</span>
             </button>
+            <button class="mode-card mode-card-wide" data-mode="topics">
+              <span class="mode-name">By topic</span>
+              <span class="mode-count" id="count-topics"></span>
+              <span class="mode-desc">type what your quiz covers, or pick topics</span>
+            </button>
           </div>
           <div id="lesson-picker" class="chip-row hidden"></div>
+          <div id="topic-picker" class="hidden">
+            <label class="topic-search-label" for="topic-search">What’s on your quiz?</label>
+            <div class="topic-search-row">
+              <input type="search" id="topic-search" autocomplete="off" placeholder="e.g. past tense, direct and indirect, personal products">
+              <button class="btn-ghost hidden" id="btn-topic-clear" title="Clear topics">Clear</button>
+            </div>
+            <p class="topic-feedback" id="topic-feedback"></p>
+            <div class="chip-row" id="topic-selected"></div>
+            <details class="topic-browse" id="topic-browse">
+              <summary>Browse all topics</summary>
+              <h3>Grammar</h3>
+              <div class="chip-row" id="topic-all-grammar"></div>
+              <h3>Vocabulary</h3>
+              <div class="chip-row" id="topic-all-vocab"></div>
+            </details>
+          </div>
         </div>
 
         <div class="panel">
@@ -182,6 +203,6 @@
 
   <script src="js/srs.js?v=2"></script>
   <script src="js/parser.js?v=2"></script>
-  <script src="js/app.js?v=2"></script>
+  <script src="js/app.js?v=3"></script>
 </body>
 </html>

@@ -19,6 +19,11 @@ per-lesson filtering, and missed-card practice.
   preferring same-lesson cards).
 - Notes tab shows lesson grammar notes by topic (via `data/grammar.json`, a
   slug→topic map) or by lesson date.
+- "By topic" study mode: type what a quiz covers ("past tense, direct and
+  indirect, personal products") or browse topic chips. Cards are tagged ahead
+  of time in `data/topics.json` (`byCard`: card id → topic ids); typed text is
+  matched against each topic's name and aliases, and anything that isn't a
+  topic falls back to a word search of the cards.
 - `data/corrections.json` maps raw doc pairs to corrected/merged deck pairs —
   the July 2026 grammar cleanup lives there, and syncs consult it so doc typos
   never re-enter the deck.
